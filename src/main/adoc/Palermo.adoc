@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4069
+:revnumber: W4070
 :revdate: 2014-10-08
-//:revremark: (Fin de partie):
+//:revremark: Typo
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -93,9 +93,9 @@ l'instant sur la zone "livraison vrac" (si le contrat concerne des
 déchets mélangés) ou "livraison trié" (si le contrat concerne un seul
 type de déchets) de son plateau individuel.
 
-[[traitement-de-dechets]]
-Traitement de déchets
-~~~~~~~~~~~~~~~~~~~~~
+[[traitement-des-dechets]]
+Traitement des déchets
+~~~~~~~~~~~~~~~~~~~~~~
 
 Le traitement des déchets se décompose en plusieurs étapes. Chaque étape
 est représentée par un zone sur le plateau individuel. Ces étapes
