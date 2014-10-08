@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4066
+:revnumber: W4067
 :revdate: 2014-10-08
-//:revremark: Introduction, matériel, tour de jeu
+//:revremark: (Phases de jeu):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -38,22 +38,33 @@ Le matériel
 
 * des dés de différentes couleurs représentant différents types de
 déchets (ménagers, papiers/cartons, emballages, verre, végétaux,
-chimiques ...)
+chimiques, ?hopitaux?, ?nucléaires? ...)
 * des cartes représentant les différents équipements industriels /
 usines permettant de traiter les déchets
-* des plateaux individuels pour placer les usines et les déchets
+* des plateaux individuels pour placer les usines et les déchets, ils
+sont divisés en 6 zones : livraison, tri, stockage, décontamination,
+incinération, recyclage
 * des cartes représentants les différents contrats publics
 * un tableau central représentant le cours des matières recyclées (et
 diverses autres jauges communes : Mafia ...)
 * un pion premier joueur
 
+[[preparation]]
+Préparation
+-----------
+
+* Au début du jeu, le pion premier joueur est attribué à un des joueurs.
+?Il pourra ensuite être obtenu par un autre joueur au cours de la
+partie.?
+
+* Chaque joueur pioche 6 cartes usine, en choisit 3 qu'il garde et
+défausse les autres. Ensuite toutes les cartes restantes sont
+re-mélangées, puis 3 cartes sont révélées sur le plateau de jeu. Le
+reste de la pile est posé à côté, face cachée.
+
 [[tour-de-jeu]]
 Tour de jeu
 -----------
-
-Au début du jeu, le pion premier joueur est attribué à un des joueurs.
-?Il pourra ensuite être obtenu par un autre joueur au cours de la
-partie.?
 
 Chaque tour de jeu est constitué d'une succession de phases. Chaque
 phase est exécutée d'abord par le premier joueur, puis par chaque joueur
@@ -62,7 +73,186 @@ suivant dans le sens horlogique. On passe ensuite à la phase suivante.
 Les phases sont, dans l'ordre :
 
 * gestion des contrats en cours (réception des payements et des déchets)
-* traitement des déchets (tri, stockage, incinération, recyclage, vente
-de matériaux)
-* investissements, ?emprunts?
-* achat de nouveaux contrats
+* traitement des déchets (tri, stockage, incinération, décontamination,
+recyclage, vente de matériaux, mafia)
+* investissements
+* marchés publics (nouveaux contrats)
+* nettoyage du plateau
+
+[[phases-de-jeu]]
+Phases de jeu
+-------------
+
+[[contrats]]
+Contrats
+~~~~~~~~
+
+* On touche le montant des contrats.
+* On reçoit les cubes indiqués sur les contrats et on les pose pour
+l'instant sur la zone "livraison vrac" (si le contrat concerne des
+déchets mélangés) ou "livraison trié" (si le contrat concerne un seul
+type de déchets) de son plateau individuel.
+
+[[traitement-de-dechets]]
+Traitement de déchets
+~~~~~~~~~~~~~~~~~~~~~
+
+Le traitement des déchets se décompose en plusieurs étapes. Chaque étape
+est représentée par un zone sur le plateau individuel. Ces étapes
+doivent obligatoirement se faire de **droite vers la gauche**,
+c'est-à-dire dans l'ordre suivant :
+
+* vente de matériaux,
+* recyclage
+* incinération
+* décontamination
+* stockage
+* tri
+* mafia
+
+(Autrement dit, l'ordre inverse de l'ordre chronologique. De cette façon
+un cube ne peut passer qu'une seule étape par tour.)
+
+Pour effectuer une de ces opérations, il suffit de transférer des blocs
+depuis l'étape précédente **à concurrence de la place disponible dans
+les usines**.
+
+[[vente]]
+Vente
+^^^^^
+
+* La vente se fait cube par cube. Le joueur n'est pas obligé de vendre
+tous ses cubes. Le prix de vente d'un cube est déterminé sur le plateau
+central, en fonction du nombre de cubes déjà présent sur le plateau
+central. (Simulation de l'offre et de la demande)
+
+[[recyclage]]
+Recyclage
+^^^^^^^^^
+
+* Le joueur n'est pas obligé de recycler tous ses cubes présents dans la
+zone de stockage.
+* Prendre des cube de la zone de stockage et les poser sur les usines de
+recyclage **de la couleur correspondante**.
+* Seuls les déchets de type papiers/cartons, emballages, verre, végétaux
+peuvent être recyclés.
+* Pour chaque cube, payer le montant indiqué sur l'usine (coût de
+fonctionnement).
+
+[[incineration]]
+Incinération
+^^^^^^^^^^^^
+
+* Le joueur n'est pas obligé d'incinérer tous ses cubes présents dans la
+zone de stockage.
+* Prendre des cube de la zone de stockage et les poser sur les usines
+d'incinération **de la couleur correspondante**.
+* Seuls les déchets de type ménagers, papiers/cartons, emballages,
+végétaux peuvent être incinérés.
+* Pour chaque cube, toucher le montant indiqué sur l'usine (pour la
+production d'énergie).
+
+[[decontamination]]
+Décontamination
+^^^^^^^^^^^^^^^
+
+* Le joueur n'est pas obligé de décontaminer tous ses cubes présents
+dans la zone de stockage.
+* Prendre des cube de la zone de stockage et les poser sur les usines de
+décontamination **de la couleur correspondante**.
+* Seuls les déchets de type chimiques, ?hopitaux? peuvent être
+décontaminés.
+* Pour chaque cube, payer le montant indiqué sur l'usine (coût de
+fonctionnement).
+
+[[stockage]]
+Stockage
+^^^^^^^^
+
+* Le joueur n'est pas obligé de stocker tous ses cubes présents dans la
+zone de livraison trié.
+* Prendre des cube de la zone de livraison trié et les poser sur les
+espaces de stockage **de la couleur correspondante**.
+* *Au terme de cette étape les cubes restants dans la zone de livraison
+trié doivent obligatoirement être confiés à la Mafia !* (voir plus loin)
+
+[[tri]]
+Tri
+^^^
+
+* Le joueur n'est pas obligé de trier tous ses cubes présents dans la
+zone de livraison non trié.
+* Prendre des cube de la zone de livraison non trié et les poser sur les
+espaces de livraison trié **de la couleur correspondante**.
+* *Au terme de cette étape les cubes restants dans la zone de livraison
+non trié doivent obligatoirement être confiés à la Mafia !* (voir plus
+loin)
+
+[[mafia]]
+Mafia
+^^^^^
+
+* Un joueur peut payer la Mafia pour l'aider à se débarrasser de cubes
+encombrants.
+* Chaque cube est traité individuellement. Le prix à payer à la mafia
+pour un cube est déterminé sur le plateau central, en fonction du nombre
+de cubes déjà présent sur le plateau central. (Simulation de l'offre et
+de la demande)
+
+* En plus des cubes obligatoires (cf. Stockage et Tri), le joueur peut
+éliminer des cubes volontairement de n'importe quelles autres zones de
+son plateau personnel.
+
+* Si on n'a pas assez d'argent pour payer la Mafia, on est mal !
+Inscrire la somme manquante sur le tableau des dettes à la Mafia
+(plateau central). Dorénavant toute somme perçue sera "prélevée à la
+source" par la Mafia. La dette diminuera de 1 unité à chaque fois que la
+Mafia en récupère 2 ! (La Mafia ne prélève que par multiple de 2, donc
+lorsque le joueur aurait dû toucher un nombre impair d'unités
+monétaires, il lui en restera une.)
+
+[[investissements]]
+Investissements
+~~~~~~~~~~~~~~~
+
+* Poser une/des carte(s) usine de sa main et payer le(s) coût(s). On
+peut acheter 0, 1, 2, ou 3 usines, au choix du joueur.
+* Compléter sa main en récupérant une carte à la fois parmi les cartes
+visibles disponibles et/ou la pile. Remplacer les cartes visibles au fur
+et à mesure qu'elles sont choisies. Continuer jusqu'à ce que le joueur
+ait 3 cartes en main.
+
+* À cette phase, un joueur peut également décider de céder un de ses
+contrat publics à un autre joueur.
+* Il est libre d'organiser la vente comme il le souhaite (bilatéral,
+enchères ...).
+* *Attention, cette vente ne peut avoir lieu _qu'après_ la phase Mafia.
+Donc, on ne peut pas éviter de s'endetter par ce biais. De plus, si on
+est endetté, le produit de la vente sera d'abord récupéré par la Mafia.*
+
+[[marches-publics]]
+Marchés publics
+~~~~~~~~~~~~~~~
+
+* Enchères inversées. Le prix de départ est indiqué sur la carte. Le
+premier joueur doit proposer au maximum ce prix (il peut proposer
+moins). Ensuite chaque joueur passe ou propose un prix inférieur au
+précédent. Une fois qu'un joueur a passé il ne participe plus à
+l'enchère de ce contrat. L'enchère d'un contrat se termine lorsque tous
+les joueurs sauf 1 ont passé. Si personne ne propose d'enchère, la carte
+est défaussée.
+* Une fois l'enchère conclue, il faut inscrire le montant final : c'est
+ce que le joueur ayant conclu le contrat touchera à chaque tour.
+
+[[nettoyage-des-plateaux]]
+Nettoyage des plateaux
+~~~~~~~~~~~~~~~~~~~~~~
+
+* Retirer du marché (sur le plateau central) la moitié (arrondi au
+supérieur) de chaque couleur de cube. (?alternativement : nombre de
+cubes retirés est plus ou moins aléatoire?).
+* Retirer de la zone mafia (sur le plateau central) la moitié (arrondi à
+l'inférieur) des cubes (peu importent les couleurs).
+* Retirer les cubes présents sur les usines d'incinération et de
+décontamination de chaque joueur.
+* Tous les cubes retirés sont retournés à la réserve commune.
