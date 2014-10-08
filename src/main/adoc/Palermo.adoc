@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4070
+:revnumber: W4071
 :revdate: 2014-10-08
-//:revremark: Typo
+//:revremark: (Annexes ): (Placeholders)
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -264,3 +264,19 @@ Fin de partie
 La partie se termine après >un certain nombre de< tours. Le joueur le
 plus riche l'emporte, après déduction des éventuelles dettes à la Mafia
 (ne pas oublier de multiplier par 2).
+
+[[annexes]]
+Annexes
+-------
+
+[[liste-des-contrats-publics]]
+Liste des contrats publics
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+> TO DO <
+
+[[liste-des-equipements-industriels]]
+Liste des équipements industriels
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+> TO DO <
