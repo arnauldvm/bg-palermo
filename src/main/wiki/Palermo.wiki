@@ -10,7 +10,16 @@ Gérez au mieux vos moyens industriels, et soyez le premier à saisir les contra
 Qui deviendra le plus riche ?
 
 == Le matériel ==
-* des dés de différentes couleurs représentant différents types de déchets (ménagers, papiers/cartons, emballages, verre, végétaux, chimiques, ?hopitaux?, ?nucléaires? ...)
+* des dés de différentes couleurs représentant différents types de déchets :
+** ménagers (gris)
+** papiers/cartons (jaune)
+** emballages (bleu)
+** verre (blanc)
+** végétaux (vert)
+** chimiques (mauve)
+** ?hopitaux? (rouge)
+** ?nucléaires? (noir)
+** ...
 * des cartes représentant les différents équipements industriels / usines permettant de traiter les déchets
 * des plateaux individuels pour placer les usines et les déchets, ils sont divisés en 6 zones : livraison, tri, stockage, décontamination, incinération, recyclage
 * des cartes représentants les différents contrats publics

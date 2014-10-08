@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4071
+:revnumber: W4072
 :revdate: 2014-10-08
-//:revremark: (Annexes ): (Placeholders)
+//:revremark: Couleur des cubes
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -37,8 +37,16 @@ Le matériel
 -----------
 
 * des dés de différentes couleurs représentant différents types de
-déchets (ménagers, papiers/cartons, emballages, verre, végétaux,
-chimiques, ?hopitaux?, ?nucléaires? ...)
+déchets :
+** ménagers (gris)
+** papiers/cartons (jaune)
+** emballages (bleu)
+** verre (blanc)
+** végétaux (vert)
+** chimiques (mauve)
+** ?hopitaux? (rouge)
+** ?nucléaires? (noir)
+** ...
 * des cartes représentant les différents équipements industriels /
 usines permettant de traiter les déchets
 * des plateaux individuels pour placer les usines et les déchets, ils
