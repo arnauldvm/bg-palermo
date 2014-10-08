@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4067
+:revnumber: W4068
 :revdate: 2014-10-08
-//:revremark: (Phases de jeu):
+//:revremark: ?Draft usines?
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -58,9 +58,9 @@ Préparation
 partie.?
 
 * Chaque joueur pioche 6 cartes usine, en choisit 3 qu'il garde et
-défausse les autres. Ensuite toutes les cartes restantes sont
-re-mélangées, puis 3 cartes sont révélées sur le plateau de jeu. Le
-reste de la pile est posé à côté, face cachée.
+défausse les autres (?on pourrait aussi faire un draft?). Ensuite toutes
+les cartes restantes sont re-mélangées, puis 3 cartes sont révélées sur
+le plateau de jeu. Le reste de la pile est posé à côté, face cachée.
 
 [[tour-de-jeu]]
 Tour de jeu

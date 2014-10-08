@@ -21,7 +21,7 @@ Qui deviendra le plus riche ?
 
 * Au début du jeu, le pion premier joueur est attribué à un des joueurs. ?Il pourra ensuite être obtenu par un autre joueur au cours de la partie.?
 
-* Chaque joueur pioche 6 cartes usine, en choisit 3 qu'il garde et défausse les autres. Ensuite toutes les cartes restantes sont re-mélangées, puis 3 cartes sont révélées sur le plateau de jeu. Le reste de la pile est posé à côté, face cachée.
+* Chaque joueur pioche 6 cartes usine, en choisit 3 qu'il garde et défausse les autres (?on pourrait aussi faire un draft?). Ensuite toutes les cartes restantes sont re-mélangées, puis 3 cartes sont révélées sur le plateau de jeu. Le reste de la pile est posé à côté, face cachée.
 
 == Tour de jeu ==
 
