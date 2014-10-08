@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4068
+:revnumber: W4069
 :revdate: 2014-10-08
-//:revremark: ?Draft usines?
+//:revremark: (Fin de partie):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -256,3 +256,11 @@ l'inférieur) des cubes (peu importent les couleurs).
 * Retirer les cubes présents sur les usines d'incinération et de
 décontamination de chaque joueur.
 * Tous les cubes retirés sont retournés à la réserve commune.
+
+[[fin-de-partie]]
+Fin de partie
+-------------
+
+La partie se termine après >un certain nombre de< tours. Le joueur le
+plus riche l'emporte, après déduction des éventuelles dettes à la Mafia
+(ne pas oublier de multiplier par 2).
