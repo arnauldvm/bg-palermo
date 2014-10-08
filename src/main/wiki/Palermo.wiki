@@ -123,3 +123,8 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Retirer de la zone mafia (sur le plateau central) la moitié (arrondi à l'inférieur) des cubes (peu importent les couleurs).
 * Retirer les cubes présents sur les usines d'incinération et de décontamination de chaque joueur.
 * Tous les cubes retirés sont retournés à la réserve commune.
+
+== Fin de partie ==
+
+La partie se termine après >un certain nombre de< tours.
+Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à la Mafia (ne pas oublier de multiplier par 2).
