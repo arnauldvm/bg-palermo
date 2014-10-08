@@ -1,0 +1,68 @@
+Palermo
+=======
+Arnauld Van Muysewinkel <arnauldvm@gmail.com>
+:revnumber: W4066
+:revdate: 2014-10-08
+//:revremark: Introduction, matériel, tour de jeu
+:doctype: article
+:lang: fr
+:encoding: utf8
+:toc:
+:toc-placement: manual
+:toclevels: 4
+:toc-title: Contenu
+//:numbered:
+:imagesdir: ../img
+//:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
+:br: pass:[<br>]
+:beta: pass:[&beta;]
+
+
+08-Oct-'14
+
+Jeu de gestion sur le thème du traitement des déchets. Sur une idée
+originale collective ayant émergé au Ludwikend 6.
+
+[[introduction-but-du-jeu]]
+Introduction, but du jeu
+------------------------
+
+Vous êtes un industriel du traitement des déchets (décharges,
+incinération, recyclage ...). Gérez au mieux vos moyens industriels, et
+soyez le premier à saisir les contrats publics. Qui deviendra le plus
+riche ?
+
+[[le-materiel]]
+Le matériel
+-----------
+
+* des dés de différentes couleurs représentant différents types de
+déchets (ménagers, papiers/cartons, emballages, verre, végétaux,
+chimiques ...)
+* des cartes représentant les différents équipements industriels /
+usines permettant de traiter les déchets
+* des plateaux individuels pour placer les usines et les déchets
+* des cartes représentants les différents contrats publics
+* un tableau central représentant le cours des matières recyclées (et
+diverses autres jauges communes : Mafia ...)
+* un pion premier joueur
+
+[[tour-de-jeu]]
+Tour de jeu
+-----------
+
+Au début du jeu, le pion premier joueur est attribué à un des joueurs.
+?Il pourra ensuite être obtenu par un autre joueur au cours de la
+partie.?
+
+Chaque tour de jeu est constitué d'une succession de phases. Chaque
+phase est exécutée d'abord par le premier joueur, puis par chaque joueur
+suivant dans le sens horlogique. On passe ensuite à la phase suivante.
+
+Les phases sont, dans l'ordre :
+
+* gestion des contrats en cours (réception des payements et des déchets)
+* traitement des déchets (tri, stockage, incinération, recyclage, vente
+de matériaux)
+* investissements, ?emprunts?
+* achat de nouveaux contrats
