@@ -195,25 +195,25 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 {|border="1" style="border-collapse:collapse"
 |-
-! Livraison !! Prix d'enchère initial
+! !! Livraison !! Prix d'enchère initial !! ?durée de validité?
 |-
-| 1 gris + 1 jaune + 1 bleu + 1 blanc + 1 vert || 5 M&beta;
+|rowspan="2"| vrac: || 1 gris + 1 jaune + 1 bleu + 1 blanc + 1 vert || 5 M&beta; || ?
 |-
-| 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve || 10 M&beta;
+                     | 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve || 10 M&beta; || ?
 |-
-| 5 gris || 10 M&beta;
+|rowspan="7"| trié: || 5 gris || 10 M&beta; || ?
 |-
-| 5 jaune || 10 M&beta;
+                     | 5 jaune || 10 M&beta; || ?
 |-
-| 5 bleu || 15 M&beta;
+                     | 5 bleu || 15 M&beta; || ?
 |-
-| 5 blanc || 5 M&beta;
+                     | 5 blanc || 5 M&beta; || ?
 |-
-| 5 vert || 10 M&beta;
+                     | 5 vert || 10 M&beta; || ?
 |-
-| 3 mauves || 20 M&beta;
+                     | 3 mauves || 20 M&beta; || ?
 |-
-| 1 noir || 50 M&beta;
+                     | 1 noir || 50 M&beta; || ?
 |-
 |}
 
