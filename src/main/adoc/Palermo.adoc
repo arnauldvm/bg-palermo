@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4073
+:revnumber: W4074
 :revdate: 2014-10-09
-//:revremark: Annexes (Plateaux personnels):
+//:revremark: (Le matériel): + l'argent
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -36,6 +36,7 @@ riche ?
 Le matériel
 -----------
 
+* des jetons représentant l'argent
 * des dés de différentes couleurs représentant différents types de
 déchets :
 ** ménagers (gris)
