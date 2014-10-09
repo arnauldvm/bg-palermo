@@ -158,6 +158,8 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 === Liste des contrats publics ===
 
+<br>
+
 {|border="1" style="border-collapse:collapse"
 |-
 ! Livraison !! Prix d'enchère initial
@@ -182,7 +184,11 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
 |}
 
+<br>
+
 === Liste des équipements industriels ===
+
+<br>
 
 {|border="1" style="border-collapse:collapse"
 |-
@@ -220,7 +226,11 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
 |}
 
+<br>
+
 === Plateaux personnels ===
+
+<br>
 
 {|border="1" style="border-collapse:collapse; text-align:center; border:0;"
 |-
@@ -235,3 +245,19 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
 |colspan="7" style="border:0;"| Mafia
 |}
+
+<br>
+
+=== Cours des matière recyclées ===
+
+<br>
+
+> TO DO <
+
+<br>
+
+=== Tarifs de la Mafia ===
+
+<br>
+
+> TO DO <

@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4090
+:revnumber: W4091
 :revdate: 2014-10-09
-//:revremark: (Mafia): Coût dépend de la couleur du cube
+//:revremark: (Annexes): + TO DO
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -324,6 +324,8 @@ Annexes
 Liste des contrats publics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+{br}
+
 [cols=",",options="header",]
 |===========================================================
 |Livraison |Prix d'enchère initial
@@ -338,9 +340,13 @@ Liste des contrats publics
 |1 noir |50 M{beta}
 |===========================================================
 
+{br}
+
 [[liste-des-equipements-industriels]]
 Liste des équipements industriels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{br}
 
 [cols=",,,",options="header",]
 |=======================================================================
@@ -378,9 +384,13 @@ gris/jaune/bleu/vert
 |10 M{beta} |0 |2 vert
 |=======================================================================
 
+{br}
+
 [[plateaux-personnels]]
 Plateaux personnels
 ~~~~~~~~~~~~~~~~~~~
+
+{br}
 
 [width="100%",cols="22%,6%,20%,6%,20%,6%,20%",]
 |=======================================================================
@@ -395,3 +405,23 @@ Plateaux personnels
 
 7+| Mafia
 |=======================================================================
+
+{br}
+
+[[cours-des-matiere-recyclees]]
+Cours des matière recyclées
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{br}
+
+> TO DO <
+
+{br}
+
+[[tarifs-de-la-mafia]]
+Tarifs de la Mafia
+~~~~~~~~~~~~~~~~~~
+
+{br}
+
+> TO DO <
