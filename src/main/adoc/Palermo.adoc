@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4109
+:revnumber: W4110
 :revdate: 2014-10-09
-//:revremark: (Liste des équipements industriels): Présentation
+//:revremark: (Plateaux personnels): Présentation
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -478,14 +478,15 @@ Plateaux personnels
 
 [width="100%",cols="22%,6%,20%,6%,20%,6%,20%",]
 |=======================================================================
-.3+| Livraison{br}Vrac .3+| >{br}➃ .3+| Livraison{br}Trié
-.3+| >{br}➂ .3+| Stockage |>{br}➁ |Décontamination
+.3+| [Livraison]{br}Vrac .3+| ➃> .3+| [Livraison]{br}Trié
+.3+| ➂> .3+| Stockage |➁> |Décontamination
 
-|>{br}➁ |Incinération
+|➁> |Incinération
 
-|>{br}➁ |Recyclage |>{br}➀ |Bourse
+|➁> |Recyclage |➀> |Bourse
 
-|v | |v | |v | |v v v
+|*v _(obligatoire)_* | |*v _(obligatoire)_* | |v _(optionnel)_ | |v v v
+_(optionnel)_
 
 7+| ➄{br}Mafia
 |=======================================================================
