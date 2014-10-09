@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4083
+:revnumber: W4084
 :revdate: 2014-10-09
-//:revremark: (Le matériel): Typo
+//:revremark: (Marchés publics): Cont'd
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -281,6 +281,10 @@ attention en cas de manque de liquidités : c'est la Mafia qui prêtera
 l'argent manquant !)
 * Une fois l'enchère conclue, il faut inscrire le montant final : c'est
 ce que le joueur ayant conclu le contrat touchera à chaque tour.
+* Une fois qu'un joueur a obtenu un marché, il ne participe plus aux
+enchères pour ce tour.
+* Lorsque toutes les n cartes ont été proposées, on retourne les n
+cartes suivantes et la phase se termine.
 
 [[nettoyage-des-plateaux]]
 Nettoyage des plateaux
