@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4105
+:revnumber: W4106
 :revdate: 2014-10-09
-//:revremark: (Préparation): Couleur des joueurs et pion marqueur de dette
+//:revremark: (Tarifs de la Mafia):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -521,4 +521,16 @@ Tarifs de la Mafia
 
 {br}
 
-> TO DO <
+[cols=",,,,,,,",options="header",]
+|=======================================================================
+|cubes |ménagers{br}(gris) |papiers/cartons{br}(jaune)
+|emballages{br}(bleu) |verre{br}(blanc) |végétaux{br}(vert)
+|chimiques{br}(mauve) |nucléaires{br}(noir)
+|0-5 5+| 1 M{beta} |3 M{beta} |15 M{beta}
+
+|5-10 5+| 2 M{beta} |7 M{beta} |25 M{beta}
+
+|10-15 5+| 3 M{beta} |10 M{beta} |40 M{beta}
+
+|16+ 5+| 4 M{beta} |15 M{beta} |60 M{beta}
+|=======================================================================
