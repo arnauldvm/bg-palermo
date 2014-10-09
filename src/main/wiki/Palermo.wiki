@@ -11,7 +11,7 @@ Qui deviendra le plus riche ?
 
 == Le matériel ==
 * des jetons représentant l'argent
-* des dés de différentes couleurs représentant différents types de déchets :
+* des cubes de différentes couleurs représentant différents types de déchets (1 cube = 1 tonne) :
 ** ménagers (gris)
 ** papiers/cartons (jaune)
 ** emballages (bleu)
