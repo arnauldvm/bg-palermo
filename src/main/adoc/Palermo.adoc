@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4075
+:revnumber: W4076
 :revdate: 2014-10-09
-//:revremark: (Le matériel): 1 cube = 1 tonne
+//:revremark: (Le matériel): Description des zones des plateaux personnels
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -36,7 +36,8 @@ riche ?
 Le matériel
 -----------
 
-* des jetons représentant l'argent
+* des jetons représentant l'argent (l'unité monétaire est le
+"méga-blork" et se note M{beta})
 * des cubes de différentes couleurs représentant différents types de
 déchets (1 cube = 1 tonne) :
 ** ménagers (gris)
@@ -45,14 +46,30 @@ déchets (1 cube = 1 tonne) :
 ** verre (blanc)
 ** végétaux (vert)
 ** chimiques (mauve)
-** ?hopitaux? (rouge)
+** [line-through]#?hopitaux? (rouge)#
 ** ?nucléaires? (noir)
 ** ...
 * des cartes représentant les différents équipements industriels /
 usines permettant de traiter les déchets
 * des plateaux individuels pour placer les usines et les déchets, ils
-sont divisés en 6 zones : livraison, tri, stockage, décontamination,
-incinération, recyclage
+sont divisés en 6 zones :
+** livraison non trié : on y place les cubes correspondant aux contrats
+livrant des cubes de couleurs mélangées, cet espace transitoire a une
+capacité illimitée
+** livraison trié : on y place les cubes correspondant aux contrats
+livrant des cubes de couleur unique, cet espace transitoire a une
+capacité illimitée
+** stockage : on y place les cartes "espace de stockage", celles-ci
+permettent d'accueillir des cubes en attente de traitement, chaque
+joueur démarre la partie avec un espace de stockage (imprimé sur le
+tableau personnel) pour 10 cubes de couleurs variées parmi
+gris/jaune/bleu/blanc/vert
+** décontamination : on y place les cartes "usine de décontamination"
+** incinération : on y place les cartes "usine d'incinération", chaque
+joueur démarre la partie avec une usine d'incinération (imprimée sur le
+tableau personnel) d'une capacité de 2 cubes gris/jaune/bleu/vert et
+rapportant 1 M{beta} par cube brûlé
+** recyclage : on y place les cartes "usine de recyclage"
 * des cartes représentants les différents contrats publics
 * un tableau central représentant le cours des matières recyclées (et
 diverses autres jauges communes : Mafia ...)
