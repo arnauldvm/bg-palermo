@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4101
+:revnumber: W4102
 :revdate: 2014-10-09
-//:revremark: (Investissements): Durée de vie des usines
+//:revremark: (Phases de jeu): Durée de vie des usines
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -190,7 +190,6 @@ de recyclage **de la couleur correspondante**.
 végétaux peuvent être recyclés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de
 fonctionnement).
-* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé de recycler tous ses cubes présents dans la
 zone de stockage.
 
@@ -204,7 +203,6 @@ d'incinération **de la couleur correspondante**.
 végétaux peuvent être incinérés.)
 * Pour chaque cube, toucher le montant indiqué sur l'usine (pour la
 production d'énergie).
-* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé d'incinérer tous ses cubes présents dans la
 zone de stockage.
 
@@ -218,7 +216,6 @@ de décontamination **de la couleur correspondante**.
 décontaminés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de
 fonctionnement).
-* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé de décontaminer tous ses cubes présents
 dans la zone de stockage.
 
@@ -304,10 +301,12 @@ achat supérieur à ces moyens.*
 Investissements
 ~~~~~~~~~~~~~~~
 
+* ?durée de validité -> commencer par retirer un pion "durée de vie" de
+chaque usine déjà présente sur le plateau individuel du joueur?
 * Poser une/des carte(s) équipement industriel de sa main et payer le(s)
 coût(s). On peut acheter 0, 1, 2, ou 3 carte(s), au choix du joueur.
-* ?durée de validité : poser autant de pions "durée de vie" sur la
-carte?
+* ?durée de validité : poser autant de pions "durée de vie" sur les
+cartes nouvellement acquises?
 * Quand toutes les ventes du joueur sont terminées, il complète sa main
 en récupérant une carte à la fois parmi les cartes visibles disponibles
 et la première carte (cachée) de la pile. Remplacer une carte visible

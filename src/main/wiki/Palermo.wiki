@@ -98,7 +98,6 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines de recyclage '''de la couleur correspondante'''.
 * (Seuls les déchets de type papiers/cartons, emballages, verre, végétaux peuvent être recyclés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de fonctionnement).
-* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé de recycler tous ses cubes présents dans la zone de stockage.
 
 ==== 2. Incinération ====
@@ -106,7 +105,6 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines d'incinération '''de la couleur correspondante'''.
 * (Seuls les déchets de type ménagers, papiers/cartons, emballages, végétaux peuvent être incinérés.)
 * Pour chaque cube, toucher le montant indiqué sur l'usine (pour la production d'énergie).
-* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé d'incinérer tous ses cubes présents dans la zone de stockage.
 
 ==== 2. Décontamination ====
@@ -114,7 +112,6 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines de décontamination '''de la couleur correspondante'''.
 * (Seuls les déchets de type chimiques, <s>?hopitaux?</s> peuvent être décontaminés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de fonctionnement).
-* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé de décontaminer tous ses cubes présents dans la zone de stockage.
 
 ==== 3. Stockage ====
@@ -152,8 +149,9 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 
 === Investissements ===
 
+* ?durée de validité -> commencer par retirer un pion "durée de vie" de chaque usine déjà présente sur le plateau individuel du joueur?
 * Poser une/des carte(s) équipement industriel de sa main et payer le(s) coût(s). On peut acheter 0, 1, 2, ou 3 carte(s), au choix du joueur.
-* ?durée de validité : poser autant de pions "durée de vie" sur la carte?
+* ?durée de validité : poser autant de pions "durée de vie" sur les cartes nouvellement acquises?
 * Quand toutes les ventes du joueur sont terminées, il complète sa main en récupérant une carte à la fois parmi les cartes visibles disponibles et la première carte (cachée) de la pile. Remplacer une carte visible dès qu'elle est choisie par le joueur, en tirant une carte de la pile. Continuer jusqu'à ce que le joueur ait 3 cartes en main.
 
 À cette phase, un joueur peut également décider de céder un de ses contrat publics à un autre joueur.
