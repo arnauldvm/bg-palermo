@@ -283,11 +283,28 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 <br>
 
-=== Cours des matière recyclées ===
+=== Cours des matières recyclées ===
 
 <br>
 
-> TO DO <
+{|border="1" style="border-collapse:collapse"
+|-
+!colspan="2"| papiers/cartons<br>(jaune)
+                    !colspan="2"| emballages<br>(bleu)
+                                        !colspan="2"| verre<br>(blanc)
+                                                            !colspan="2"| végétaux<br>(vert)
+|-
+| cubes || M&beta; || cubes || M&beta; || cubes || M&beta; || cubes || M&beta;
+|-
+| 0-5   || 5       || 0-5   || 8       || 0-5   || 7       || 0-5   || 3
+|-
+| 5-10  || 4       || 5-10  || 6       || 5-10  || 6       || 5-10  || 2
+|-
+| 10-15 || 3       || 10-15 || 4       || 10-15 || 5       || 10-15 || 2
+|-
+| 16+   || 2       || 16+   || 2       || 16+   || 4       || 16+   || 1
+|-
+|}
 
 <br>
 

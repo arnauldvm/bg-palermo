@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4102
+:revnumber: W4103
 :revdate: 2014-10-09
-//:revremark: (Phases de jeu): Durée de vie des usines
+//:revremark: (Cours des matière recyclées):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -487,13 +487,26 @@ Plateaux personnels
 
 {br}
 
-[[cours-des-matiere-recyclees]]
-Cours des matière recyclées
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[cours-des-matieres-recyclees]]
+Cours des matières recyclées
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {br}
 
-> TO DO <
+[cols=",,,",options="header",]
+|=======================================================================
+2+| papiers/cartons{br}(jaune) 2+| emballages{br}(bleu)
+2+| verre{br}(blanc) 2+| végétaux{br}(vert)
+|cubes |M{beta} |cubes |M{beta} |cubes |M{beta} |cubes |M{beta}
+
+|0-5 |5 |0-5 |8 |0-5 |7 |0-5 |3
+
+|5-10 |4 |5-10 |6 |5-10 |6 |5-10 |2
+
+|10-15 |3 |10-15 |4 |10-15 |5 |10-15 |2
+
+|16+ |2 |16+ |2 |16+ |4 |16+ |1
+|=======================================================================
 
 {br}
 
