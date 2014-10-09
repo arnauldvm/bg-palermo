@@ -184,7 +184,41 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 === Liste des équipements industriels ===
 
-> TO DO <
+{|border="1" style="border-collapse:collapse"
+|-
+! Type !! Coût d'achat !! Coût de fonctionnement !! Capacité en cubes
+|-
+|rowspan="8"| Stockage || 20 M&beta; || -5 M&beta;/tour || 10 gris/jaune/bleu/blanc/vert
+|-
+                        | 10 M&beta; || -4 M&beta;/tour || 20 gris
+|-
+                        | 10 M&beta; || -3 M&beta;/tour || 10 jaune
+|-
+                        | 10 M&beta; || -2 M&beta;/tour || 10 bleu
+|-
+                        | 10 M&beta; || -2 M&beta;/tour || 10 blanc
+|-
+                        | 10 M&beta; || -2 M&beta;/tour || 10 vert
+|-
+                        | 10 M&beta; || -2 M&beta;/tour || 5 mauve
+|-
+                        | 50 M&beta; || -10 M&beta;/tour || 5 noir
+|-
+|rowspan="1"| Décontamination || 20 M&beta; || -2 M&beta;/cube || 2 mauve
+|-
+|rowspan="2"| Incinération || 10 M&beta; || +2 M&beta;/cube || 2 gris/jaune/bleu/vert
+|-
+                            | 30 M&beta; || +1 M&beta;/cube || 5 gris
+|-
+|rowspan="4"| Recyclage || 10 M&beta; || -1 M&beta;/cube || 3 jaune
+|-
+                         | 30 M&beta; || -2 M&beta;/cube || 6 bleu
+|-
+                         | 20 M&beta; || -2 M&beta;/cube || 3 blanc
+|-
+                         | 10 M&beta; || 0 || 2 vert
+|-
+|}
 
 === Plateaux personnels ===
 
