@@ -38,6 +38,7 @@ Qui deviendra le plus riche ?
 ** la quantité et la/les couleur(s) des cubes livrés
 * un '''tableau central''' représentant le cours des matières recyclées et les "tarifs" de la Mafia
 * un '''pion premier joueur'''
+* des pions "durée de vie" pour les contrats et/ou les usines, le nombre de pions représente le nombre de tours restants avant l'échéance du contrat et le décommissionnement de l'usine, les zones de stockage ont une durée de vie illimitée
 
 == Préparation ==
 
