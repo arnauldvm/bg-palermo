@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4087
+:revnumber: W4088
 :revdate: 2014-10-09
-//:revremark: (Vente): Le cubes viennent de la zone de recyclage
+//:revremark: (Liste des équipements industriels):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -341,7 +341,41 @@ Liste des contrats publics
 Liste des équipements industriels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-> TO DO <
+[cols=",,,",options="header",]
+|=======================================================================
+|Type |Coût d'achat |Coût de fonctionnement |Capacité en cubes
+.8+| Stockage |20 M{beta} |-5 M{beta}/tour |10
+gris/jaune/bleu/blanc/vert
+
+|10 M{beta} |-4 M{beta}/tour |20 gris
+
+|10 M{beta} |-3 M{beta}/tour |10 jaune
+
+|10 M{beta} |-2 M{beta}/tour |10 bleu
+
+|10 M{beta} |-2 M{beta}/tour |10 blanc
+
+|10 M{beta} |-2 M{beta}/tour |10 vert
+
+|10 M{beta} |-2 M{beta}/tour |5 mauve
+
+|50 M{beta} |-10 M{beta}/tour |5 noir
+
+.1+| Décontamination |20 M{beta} |-2 M{beta}/cube |2 mauve
+
+.2+| Incinération |10 M{beta} |+2 M{beta}/cube |2
+gris/jaune/bleu/vert
+
+|30 M{beta} |+1 M{beta}/cube |5 gris
+
+.4+| Recyclage |10 M{beta} |-1 M{beta}/cube |3 jaune
+
+|30 M{beta} |-2 M{beta}/cube |6 bleu
+
+|20 M{beta} |-2 M{beta}/cube |3 blanc
+
+|10 M{beta} |0 |2 vert
+|=======================================================================
 
 [[plateaux-personnels]]
 Plateaux personnels
