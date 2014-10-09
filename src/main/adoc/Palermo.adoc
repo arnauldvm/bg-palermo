@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4089
+:revnumber: W4090
 :revdate: 2014-10-09
-//:revremark: (Liste des contrats publics): Table style
+//:revremark: (Mafia): Coût dépend de la couleur du cube
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -238,8 +238,9 @@ Mafia
 encombrants.
 * Chaque cube est traité individuellement. Le prix à payer à la mafia
 pour un cube est déterminé sur le plateau central, en fonction du nombre
-de cubes déjà présent sur le plateau central. (Simulation de l'offre et
-de la demande)
+de cubes déjà présent sur le plateau central et en fonction de la
+couleur du cube dont on veut se débarasser. (Simulation de l'offre et de
+la demande)
 
 * En plus des cubes obligatoires (cf. Stockage et Tri), le joueur peut
 éliminer des cubes volontairement de n'importe quelles autres zones de

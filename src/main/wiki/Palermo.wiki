@@ -119,7 +119,7 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 ==== Mafia ====
 
 * Un joueur peut payer la Mafia pour l'aider à se débarrasser de cubes encombrants.
-* Chaque cube est traité individuellement. Le prix à payer à la mafia pour un cube est déterminé sur le plateau central, en fonction du nombre de cubes déjà présent sur le plateau central. (Simulation de l'offre et de la demande)
+* Chaque cube est traité individuellement. Le prix à payer à la mafia pour un cube est déterminé sur le plateau central, en fonction du nombre de cubes déjà présent sur le plateau central et en fonction de la couleur du cube dont on veut se débarasser. (Simulation de l'offre et de la demande)
 
 * En plus des cubes obligatoires (cf. Stockage et Tri), le joueur peut éliminer des cubes volontairement de n'importe quelles autres zones de son plateau personnel.
 
