@@ -39,6 +39,8 @@ Qui deviendra le plus riche ?
 
 * Chaque joueur pioche 6 cartes usine, en choisit 3 qu'il garde et défausse les autres (?on pourrait aussi faire un draft?). Ensuite toutes les cartes restantes sont re-mélangées, puis 3 cartes sont révélées sur le plateau de jeu. Le reste de la pile est posé à côté, face cachée.
 
+* Mélanger les cartes marchés publics. Ensuite on révèle autant de cartes sur le plateau de jeu qu'il n'y a de joueurs (n). Le reste de la pile est posé à côté, face cachée.
+
 == Tour de jeu ==
 
 Chaque tour de jeu est constitué d'une succession de phases. Chaque phase est exécutée d'abord par le premier joueur, puis par chaque joueur suivant dans le sens horlogique. On passe ensuite à la phase suivante.

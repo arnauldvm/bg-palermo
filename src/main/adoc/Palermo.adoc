@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4084
+:revnumber: W4085
 :revdate: 2014-10-09
-//:revremark: (Marchés publics): Cont'd
+//:revremark: (Préparation): Marchés publics
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -88,6 +88,10 @@ partie.?
 défausse les autres (?on pourrait aussi faire un draft?). Ensuite toutes
 les cartes restantes sont re-mélangées, puis 3 cartes sont révélées sur
 le plateau de jeu. Le reste de la pile est posé à côté, face cachée.
+
+* Mélanger les cartes marchés publics. Ensuite on révèle autant de
+cartes sur le plateau de jeu qu'il n'y a de joueurs (n). Le reste de la
+pile est posé à côté, face cachée.
 
 [[tour-de-jeu]]
 Tour de jeu
