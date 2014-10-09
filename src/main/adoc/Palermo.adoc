@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4107
+:revnumber: W4108
 :revdate: 2014-10-09
-//:revremark: (Cours des matières recyclées): Présentation
+//:revremark: (Liste des contrats publics): Présentation
 :doctype: article
 :lang: fr
 :encoding: utf8

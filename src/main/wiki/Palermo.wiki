@@ -198,7 +198,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 <br>
 
-{|border="1" style="border-collapse:collapse"
+{|border="1" style="border-collapse:collapse; text-align:center"
 |-
 ! !! Livraison !! Prix d'enchère initial !! ?durée de validité?
 |-
