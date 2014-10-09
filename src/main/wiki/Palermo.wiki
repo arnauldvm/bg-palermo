@@ -267,16 +267,16 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 {|border="1" style="border-collapse:collapse; text-align:center; border:0;"
 |-
-|rowspan="3" width="20%" bgcolor="gray"| Livraison<br>Non trié ||rowspan="3"| > ||rowspan="3" width="20%" bgcolor="gray"| Livraison<br>Trié ||rowspan="3"| > ||rowspan="3" width="20%"| Stockage
-| > ||height="60" width="20%"| Décontamination
+|rowspan="3" width="20%" bgcolor="gray"| Livraison<br>Vrac ||rowspan="3"| ><br>&#x2783; ||rowspan="3" width="20%" bgcolor="gray"| Livraison<br>Trié ||rowspan="3"| ><br>&#x2782; ||rowspan="3" width="20%"| Stockage
+| ><br>&#x2781; ||height="60" width="20%"| Décontamination
 |-
-| > ||height="60"| Incinération
+| ><br>&#x2781; ||height="60"| Incinération
 |-
-| > ||height="60"| Recyclage ||style="border:0;"| > ||style="border:0;"| Marché
+| ><br>&#x2781; ||height="60"| Recyclage ||style="border:0;"| ><br>&#x2780; ||style="border:0;"| Bourse
 |-
 |style="border:0;"| v ||style="border:0;"| ||style="border:0;"| v ||style="border:0;"| ||style="border:0;"| v ||style="border:0;"| ||style="border:0;"| v v v
 |-
-|colspan="7" style="border:0;"| Mafia
+|colspan="7" style="border:0;"| &#x2784;<br>Mafia
 |}
 
 <br>
