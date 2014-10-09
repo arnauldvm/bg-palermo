@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4072
-:revdate: 2014-10-08
-//:revremark: Couleur des cubes
+:revnumber: W4073
+:revdate: 2014-10-09
+//:revremark: Annexes (Plateaux personnels):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -288,3 +288,21 @@ Liste des équipements industriels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 > TO DO <
+
+[[plateaux-personnels]]
+Plateaux personnels
+~~~~~~~~~~~~~~~~~~~
+
+[width="100%",cols="22%,6%,20%,6%,20%,6%,20%",]
+|=======================================================================
+.3+| Livraison{br}Non trié .3+| > .3+| Livraison{br}Trié
+.3+| > .3+| Stockage |> |Décontamination
+
+|> |Incinération
+
+|> |Recyclage |> |Marché
+
+|v | |v | |v | |v v v
+
+7+| Mafia
+|=======================================================================
