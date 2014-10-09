@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4103
+:revnumber: W4104
 :revdate: 2014-10-09
-//:revremark: (Cours des matière recyclées):
+//:revremark: (Le matériel): Piste de dette et pion marqueur de dette
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -56,8 +56,8 @@ chacune de ces cartes est caractérisée par :
 ** prix d'achat
 ** coût de fonctionnement
 ** capacité en cube (quantité et couleur(s))
-* des *plateaux individuels* pour placer les usines et les déchets, ils
-sont divisés en 6 zones :
+* des *plateaux individuels* de couleurs différentes pour placer les
+usines et les déchets, ils sont divisés en 6 zones :
 ** livraison vrac : on y place les cubes correspondant aux contrats
 livrant des cubes de couleurs mélangées, cet espace transitoire a une
 capacité illimitée
@@ -80,8 +80,9 @@ rapportant 1 M{beta} par cube brûlé
 de ces cartes est caractérisée par :
 ** son prix d'enchère initial
 ** la quantité et la/les couleur(s) des cubes livrés
-* un *tableau central* représentant le cours des matières recyclées et
-les "tarifs" de la Mafia
+* un *tableau central* représentant le cours des matières recyclées, les
+"tarifs" de la Mafia, et la piste de dette à la Mafia
+* un pion *marqueur de dette* par joueur (différentes couleurs)
 * un *pion premier joueur*
 * des pions "durée de vie" pour les contrats et/ou les usines, le nombre
 de pions représente le nombre de tours restants avant l'échéance du
