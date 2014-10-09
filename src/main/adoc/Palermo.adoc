@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4088
+:revnumber: W4089
 :revdate: 2014-10-09
-//:revremark: (Liste des équipements industriels):
+//:revremark: (Liste des contrats publics): Table style
 :doctype: article
 :lang: fr
 :encoding: utf8

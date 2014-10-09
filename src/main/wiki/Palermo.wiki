@@ -158,7 +158,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 === Liste des contrats publics ===
 
-{|
+{|border="1" style="border-collapse:collapse"
 |-
 ! Livraison !! Prix d'enchère initial
 |-
