@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4074
+:revnumber: W4075
 :revdate: 2014-10-09
-//:revremark: (Le matériel): + l'argent
+//:revremark: (Le matériel): 1 cube = 1 tonne
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -37,8 +37,8 @@ Le matériel
 -----------
 
 * des jetons représentant l'argent
-* des dés de différentes couleurs représentant différents types de
-déchets :
+* des cubes de différentes couleurs représentant différents types de
+déchets (1 cube = 1 tonne) :
 ** ménagers (gris)
 ** papiers/cartons (jaune)
 ** emballages (bleu)
