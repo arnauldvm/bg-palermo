@@ -188,7 +188,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 {|border="1" style="border-collapse:collapse; text-align:center; border:0;"
 |-
-|rowspan="3" width="20%"| Livraison<br>Non trié ||rowspan="3"| > ||rowspan="3" width="20%"| Livraison<br>Trié ||rowspan="3"| > ||rowspan="3" width="20%"| Stockage
+|rowspan="3" width="20%" bgcolor="gray"| Livraison<br>Non trié ||rowspan="3"| > ||rowspan="3" width="20%" bgcolor="gray"| Livraison<br>Trié ||rowspan="3"| > ||rowspan="3" width="20%"| Stockage
 | > ||height="60" width="20%"| Décontamination
 |-
 | > ||height="60"| Incinération

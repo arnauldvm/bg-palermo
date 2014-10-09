@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4085
+:revnumber: W4086
 :revdate: 2014-10-09
-//:revremark: (Préparation): Marchés publics
+//:revremark: (Plateaux personnels): Zones de livraison en gris pour indiquer que les cubes ne peuvent qu'y transiter
 :doctype: article
 :lang: fr
 :encoding: utf8
