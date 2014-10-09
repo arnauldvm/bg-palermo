@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4077
+:revnumber: W4078
 :revdate: 2014-10-09
-//:revremark: (Liste des contrats publics):
+//:revremark: (Marchés publics): Enchère négatives autorisées
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -267,6 +267,10 @@ précédent. Une fois qu'un joueur a passé il ne participe plus à
 l'enchère de ce contrat. L'enchère d'un contrat se termine lorsque tous
 les joueurs sauf 1 ont passé. Si personne ne propose d'enchère, la carte
 est défaussée.
+* Il parfaitement autorisé pour un joueur de proposer un coût nul, voire
+négatif (auquel cas il devra payer à chaque tour, mais attention en cas
+de manque de liquidités : c'est la Mafia qui prêtera l'argent manquant
+!)
 * Une fois l'enchère conclue, il faut inscrire le montant final : c'est
 ce que le joueur ayant conclu le contrat touchera à chaque tour.
 
