@@ -135,6 +135,8 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Enchères inversées. Le prix de départ est indiqué sur la carte. Le premier joueur doit proposer au maximum ce prix (il peut proposer moins). Ensuite chaque joueur passe ou propose un prix inférieur au précédent. Une fois qu'un joueur a passé il ne participe plus à l'enchère de ce contrat. L'enchère d'un contrat se termine lorsque tous les joueurs sauf 1 ont passé. Si personne ne propose d'enchère, la carte est défaussée.
 * Il parfaitement autorisé pour un joueur de proposer un prix nul, voire négatif (auquel cas il devra payer la livraison à chaque tour, mais attention en cas de manque de liquidités : c'est la Mafia qui prêtera l'argent manquant !)
 * Une fois l'enchère conclue, il faut inscrire le montant final : c'est ce que le joueur ayant conclu le contrat touchera à chaque tour.
+* Une fois qu'un joueur a obtenu un marché, il ne participe plus aux enchères pour ce tour.
+* Lorsque toutes les n cartes ont été proposées, on retourne les n cartes suivantes et la phase se termine.
 
 === Nettoyage des plateaux ===
 
