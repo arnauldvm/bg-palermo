@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4096
+:revnumber: W4097
 :revdate: 2014-10-09
-//:revremark: (Le matériel): Pions "durée de vie"
+//:revremark: (Liste des contrats publics): Relecture, petites corrections
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -391,19 +391,28 @@ Liste des contrats publics
 
 {br}
 
-[cols=",",options="header",]
-|===========================================================
-|Livraison |Prix d'enchère initial
-|1 gris + 1 jaune + 1 bleu + 1 blanc + 1 vert |5 M{beta}
-|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |10 M{beta}
-|5 gris |10 M{beta}
-|5 jaune |10 M{beta}
-|5 bleu |15 M{beta}
-|5 blanc |5 M{beta}
-|5 vert |10 M{beta}
-|3 mauves |20 M{beta}
-|1 noir |50 M{beta}
-|===========================================================
+[cols=",,,",options="header",]
+|=======================================================================
+| |Livraison |Prix d'enchère initial |?durée de validité?
+.2+| vrac: |1 gris + 1 jaune + 1 bleu + 1 blanc + 1 vert |5 M{beta}
+|?
+
+|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |10 M{beta} |?
+
+.7+| trié: |5 gris |10 M{beta} |?
+
+|5 jaune |10 M{beta} |?
+
+|5 bleu |15 M{beta} |?
+
+|5 blanc |5 M{beta} |?
+
+|5 vert |10 M{beta} |?
+
+|3 mauves |20 M{beta} |?
+
+|1 noir |50 M{beta} |?
+|=======================================================================
 
 {br}
 
