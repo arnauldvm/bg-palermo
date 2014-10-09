@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4081
+:revnumber: W4082
 :revdate: 2014-10-09
-//:revremark: (Contrats): Montants "négatifs"
+//:revremark: (Le matériel): Coût de fonctionnement espace de stockage de début de partie
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -63,7 +63,8 @@ capacité illimitée
 permettent d'accueillir des cubes en attente de traitement, chaque
 joueur démarre la partie avec un espace de stockage (imprimé sur le
 tableau personnel) pour 10 cubes de couleurs variées parmi
-gris/jaune/bleu/blanc/vert
+gris/jaune/bleu/blanc/vert avec un coût de fonctionnement de 5
+M{beta}/tour
 ** décontamination : on y place les cartes "usine de décontamination"
 ** incinération : on y place les cartes "usine d'incinération", chaque
 joueur démarre la partie avec une usine d'incinération (imprimée sur le
