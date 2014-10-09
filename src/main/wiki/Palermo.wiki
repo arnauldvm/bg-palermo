@@ -10,6 +10,7 @@ Gérez au mieux vos moyens industriels, et soyez le premier à saisir les contra
 Qui deviendra le plus riche ?
 
 == Le matériel ==
+* des jetons représentant l'argent
 * des dés de différentes couleurs représentant différents types de déchets :
 ** ménagers (gris)
 ** papiers/cartons (jaune)
