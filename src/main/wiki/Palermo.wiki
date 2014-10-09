@@ -55,7 +55,7 @@ Les phases sont, dans l'ordre :
 * gestion des contrats en cours (réception des payements et des déchets)
 * traitement des déchets (tri, stockage, incinération, décontamination, recyclage, vente de matériaux, mafia)
 * investissements
-* marchés publics (nouveaux contrats)
+* nouveaux contrats publics
 * nettoyage du plateau
 
 == Phases de jeu ==

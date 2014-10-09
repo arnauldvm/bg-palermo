@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4093
+:revnumber: W4094
 :revdate: 2014-10-09
-//:revremark: (Préparation): Relecture, petites corrections
+//:revremark: (Tour de jeu): Relecture, petites corrections
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -114,7 +114,7 @@ Les phases sont, dans l'ordre :
 * traitement des déchets (tri, stockage, incinération, décontamination,
 recyclage, vente de matériaux, mafia)
 * investissements
-* marchés publics (nouveaux contrats)
+* nouveaux contrats publics
 * nettoyage du plateau
 
 [[phases-de-jeu]]
