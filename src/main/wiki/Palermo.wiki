@@ -54,7 +54,8 @@ Les phases sont, dans l'ordre :
 
 === Contrats ===
 
-* On touche le montant des contrats.
+* On touche le montant de tous les contrats "positifs".
+* Ensuite, on paye le montant de tous les contrats "négatifs". En cas de manque de liquidités, l'argent manquant est prêté par la Mafia (voir plus loin).
 * On reçoit les cubes indiqués sur les contrats et on les pose pour l'instant sur la zone "livraison vrac" (si le contrat concerne des déchets mélangés) ou "livraison trié" (si le contrat concerne un seul type de déchets) de son plateau individuel.
 
 === Traitement des déchets ===

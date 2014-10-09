@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4080
+:revnumber: W4081
 :revdate: 2014-10-09
-//:revremark: (Stockage): Coût de fonctionnement
+//:revremark: (Contrats): Montants "négatifs"
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -113,7 +113,10 @@ Phases de jeu
 Contrats
 ~~~~~~~~
 
-* On touche le montant des contrats.
+* On touche le montant de tous les contrats "positifs".
+* Ensuite, on paye le montant de tous les contrats "négatifs". En cas de
+manque de liquidités, l'argent manquant est prêté par la Mafia (voir
+plus loin).
 * On reçoit les cubes indiqués sur les contrats et on les pose pour
 l'instant sur la zone "livraison vrac" (si le contrat concerne des
 déchets mélangés) ou "livraison trié" (si le contrat concerne un seul
