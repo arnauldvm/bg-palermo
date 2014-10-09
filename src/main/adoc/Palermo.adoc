@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4091
+:revnumber: W4092
 :revdate: 2014-10-09
-//:revremark: (Annexes): + TO DO
+//:revremark: /*Le matériel*/ Relecture, petites corrections
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -36,10 +36,10 @@ riche ?
 Le matériel
 -----------
 
-* des jetons représentant l'argent (l'unité monétaire est le
+* des jetons représentant *l'argent* (l'unité monétaire est le
 "méga-blork" et se note M{beta})
 * des cubes de différentes couleurs représentant différents types de
-déchets (1 cube = 1 tonne) :
+*déchets* (1 cube = 1 tonne) :
 ** ménagers (gris)
 ** papiers/cartons (jaune)
 ** emballages (bleu)
@@ -49,11 +49,16 @@ déchets (1 cube = 1 tonne) :
 ** [line-through]#?hopitaux? (rouge)#
 ** ?nucléaires? (noir)
 ** ...
-* des cartes représentant les différents équipements industriels /
-usines permettant de traiter les déchets
-* des plateaux individuels pour placer les usines et les déchets, ils
+* des cartes représentant les différents *équipements industriels*
+(usines et espaces de stockage) permettant de traiter les déchets,
+chacune de ces cartes est caractérisée par :
+** son type (usine / stockage)
+** prix d'achat
+** coût de fonctionnement
+** capacité en cube (quantité et couleur(s))
+* des *plateaux individuels* pour placer les usines et les déchets, ils
 sont divisés en 6 zones :
-** livraison non trié : on y place les cubes correspondant aux contrats
+** livraison vrac : on y place les cubes correspondant aux contrats
 livrant des cubes de couleurs mélangées, cet espace transitoire a une
 capacité illimitée
 ** livraison trié : on y place les cubes correspondant aux contrats
@@ -71,10 +76,13 @@ joueur démarre la partie avec une usine d'incinération (imprimée sur le
 tableau personnel) d'une capacité de 2 cubes gris/jaune/bleu/vert et
 rapportant 1 M{beta} par cube brûlé
 ** recyclage : on y place les cartes "usine de recyclage"
-* des cartes représentants les différents contrats publics
-* un tableau central représentant le cours des matières recyclées (et
-diverses autres jauges communes : Mafia ...)
-* un pion premier joueur
+* des cartes représentants les différents **contrats publics**, chacune
+de ces cartes est caractérisée par :
+** son prix d'enchère initial
+** la quantité et la/les couleur(s) des cubes livrés
+* un *tableau central* représentant le cours des matières recyclées et
+les "tarifs" de la Mafia
+* un *pion premier joueur*
 
 [[preparation]]
 Préparation

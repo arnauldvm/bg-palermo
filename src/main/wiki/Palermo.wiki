@@ -10,8 +10,8 @@ Gérez au mieux vos moyens industriels, et soyez le premier à saisir les contra
 Qui deviendra le plus riche ?
 
 == Le matériel ==
-* des jetons représentant l'argent (l'unité monétaire est le "méga-blork" et se note M&beta;)
-* des cubes de différentes couleurs représentant différents types de déchets (1 cube = 1 tonne) :
+* des jetons représentant '''l'argent''' (l'unité monétaire est le "méga-blork" et se note M&beta;)
+* des cubes de différentes couleurs représentant différents types de '''déchets''' (1 cube = 1 tonne) :
 ** ménagers (gris)
 ** papiers/cartons (jaune)
 ** emballages (bleu)
@@ -21,17 +21,23 @@ Qui deviendra le plus riche ?
 ** <s>?hopitaux? (rouge)</s>
 ** ?nucléaires? (noir)
 ** ...
-* des cartes représentant les différents équipements industriels / usines permettant de traiter les déchets
-* des plateaux individuels pour placer les usines et les déchets, ils sont divisés en 6 zones :
-** livraison non trié : on y place les cubes correspondant aux contrats livrant des cubes de couleurs mélangées, cet espace transitoire a une capacité illimitée
+* des cartes représentant les différents '''équipements industriels''' (usines et espaces de stockage) permettant de traiter les déchets, chacune de ces cartes est caractérisée par :
+** son type (usine / stockage)
+** prix d'achat
+** coût de fonctionnement
+** capacité en cube (quantité et couleur(s))
+* des '''plateaux individuels''' pour placer les usines et les déchets, ils sont divisés en 6 zones :
+** livraison vrac : on y place les cubes correspondant aux contrats livrant des cubes de couleurs mélangées, cet espace transitoire a une capacité illimitée
 ** livraison trié : on y place les cubes correspondant aux contrats livrant des cubes de couleur unique, cet espace transitoire a une capacité illimitée
 ** stockage : on y place les cartes "espace de stockage", celles-ci permettent d'accueillir des cubes en attente de traitement, chaque joueur démarre la partie avec un espace de stockage (imprimé sur le tableau personnel) pour 10 cubes de couleurs variées parmi gris/jaune/bleu/blanc/vert avec un coût de fonctionnement de 5 M&beta; par tour
 ** décontamination : on y place les cartes "usine de décontamination"
 ** incinération : on y place les cartes "usine d'incinération", chaque joueur démarre la partie avec une usine d'incinération (imprimée sur le tableau personnel) d'une capacité de 2 cubes gris/jaune/bleu/vert et rapportant 1 M&beta; par cube brûlé
 ** recyclage : on y place les cartes "usine de recyclage"
-* des cartes représentants les différents contrats publics
-* un tableau central représentant le cours des matières recyclées (et diverses autres jauges communes : Mafia ...)
-* un pion premier joueur
+* des cartes représentants les différents '''contrats publics''', chacune de ces cartes est caractérisée par :
+** son prix d'enchère initial
+** la quantité et la/les couleur(s) des cubes livrés
+* un '''tableau central''' représentant le cours des matières recyclées et les "tarifs" de la Mafia
+* un '''pion premier joueur'''
 
 == Préparation ==
 
