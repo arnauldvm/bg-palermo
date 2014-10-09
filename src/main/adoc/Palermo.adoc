@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4095
+:revnumber: W4096
 :revdate: 2014-10-09
-//:revremark: (Phases de jeu): Relecture, petites corrections
+//:revremark: (Le matériel): Pions "durée de vie"
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -83,6 +83,10 @@ de ces cartes est caractérisée par :
 * un *tableau central* représentant le cours des matières recyclées et
 les "tarifs" de la Mafia
 * un *pion premier joueur*
+* des pions "durée de vie" pour les contrats et/ou les usines, le nombre
+de pions représente le nombre de tours restants avant l'échéance du
+contrat et le décommissionnement de l'usine, les zones de stockage ont
+une durée de vie illimitée
 
 [[preparation]]
 Préparation
