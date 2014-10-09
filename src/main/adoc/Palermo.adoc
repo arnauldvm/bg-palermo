@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4086
+:revnumber: W4087
 :revdate: 2014-10-09
-//:revremark: (Plateaux personnels): Zones de livraison en gris pour indiquer que les cubes ne peuvent qu'y transiter
+//:revremark: (Vente): Le cubes viennent de la zone de recyclage
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -155,10 +155,14 @@ les usines**.
 Vente
 ^^^^^
 
-* La vente se fait cube par cube. Le joueur n'est pas obligé de vendre
-tous ses cubes. Le prix de vente d'un cube est déterminé sur le plateau
-central, en fonction du nombre de cubes déjà présent sur le plateau
-central. (Simulation de l'offre et de la demande)
+* Le joueur n'est pas obligé de vendre tous ses cubes présents dans la
+zone de recyclage.
+* La vente se fait cube par cube. Retirer chaque cube de la zone de
+recyclage et le place dans la zone marché correspondante du plateau
+central.
+* Le prix de vente d'un cube est déterminé sur le plateau central, en
+fonction du nombre de cubes déjà présent sur le plateau central.
+(Simulation de l'offre et de la demande)
 
 [[recyclage]]
 Recyclage
