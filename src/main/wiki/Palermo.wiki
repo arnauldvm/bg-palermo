@@ -147,3 +147,19 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 === Liste des équipements industriels ===
 
 > TO DO <
+
+=== Plateaux personnels ===
+
+{|border="1" style="border-collapse:collapse; text-align:center; border:0;"
+|-
+|rowspan="3" width="20%"| Livraison<br>Non trié ||rowspan="3"| > ||rowspan="3" width="20%"| Livraison<br>Trié ||rowspan="3"| > ||rowspan="3" width="20%"| Stockage
+| > ||height="60" width="20%"| Décontamination
+|-
+| > ||height="60"| Incinération
+|-
+| > ||height="60"| Recyclage ||style="border:0;"| > ||style="border:0;"| Marché
+|-
+|style="border:0;"| v ||style="border:0;"| ||style="border:0;"| v ||style="border:0;"| ||style="border:0;"| v ||style="border:0;"| ||style="border:0;"| v v v
+|-
+|colspan="7" style="border:0;"| Mafia
+|}
