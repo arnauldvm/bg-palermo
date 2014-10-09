@@ -100,8 +100,9 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 
 ==== Stockage ====
 
+* Payer le coût de fonctionnement pour chaque espace de stockage (prix fixe par tour, quel que soit le nombre de cubes stockés, on paye même si aucun cube n'est stocké sur l'espace). Si on manque de liquidités, c'est la Mafia qui prête l'argent manquant (voir plus loin).
 * Le joueur n'est pas obligé de stocker tous ses cubes présents dans la zone de livraison trié.
-* Prendre des cube de la zone de livraison trié et les poser sur les espaces de stockage '''de la couleur correspondante'''.
+* Prendre des cubes de la zone de livraison trié et les poser sur les espaces de stockage '''de la couleur correspondante'''.
 * '''Au terme de cette étape les cubes restants dans la zone de livraison trié doivent obligatoirement être confiés à la Mafia !''' (voir plus loin)
 
 ==== Tri ====
