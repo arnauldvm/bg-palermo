@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4104
+:revnumber: W4105
 :revdate: 2014-10-09
-//:revremark: (Le matériel): Piste de dette et pion marqueur de dette
+//:revremark: (Préparation): Couleur des joueurs et pion marqueur de dette
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -95,6 +95,10 @@ Préparation
 
 * Au début du jeu, le pion premier joueur est attribué à un des joueurs.
 Il pourra passer à un autre joueur à chaque tour.
+
+* Chaque joueur choisit une couleur et prend la tableau individuel et le
+pion marqueur de dette correspondant. Le pion marqueur de dette est
+place sur le zéro de la piste de dette
 
 * Chaque joueur pioche 6 **cartes usine**, en choisit 3 qu'il garde et
 défausse les autres (?on pourrait aussi faire un draft?). Ensuite toutes
