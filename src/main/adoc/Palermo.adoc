@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4100
+:revnumber: W4101
 :revdate: 2014-10-09
-//:revremark: (Traitement des déchets): durée de vie des usines
+//:revremark: (Investissements): Durée de vie des usines
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -306,6 +306,8 @@ Investissements
 
 * Poser une/des carte(s) équipement industriel de sa main et payer le(s)
 coût(s). On peut acheter 0, 1, 2, ou 3 carte(s), au choix du joueur.
+* ?durée de validité : poser autant de pions "durée de vie" sur la
+carte?
 * Quand toutes les ventes du joueur sont terminées, il complète sa main
 en récupérant une carte à la fois parmi les cartes visibles disponibles
 et la première carte (cachée) de la pile. Remplacer une carte visible
