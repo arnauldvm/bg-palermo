@@ -78,7 +78,9 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 
 ==== Vente ====
 
-* La vente se fait cube par cube. Le joueur n'est pas obligé de vendre tous ses cubes. Le prix de vente d'un cube est déterminé sur le plateau central, en fonction du nombre de cubes déjà présent sur le plateau central. (Simulation de l'offre et de la demande)
+* Le joueur n'est pas obligé de vendre tous ses cubes présents dans la zone de recyclage.
+* La vente se fait cube par cube. Retirer chaque cube de la zone de recyclage et le place dans la zone marché correspondante du plateau central.
+* Le prix de vente d'un cube est déterminé sur le plateau central, en fonction du nombre de cubes déjà présent sur le plateau central. (Simulation de l'offre et de la demande)
 
 ==== Recyclage ====
 
