@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4076
+:revnumber: W4077
 :revdate: 2014-10-09
-//:revremark: (Le matériel): Description des zones des plateaux personnels
+//:revremark: (Liste des contrats publics):
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -299,7 +299,19 @@ Annexes
 Liste des contrats publics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-> TO DO <
+[cols=",",options="header",]
+|===========================================================
+|Livraison |Prix d'enchère initial
+|1 gris + 1 jaune + 1 bleu + 1 blanc + 1 vert |5 M{beta}
+|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |10 M{beta}
+|5 gris |10 M{beta}
+|5 jaune |10 M{beta}
+|5 bleu |15 M{beta}
+|5 blanc |5 M{beta}
+|5 vert |10 M{beta}
+|3 mauves |20 M{beta}
+|1 noir |50 M{beta}
+|===========================================================
 
 [[liste-des-equipements-industriels]]
 Liste des équipements industriels
