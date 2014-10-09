@@ -98,6 +98,7 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines de recyclage '''de la couleur correspondante'''.
 * (Seuls les déchets de type papiers/cartons, emballages, verre, végétaux peuvent être recyclés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de fonctionnement).
+* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé de recycler tous ses cubes présents dans la zone de stockage.
 
 ==== 2. Incinération ====
@@ -105,6 +106,7 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines d'incinération '''de la couleur correspondante'''.
 * (Seuls les déchets de type ménagers, papiers/cartons, emballages, végétaux peuvent être incinérés.)
 * Pour chaque cube, toucher le montant indiqué sur l'usine (pour la production d'énergie).
+* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé d'incinérer tous ses cubes présents dans la zone de stockage.
 
 ==== 2. Décontamination ====
@@ -112,6 +114,7 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines de décontamination '''de la couleur correspondante'''.
 * (Seuls les déchets de type chimiques, <s>?hopitaux?</s> peuvent être décontaminés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de fonctionnement).
+* ?durée de validité -> retirer un pion "durée de vie"?
 * Le joueur n'est pas obligé de décontaminer tous ses cubes présents dans la zone de stockage.
 
 ==== 3. Stockage ====
