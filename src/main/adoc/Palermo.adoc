@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4106
+:revnumber: W4107
 :revdate: 2014-10-09
-//:revremark: (Tarifs de la Mafia):
+//:revremark: (Cours des matières recyclées): Présentation
 :doctype: article
 :lang: fr
 :encoding: utf8
