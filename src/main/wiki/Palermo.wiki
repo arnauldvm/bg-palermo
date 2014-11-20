@@ -171,7 +171,7 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 ===  [D] Nouveaux contrats publics ===
 
 * Enchères inversées.
-** Le premier joueur choisit une des cartes contrats visibles. (À moins qu'il ne décide de passer.)
+** Le ''premier'' joueur choisit une des cartes contrats visibles. (À moins qu'il ne décide de passer.) Si le premier joueur ne participe plus aux enchères, c'est le premier joueur à sa droite, parmi ceux qui n'ont pas encore remporté d'enchère à ce tour-ci.
 ** Le prix de départ est indiqué sur la carte. (Le prix représente ce que le détenteur du contrat touchera à chaque tour pour le traitement de la quantité de déchets prévue.)
 ** Le premier joueur doit proposer au maximum ce prix (il peut proposer moins). ?Il ne '''peut pas''' proposer un prix supérieur à ces moyens.?
 ** Ensuite chaque joueur passe ou propose un prix inférieur au précédent.

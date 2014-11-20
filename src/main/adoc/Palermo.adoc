@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4125
+:revnumber: W4126
 :revdate: 2014-11-20
-//:revremark: ([D] Nouveaux contrats publics): Remplacement de la pile
+//:revremark: ([D] Nouveaux contrats publics): Précisions sur le premier joueur
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -351,8 +351,10 @@ reçoit) rien pour cela.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Enchères inversées.
-** Le premier joueur choisit une des cartes contrats visibles. (À moins
-qu'il ne décide de passer.)
+** Le _premier_ joueur choisit une des cartes contrats visibles. (À
+moins qu'il ne décide de passer.) Si le premier joueur ne participe plus
+aux enchères, c'est le premier joueur à sa droite, parmi ceux qui n'ont
+pas encore remporté d'enchère à ce tour-ci.
 ** Le prix de départ est indiqué sur la carte. (Le prix représente ce
 que le détenteur du contrat touchera à chaque tour pour le traitement de
 la quantité de déchets prévue.)
