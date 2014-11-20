@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4132
+:revnumber: W4133
 :revdate: 2014-11-20
-//:revremark: (Liste des équipements industriels): Nombre total de cartes (correction)
+//:revremark: (Liste des contrats publics): Nombre total de cartes
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -444,6 +444,8 @@ M{beta} |? |4
 |3 mauves |20 +M{beta} |? |2
 
 |1 noir |50 +M{beta} |? |2
+
+4+| | 22 
 |=======================================================================
 
 {br}
