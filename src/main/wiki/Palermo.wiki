@@ -66,33 +66,33 @@ Les phases sont, dans l'ordre :
 
 == Phases de jeu ==
 
-=== Gestion des contrats ===
+=== [A] Gestion des contrats ===
 
 * On touche le montant de tous les contrats "positifs".
 * Ensuite, on paye le montant de tous les contrats "négatifs". En cas de manque de liquidités, l'argent manquant est obligatoirement prêté par la Mafia (voir plus loin).
 * On reçoit '''tous''' les cubes indiqués sur les contrats et on les pose pour l'instant sur la zone "livraison vrac" (si le contrat concerne des déchets mélangés) ou "livraison trié" (si le contrat concerne un seul type de déchets) de son plateau individuel. Le joueur n'a pas le droit de prendre moins de cubes que prévu.
 * ?durée de validité -> retirer un pion "durée de vie"?
 
-=== Traitement des déchets ===
+=== [B] Traitement des déchets ===
 
 Le traitement des déchets se décompose en plusieurs étapes.
 
 Chaque étape est représentée par une zone sur le plateau individuel.
 
 À chaque tour, ces étapes doivent obligatoirement se résoudre '''de la droite vers la gauche''', c'est-à-dire dans l'ordre suivant :
-# vente de matériaux, 
-# usines :
-#* recyclage
-#* incinération
-#* décontamination
-# stockage
-# tri
-# mafia
+* (1) vente de matériaux, 
+* (2) usines :
+** recyclage
+** incinération
+** décontamination
+* (3) stockage
+* (4) tri
+* (5) mafia
 (Autrement dit, l'ordre inverse de l'ordre chronologique. De cette façon un cube ne peut passer qu'une seule étape par tour.)
 
 Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis l'étape précédente '''à concurrence de la place disponible dans les usines'''.
 
-==== 1. Vente de matériaux ====
+==== (1) Vente de matériaux ====
 
 * La vente se fait cube par cube. Retirer chaque cube de la '''zone de recyclage''' et le placer dans la zone bourse correspondante du plateau central.
 * Le prix de vente d'un cube est déterminé sur le plateau central, en fonction du nombre de cubes déjà présent sur le plateau central. (Simulation de l'offre et de la demande)
@@ -112,28 +112,28 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Pour chaque cube, toucher le montant indiqué sur l'usine (pour la production d'énergie).
 * Le joueur n'est pas obligé d'incinérer tous ses cubes présents dans la zone de stockage.
 
-==== 2. Décontamination ====
+==== (2) Décontamination ====
 
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines de décontamination '''de la couleur correspondante'''.
 * (Seuls les déchets de type chimiques, <s>?hopitaux?</s> peuvent être décontaminés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de fonctionnement).
 * Le joueur n'est pas obligé de décontaminer tous ses cubes présents dans la zone de stockage.
 
-==== 3. Stockage ====
+==== (3) Stockage ====
 
 * Commencer par payer le coût de fonctionnement pour chaque espace de stockage (prix fixe par tour, quel que soit le nombre de cubes stockés, on paye même si aucun cube n'est stocké sur l'espace). Si on manque de liquidités, la Mafia prête obligatoirement l'argent manquant (voir plus loin).
 * Prendre des cubes de la '''zone de livraison trié''' et les poser sur les espaces de stockage '''de la couleur correspondante'''.
 * Le joueur n'est pas obligé de stocker tous ses cubes présents dans la zone de livraison trié, mais ...
 * '''Au terme de cette étape les cubes restants dans la zone de livraison trié doivent obligatoirement être confiés à la Mafia !''' (voir plus loin)
 
-==== 4. Tri ====
+==== (4) Tri ====
 
 * Prendre des cube de la '''zone de livraison vrac''' et les poser sur les espaces de livraison trié '''de la couleur correspondante'''.
 * Payer le coût des opérations de tri pour chaque bloc (le coût dépend de la nature des déchets).
 * Le joueur n'est pas obligé de trier tous ses cubes présents dans la zone de livraison non trié, mais ...
 * '''Au terme de cette étape les cubes restants dans la zone de livraison non trié doivent obligatoirement être confiés à la Mafia !''' (voir plus loin)
 
-==== 5. Mafia ====
+==== (5) Mafia ====
 
 ===== Se débarrasser de déchets encombrants =====
 
@@ -152,7 +152,7 @@ Si on n'a pas assez d'argent pour payer la Mafia, on est mal !
 
 La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer une livraison de déchets (contrats "négatifs") ou un coût de stockage. Dans ces cas (et uniquement ceux-là), la Mafia prête 'généreusement' la somme manquante. '''Un joueur ne peut jamais s'endetter volontairement de manière directe, par exemple en faisant un achat supérieur à ces moyens.'''
 
-=== Investissements ===
+=== [C] Investissements ===
 
 * ?durée de validité -> commencer par retirer un pion "durée de vie" de chaque usine déjà présente sur le plateau individuel du joueur?
 * Poser une/des carte(s) équipement industriel de sa main et payer le(s) coût(s). On peut acheter 0, 1, 2, ou 3 carte(s), au choix du joueur.
@@ -163,7 +163,7 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 * Il est libre d'organiser la vente comme il le souhaite (bilatéral, enchères ...).
 * '''Attention, cette vente ne peut avoir lieu ''qu'après'' la phase Mafia. Donc, on ne peut pas éviter de s'endetter par ce biais. De plus, si on est endetté, le produit de la vente sera d'abord récupéré par la Mafia.'''
 
-===  Nouveaux contrats publics ===
+===  [D] Nouveaux contrats publics ===
 
 * Enchères inversées.
 ** Le premier joueur choisit une des cartes contrats visibles. (À moins qu'il ne décide de passer.)
@@ -181,7 +181,7 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 * Lorsque toutes les n cartes ont été proposées, on retourne les n cartes suivantes et la phase se termine.
 * Il est possible qu'un joueur se retrouve seul pour la dernière enchère. Il aura donc la chance de pouvoir, s'il le désire, conclure le dernier contrat au prix maximum.
 
-=== Nettoyage des plateaux ===
+=== [E] Nettoyage des plateaux ===
 
 * Retirer de la bourse (sur le plateau central) la moitié (arrondi au '''supérieur''') de chaque couleur de cube. (?alternativement : le nombre de cubes retirés est plus ou moins aléatoire?).
 * Retirer de la zone mafia (sur le plateau central) la moitié (arrondi à '''l'inférieur''') des cubes (peu importent les couleurs).

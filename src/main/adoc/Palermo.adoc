@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4118
+:revnumber: W4119
 :revdate: 2014-11-20
-//:revremark: (Tour de jeu): Numéroter les phases
+//:revremark: (Phases de jeu): Numéroter des phases
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -136,9 +136,9 @@ décontamination, recyclage, vente de matériaux, mafia)
 Phases de jeu
 -------------
 
-[[gestion-des-contrats]]
-Gestion des contrats
-~~~~~~~~~~~~~~~~~~~~
+[[a-gestion-des-contrats]]
+[A] Gestion des contrats
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * On touche le montant de tous les contrats "positifs".
 * Ensuite, on paye le montant de tous les contrats "négatifs". En cas de
@@ -151,9 +151,9 @@ type de déchets) de son plateau individuel. Le joueur n'a pas le droit
 de prendre moins de cubes que prévu.
 * ?durée de validité -> retirer un pion "durée de vie"?
 
-[[traitement-des-dechets]]
-Traitement des déchets
-~~~~~~~~~~~~~~~~~~~~~~
+[[b-traitement-des-dechets]]
+[B] Traitement des déchets
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Le traitement des déchets se décompose en plusieurs étapes.
 
@@ -162,14 +162,14 @@ Chaque étape est représentée par une zone sur le plateau individuel.
 À chaque tour, ces étapes doivent obligatoirement se résoudre **de la
 droite vers la gauche**, c'est-à-dire dans l'ordre suivant :
 
-1.  vente de matériaux,
-2.  usines :
-* recyclage
-* incinération
-* décontamination
-3.  stockage
-4.  tri
-5.  mafia
+* (1) vente de matériaux,
+* (2) usines :
+** recyclage
+** incinération
+** décontamination
+* (3) stockage
+* (4) tri
+* (5) mafia
 
 (Autrement dit, l'ordre inverse de l'ordre chronologique. De cette façon
 un cube ne peut passer qu'une seule étape par tour.)
@@ -179,8 +179,8 @@ depuis l'étape précédente **à concurrence de la place disponible dans
 les usines**.
 
 [[vente-de-materiaux]]
-1. Vente de matériaux
-^^^^^^^^^^^^^^^^^^^^^
+(1) Vente de matériaux
+^^^^^^^^^^^^^^^^^^^^^^
 
 * La vente se fait cube par cube. Retirer chaque cube de la *zone de
 recyclage* et le placer dans la zone bourse correspondante du plateau
@@ -218,8 +218,8 @@ production d'énergie).
 zone de stockage.
 
 [[decontamination]]
-2. Décontamination
-^^^^^^^^^^^^^^^^^^
+(2) Décontamination
+^^^^^^^^^^^^^^^^^^^
 
 * Prendre des cube de la *zone de stockage* et les poser sur les usines
 de décontamination **de la couleur correspondante**.
@@ -231,8 +231,8 @@ fonctionnement).
 dans la zone de stockage.
 
 [[stockage]]
-3. Stockage
-^^^^^^^^^^^
+(3) Stockage
+^^^^^^^^^^^^
 
 * Commencer par payer le coût de fonctionnement pour chaque espace de
 stockage (prix fixe par tour, quel que soit le nombre de cubes stockés,
@@ -247,8 +247,8 @@ zone de livraison trié, mais ...
 trié doivent obligatoirement être confiés à la Mafia !* (voir plus loin)
 
 [[tri]]
-4. Tri
-^^^^^^
+(4) Tri
+^^^^^^^
 
 * Prendre des cube de la *zone de livraison vrac* et les poser sur les
 espaces de livraison trié **de la couleur correspondante**.
@@ -261,8 +261,8 @@ non trié doivent obligatoirement être confiés à la Mafia !* (voir plus
 loin)
 
 [[mafia]]
-5. Mafia
-^^^^^^^^
+(5) Mafia
+^^^^^^^^^
 
 [[se-debarrasser-de-dechets-encombrants]]
 Se débarrasser de déchets encombrants
@@ -308,9 +308,9 @@ stockage. Dans ces cas (et uniquement ceux-là), la Mafia prête
 s'endetter volontairement de manière directe, par exemple en faisant un
 achat supérieur à ces moyens.*
 
-[[investissements]]
-Investissements
-~~~~~~~~~~~~~~~
+[[c-investissements]]
+[C] Investissements
+~~~~~~~~~~~~~~~~~~~
 
 * ?durée de validité -> commencer par retirer un pion "durée de vie" de
 chaque usine déjà présente sur le plateau individuel du joueur?
@@ -333,9 +333,9 @@ enchères ...).
 Donc, on ne peut pas éviter de s'endetter par ce biais. De plus, si on
 est endetté, le produit de la vente sera d'abord récupéré par la Mafia.*
 
-[[nouveaux-contrats-publics]]
-Nouveaux contrats publics
-~~~~~~~~~~~~~~~~~~~~~~~~~
+[[d-nouveaux-contrats-publics]]
+[D] Nouveaux contrats publics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Enchères inversées.
 ** Le premier joueur choisit une des cartes contrats visibles. (À moins
@@ -372,9 +372,9 @@ cartes suivantes et la phase se termine.
 enchère. Il aura donc la chance de pouvoir, s'il le désire, conclure le
 dernier contrat au prix maximum.
 
-[[nettoyage-des-plateaux]]
-Nettoyage des plateaux
-~~~~~~~~~~~~~~~~~~~~~~
+[[e-nettoyage-des-plateaux]]
+[E] Nettoyage des plateaux
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Retirer de la bourse (sur le plateau central) la moitié (arrondi au
 **supérieur**) de chaque couleur de cube. (?alternativement : le nombre
