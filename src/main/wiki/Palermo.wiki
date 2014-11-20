@@ -227,6 +227,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
                      | 1 noir || 50 +M&beta; || ? || 2
 |-
+|colspan="4"| || &nbsp;22&nbsp;
 |}
 
 <br>
