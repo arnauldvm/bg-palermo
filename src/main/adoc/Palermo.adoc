@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4127
+:revnumber: W4128
 :revdate: 2014-11-20
-//:revremark: (Liste des contrats publics): Les "prix" d'enchère sont des revenus => "+"
+//:revremark: (Liste des équipements industriels): Les "prix" d'achat sont des coûts => "-")
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -458,37 +458,37 @@ Liste des équipements industriels
 |=======================================================================
 |Type |Prix d'achat |Coût de fonctionnement |Capacité en cubes |?durée
 de vie?
-.8+| Stockage |20 M{beta} |-5 M{beta}/tour |10
+.8+| Stockage |-20 M{beta} |-5 M{beta}/tour |10
 marron/jaune/bleu/blanc/vert |-
 
-|10 M{beta} |-4 M{beta}/tour |20 marron |-
+|-10 M{beta} |-4 M{beta}/tour |20 marron |-
 
-|10 M{beta} |-3 M{beta}/tour |10 jaune |-
+|-10 M{beta} |-3 M{beta}/tour |10 jaune |-
 
-|10 M{beta} |-2 M{beta}/tour |10 bleu |-
+|-10 M{beta} |-2 M{beta}/tour |10 bleu |-
 
-|10 M{beta} |-2 M{beta}/tour |10 blanc |-
+|-10 M{beta} |-2 M{beta}/tour |10 blanc |-
 
-|10 M{beta} |-2 M{beta}/tour |10 vert |-
+|-10 M{beta} |-2 M{beta}/tour |10 vert |-
 
-|10 M{beta} |-2 M{beta}/tour |5 mauve |-
+|-10 M{beta} |-2 M{beta}/tour |5 mauve |-
 
-|50 M{beta} |-10 M{beta}/tour |5 noir |-
+|-50 M{beta} |-10 M{beta}/tour |5 noir |-
 
-.1+| Décontamination |20 M{beta} |-2 M{beta}/cube |2 mauve |?
+.1+| Décontamination |-20 M{beta} |-2 M{beta}/cube |2 mauve |?
 
-.2+| Incinération |10 M{beta} |+2 M{beta}/cube |2
+.2+| Incinération |-10 M{beta} |+2 M{beta}/cube |2
 marron/jaune/bleu/vert |?
 
-|30 M{beta} |+1 M{beta}/cube |5 marron |?
+|-30 M{beta} |+1 M{beta}/cube |5 marron |?
 
-.4+| Recyclage |10 M{beta} |-1 M{beta}/cube |3 jaune |?
+.4+| Recyclage |-10 M{beta} |-1 M{beta}/cube |3 jaune |?
 
-|30 M{beta} |-2 M{beta}/cube |6 bleu |?
+|-30 M{beta} |-2 M{beta}/cube |6 bleu |?
 
-|20 M{beta} |-2 M{beta}/cube |3 blanc |?
+|-20 M{beta} |-2 M{beta}/cube |3 blanc |?
 
-|10 M{beta} |0 |2 vert |?
+|-10 M{beta} |0 |2 vert |?
 |=======================================================================
 
 {br}
