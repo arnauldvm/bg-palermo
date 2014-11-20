@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4133
+:revnumber: W4135
 :revdate: 2014-11-20
-//:revremark: (Liste des contrats publics): Nombre total de cartes
+//:revremark: Cover image
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -19,6 +19,8 @@ Arnauld Van Muysewinkel <arnauldvm@gmail.com>
 
 
 08-Oct-'14
+
+image:a-trasha.jpg["a-trasha.jpg",title="a-trasha.jpg"]
 
 Jeu de gestion sur le thème du traitement des déchets. Sur une idée
 originale collective ayant émergé au Ludwikend 6.
