@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4117
+:revnumber: W4118
 :revdate: 2014-11-20
-//:revremark: (Préparation): Contrats avant les usines; choisir un contrat parmi 3; recevoir 20 Mß
+//:revremark: (Tour de jeu): Numéroter les phases
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -124,12 +124,13 @@ suivant dans le sens horlogique. On passe ensuite à la phase suivante.
 
 Les phases sont, dans l'ordre :
 
-* gestion des contrats en cours (réception des payements et des déchets)
-* traitement des déchets (tri, stockage, incinération, décontamination,
-recyclage, vente de matériaux, mafia)
-* investissements
-* nouveaux contrats publics
-* nettoyage du plateau
+* [A] gestion des contrats en cours (réception des payements et des
+déchets)
+* [B] traitement des déchets (tri, stockage, incinération,
+décontamination, recyclage, vente de matériaux, mafia)
+* [C] investissements
+* [D] nouveaux contrats publics
+* [E] nettoyage du plateau
 
 [[phases-de-jeu]]
 Phases de jeu

@@ -58,11 +58,11 @@ Qui deviendra le plus riche ?
 Chaque tour de jeu est constitué d'une succession de phases. Chaque phase est exécutée d'abord par le premier joueur, puis par chaque joueur suivant dans le sens horlogique. On passe ensuite à la phase suivante.
 
 Les phases sont, dans l'ordre :
-* gestion des contrats en cours (réception des payements et des déchets)
-* traitement des déchets (tri, stockage, incinération, décontamination, recyclage, vente de matériaux, mafia)
-* investissements
-* nouveaux contrats publics
-* nettoyage du plateau
+* [A] gestion des contrats en cours (réception des payements et des déchets)
+* [B] traitement des déchets (tri, stockage, incinération, décontamination, recyclage, vente de matériaux, mafia)
+* [C] investissements
+* [D] nouveaux contrats publics
+* [E] nettoyage du plateau
 
 == Phases de jeu ==
 
