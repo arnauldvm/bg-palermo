@@ -237,37 +237,37 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 
 {|border="1" style="border-collapse:collapse; text-align:center"
 |-
-! Type !! Prix d'achat !! Coût de fonctionnement !! Capacité en cubes !! ?durée de vie?
+! Type !! Prix d'achat !! Coût de fonctionnement !! Capacité en cubes !! ?durée de vie? !! &nbsp;#&nbsp;
 |-
-|rowspan="8"| Stockage || -20 M&beta; || -5 M&beta;/tour || 10 marron/jaune/bleu/blanc/vert || -
+|rowspan="8"| Stockage || -20 M&beta; || -5 M&beta;/tour || 10 marron/jaune/bleu/blanc/vert || - || 2
 |-
-                        | -10 M&beta; || -4 M&beta;/tour || 20 marron || -
+                        | -10 M&beta; || -4 M&beta;/tour || 20 marron || - || 2
 |-
-                        | -10 M&beta; || -3 M&beta;/tour || 10 jaune || -
+                        | -10 M&beta; || -3 M&beta;/tour || 10 jaune || - || 2
 |-
-                        | -10 M&beta; || -2 M&beta;/tour || 10 bleu || -
+                        | -10 M&beta; || -2 M&beta;/tour || 10 bleu || - || 2
 |-
-                        | -10 M&beta; || -2 M&beta;/tour || 10 blanc || -
+                        | -10 M&beta; || -2 M&beta;/tour || 10 blanc || - || 2
 |-
-                        | -10 M&beta; || -2 M&beta;/tour || 10 vert || -
+                        | -10 M&beta; || -2 M&beta;/tour || 10 vert || - || 2
 |-
-                        | -10 M&beta; || -2 M&beta;/tour || 5 mauve || -
+                        | -10 M&beta; || -2 M&beta;/tour || 5 mauve || - || 2
 |-
-                        | -50 M&beta; || -10 M&beta;/tour || 5 noir || -
+                        | -50 M&beta; || -10 M&beta;/tour || 5 noir || - || 2
 |-
-|rowspan="1"| Décontamination || -20 M&beta; || -2 M&beta;/cube || 2 mauve || ?
+|rowspan="1"| Décontamination || -20 M&beta; || -2 M&beta;/cube || 2 mauve || ? || 3
 |-
-|rowspan="2"| Incinération || -10 M&beta; || +2 M&beta;/cube || 2 marron/jaune/bleu/vert || ?
+|rowspan="2"| Incinération || -10 M&beta; || +2 M&beta;/cube || 2 marron/jaune/bleu/vert || ? || 3
 |-
-                            | -30 M&beta; || +1 M&beta;/cube || 5 marron || ?
+                            | -30 M&beta; || +1 M&beta;/cube || 5 marron || ? || 3
 |-
-|rowspan="4"| Recyclage || -10 M&beta; || -1 M&beta;/cube || 3 jaune || ?
+|rowspan="4"| Recyclage || -10 M&beta; || -1 M&beta;/cube || 3 jaune || ? || 3
 |-
-                         | -30 M&beta; || -2 M&beta;/cube || 6 bleu || ?
+                         | -30 M&beta; || -2 M&beta;/cube || 6 bleu || ? || 3
 |-
-                         | -20 M&beta; || -2 M&beta;/cube || 3 blanc || ?
+                         | -20 M&beta; || -2 M&beta;/cube || 3 blanc || ? || 3
 |-
-                         | -10 M&beta; || 0 || 2 vert || ?
+                         | -10 M&beta; || 0 || 2 vert || ? || 3
 |-
 |}
 
