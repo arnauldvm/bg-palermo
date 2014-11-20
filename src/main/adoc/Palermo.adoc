@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4110
-:revdate: 2014-10-09
-//:revremark: (Plateaux personnels): Présentation
+:revnumber: W4115
+:revdate: 2014-11-20
+//:revremark: Change couleur cubes déchets ménagers (marron ald gris)
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -40,7 +40,7 @@ Le matériel
 "méga-blork" et se note M{beta})
 * des cubes de différentes couleurs représentant différents types de
 *déchets* (1 cube = 1 tonne) :
-** ménagers (gris)
+** ménagers (marron)
 ** papiers/cartons (jaune)
 ** emballages (bleu)
 ** verre (blanc)
@@ -68,12 +68,12 @@ capacité illimitée
 permettent d'accueillir des cubes en attente de traitement, chaque
 joueur démarre la partie avec un espace de stockage (imprimé sur le
 tableau personnel) pour 10 cubes de couleurs variées parmi
-gris/jaune/bleu/blanc/vert avec un coût de fonctionnement de 5 M{beta}
-par tour
+marron/jaune/bleu/blanc/vert avec un coût de fonctionnement de 5
+M{beta} par tour
 ** décontamination : on y place les cartes "usine de décontamination"
 ** incinération : on y place les cartes "usine d'incinération", chaque
 joueur démarre la partie avec une usine d'incinération (imprimée sur le
-tableau personnel) d'une capacité de 2 cubes gris/jaune/bleu/vert et
+tableau personnel) d'une capacité de 2 cubes marron/jaune/bleu/vert et
 rapportant 1 M{beta} par cube brûlé
 ** recyclage : on y place les cartes "usine de recyclage"
 * des cartes représentants les différents **contrats publics**, chacune
@@ -403,12 +403,12 @@ Liste des contrats publics
 [cols=",,,",options="header",]
 |=======================================================================
 | |Livraison |Prix d'enchère initial |?durée de validité?
-.2+| vrac: |1 gris + 1 jaune + 1 bleu + 1 blanc + 1 vert |5 M{beta}
-|?
+.2+| vrac: |1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert |5
+M{beta} |?
 
 |1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |10 M{beta} |?
 
-.7+| trié: |5 gris |10 M{beta} |?
+.7+| trié: |5 marron |10 M{beta} |?
 
 |5 jaune |10 M{beta} |?
 
@@ -436,9 +436,9 @@ Liste des équipements industriels
 |Type |Prix d'achat |Coût de fonctionnement |Capacité en cubes |?durée
 de vie?
 .8+| Stockage |20 M{beta} |-5 M{beta}/tour |10
-gris/jaune/bleu/blanc/vert |-
+marron/jaune/bleu/blanc/vert |-
 
-|10 M{beta} |-4 M{beta}/tour |20 gris |-
+|10 M{beta} |-4 M{beta}/tour |20 marron |-
 
 |10 M{beta} |-3 M{beta}/tour |10 jaune |-
 
@@ -455,9 +455,9 @@ gris/jaune/bleu/blanc/vert |-
 .1+| Décontamination |20 M{beta} |-2 M{beta}/cube |2 mauve |?
 
 .2+| Incinération |10 M{beta} |+2 M{beta}/cube |2
-gris/jaune/bleu/vert |?
+marron/jaune/bleu/vert |?
 
-|30 M{beta} |+1 M{beta}/cube |5 gris |?
+|30 M{beta} |+1 M{beta}/cube |5 marron |?
 
 .4+| Recyclage |10 M{beta} |-1 M{beta}/cube |3 jaune |?
 
@@ -524,7 +524,7 @@ Tarifs de la Mafia
 
 [cols=",,,,,,,",options="header",]
 |=======================================================================
-|cubes |ménagers{br}(gris) |papiers/cartons{br}(jaune)
+|cubes |ménagers{br}(marron) |papiers/cartons{br}(jaune)
 |emballages{br}(bleu) |verre{br}(blanc) |végétaux{br}(vert)
 |chimiques{br}(mauve) |nucléaires{br}(noir)
 |0-5 5+| 1 M{beta} |3 M{beta} |15 M{beta}

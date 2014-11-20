@@ -12,7 +12,7 @@ Qui deviendra le plus riche ?
 == Le matériel ==
 * des jetons représentant '''l'argent''' (l'unité monétaire est le "méga-blork" et se note M&beta;)
 * des cubes de différentes couleurs représentant différents types de '''déchets''' (1 cube = 1 tonne) :
-** ménagers (gris)
+** ménagers (marron)
 ** papiers/cartons (jaune)
 ** emballages (bleu)
 ** verre (blanc)
@@ -29,9 +29,9 @@ Qui deviendra le plus riche ?
 * des '''plateaux individuels''' de couleurs différentes pour placer les usines et les déchets, ils sont divisés en 6 zones :
 ** livraison vrac : on y place les cubes correspondant aux contrats livrant des cubes de couleurs mélangées, cet espace transitoire a une capacité illimitée
 ** livraison trié : on y place les cubes correspondant aux contrats livrant des cubes de couleur unique, cet espace transitoire a une capacité illimitée
-** stockage : on y place les cartes "espace de stockage", celles-ci permettent d'accueillir des cubes en attente de traitement, chaque joueur démarre la partie avec un espace de stockage (imprimé sur le tableau personnel) pour 10 cubes de couleurs variées parmi gris/jaune/bleu/blanc/vert avec un coût de fonctionnement de 5 M&beta; par tour
+** stockage : on y place les cartes "espace de stockage", celles-ci permettent d'accueillir des cubes en attente de traitement, chaque joueur démarre la partie avec un espace de stockage (imprimé sur le tableau personnel) pour 10 cubes de couleurs variées parmi marron/jaune/bleu/blanc/vert avec un coût de fonctionnement de 5 M&beta; par tour
 ** décontamination : on y place les cartes "usine de décontamination"
-** incinération : on y place les cartes "usine d'incinération", chaque joueur démarre la partie avec une usine d'incinération (imprimée sur le tableau personnel) d'une capacité de 2 cubes gris/jaune/bleu/vert et rapportant 1 M&beta; par cube brûlé
+** incinération : on y place les cartes "usine d'incinération", chaque joueur démarre la partie avec une usine d'incinération (imprimée sur le tableau personnel) d'une capacité de 2 cubes marron/jaune/bleu/vert et rapportant 1 M&beta; par cube brûlé
 ** recyclage : on y place les cartes "usine de recyclage"
 * des cartes représentants les différents '''contrats publics''', chacune de ces cartes est caractérisée par :
 ** son prix d'enchère initial
@@ -202,11 +202,11 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
 ! !! Livraison !! Prix d'enchère initial !! ?durée de validité?
 |-
-|rowspan="2"| vrac: || 1 gris + 1 jaune + 1 bleu + 1 blanc + 1 vert || 5 M&beta; || ?
+|rowspan="2"| vrac: || 1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert || 5 M&beta; || ?
 |-
                      | 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve || 10 M&beta; || ?
 |-
-|rowspan="7"| trié: || 5 gris || 10 M&beta; || ?
+|rowspan="7"| trié: || 5 marron || 10 M&beta; || ?
 |-
                      | 5 jaune || 10 M&beta; || ?
 |-
@@ -232,9 +232,9 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
 ! Type !! Prix d'achat !! Coût de fonctionnement !! Capacité en cubes !! ?durée de vie?
 |-
-|rowspan="8"| Stockage || 20 M&beta; || -5 M&beta;/tour || 10 gris/jaune/bleu/blanc/vert || -
+|rowspan="8"| Stockage || 20 M&beta; || -5 M&beta;/tour || 10 marron/jaune/bleu/blanc/vert || -
 |-
-                        | 10 M&beta; || -4 M&beta;/tour || 20 gris || -
+                        | 10 M&beta; || -4 M&beta;/tour || 20 marron || -
 |-
                         | 10 M&beta; || -3 M&beta;/tour || 10 jaune || -
 |-
@@ -250,9 +250,9 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
 |rowspan="1"| Décontamination || 20 M&beta; || -2 M&beta;/cube || 2 mauve || ?
 |-
-|rowspan="2"| Incinération || 10 M&beta; || +2 M&beta;/cube || 2 gris/jaune/bleu/vert || ?
+|rowspan="2"| Incinération || 10 M&beta; || +2 M&beta;/cube || 2 marron/jaune/bleu/vert || ?
 |-
-                            | 30 M&beta; || +1 M&beta;/cube || 5 gris || ?
+                            | 30 M&beta; || +1 M&beta;/cube || 5 marron || ?
 |-
 |rowspan="4"| Recyclage || 10 M&beta; || -1 M&beta;/cube || 3 jaune || ?
 |-
@@ -318,7 +318,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 {|border="1" style="border-collapse:collapse; text-align:center"
 |-
 ! cubes
-         ! ménagers<br>(gris)
+         ! ménagers<br>(marron)
                       ! papiers/cartons<br>(jaune)
                                    ! emballages<br>(bleu)
                                                 ! verre<br>(blanc)
