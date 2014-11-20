@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4122
+:revnumber: W4123
 :revdate: 2014-11-20
-//:revremark: ([C] Investissements): Destruction des équipements
+//:revremark: ([C] Investissements): On peut défausser
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -323,6 +323,8 @@ joueur.
 zones de stockage) qu'on peut posséder. (?En fait il en faudrait une!)
 * ?durée de validité : poser autant de pions "durée de vie" sur les
 cartes nouvellement acquises?
+* Défausser 0, 1, 2, ou 3 carte(s) de sa main. Les poser sur la
+défausse.
 * Quand toutes les ventes du joueur sont terminées, il complète sa main
 en récupérant une carte à la fois parmi les cartes visibles disponibles
 et la première carte (cachée) de la pile. Remplacer une carte visible
