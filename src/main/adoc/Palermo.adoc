@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4124
+:revnumber: W4125
 :revdate: 2014-11-20
-//:revremark: ([C] Investissements): Remplacement de la pile
+//:revremark: ([D] Nouveaux contrats publics): Remplacement de la pile
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -380,7 +380,9 @@ suivantes.
 * Une fois qu'un joueur a obtenu un contrat, il ne participe plus à
 aucune enchère pour ce tour.
 * Lorsque toutes les n cartes ont été proposées, on retourne les n
-cartes suivantes et la phase se termine.
+cartes suivantes et la phase se termine. Lorsqu'on tire la dernière
+carte de la pile, mélanger toutes les cartes de la défausse et les poser
+face cachée comme nouvelle pile.
 * Il est possible qu'un joueur se retrouve seul pour la dernière
 enchère. Il aura donc la chance de pouvoir, s'il le désire, conclure le
 dernier contrat au prix maximum.

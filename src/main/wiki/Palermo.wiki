@@ -183,7 +183,7 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 * ?durée de validité : poser autant de pions "durée de vie" sur la carte?
 * Les joueurs ayant passé peuvent à nouveau participer aux enchères suivantes.
 * Une fois qu'un joueur a obtenu un contrat, il ne participe plus à aucune enchère pour ce tour.
-* Lorsque toutes les n cartes ont été proposées, on retourne les n cartes suivantes et la phase se termine.
+* Lorsque toutes les n cartes ont été proposées, on retourne les n cartes suivantes et la phase se termine. Lorsqu'on tire la dernière carte de la pile, mélanger toutes les cartes de la défausse et les poser face cachée comme nouvelle pile.
 * Il est possible qu'un joueur se retrouve seul pour la dernière enchère. Il aura donc la chance de pouvoir, s'il le désire, conclure le dernier contrat au prix maximum.
 
 === [E] Nettoyage des plateaux ===
