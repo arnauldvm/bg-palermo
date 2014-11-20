@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4120
+:revnumber: W4121
 :revdate: 2014-11-20
-//:revremark: ((3) Stockage): On peut changer la répartition
+//:revremark: ([C] Investissements): Pas de limite au nombre d'équipements
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -317,7 +317,10 @@ achat supérieur à ces moyens.*
 * ?durée de validité -> commencer par retirer un pion "durée de vie" de
 chaque usine déjà présente sur le plateau individuel du joueur?
 * Poser une/des carte(s) équipement industriel de sa main et payer le(s)
-coût(s). On peut acheter 0, 1, 2, ou 3 carte(s), au choix du joueur.
+coût(s). On peut acheter 0, 1, 2, ou 3 carte(s) par tour, au choix du
+joueur.
+* Il n'y a pas de limite au nombre d'équipements industriels (usines et
+zones de stockage) qu'on peut posséder. (?En fait il en faudrait une!)
 * ?durée de validité : poser autant de pions "durée de vie" sur les
 cartes nouvellement acquises?
 * Quand toutes les ventes du joueur sont terminées, il complète sa main
