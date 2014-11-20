@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4126
+:revnumber: W4127
 :revdate: 2014-11-20
-//:revremark: ([D] Nouveaux contrats publics): Précisions sur le premier joueur
+//:revremark: (Liste des contrats publics): Les "prix" d'enchère sont des revenus => "+"
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -426,24 +426,24 @@ Liste des contrats publics
 [cols=",,,",options="header",]
 |=======================================================================
 | |Livraison |Prix d'enchère initial |?durée de validité?
-.2+| vrac: |1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert |5
+.2+| vrac: |1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert |+5
 M{beta} |?
 
-|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |10 M{beta} |?
+|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |+10 M{beta} |?
 
-.7+| trié: |5 marron |10 M{beta} |?
+.7+| trié: |5 marron |10 +M{beta} |?
 
-|5 jaune |10 M{beta} |?
+|5 jaune |10 +M{beta} |?
 
-|5 bleu |15 M{beta} |?
+|5 bleu |15 +M{beta} |?
 
-|5 blanc |5 M{beta} |?
+|5 blanc |5 +M{beta} |?
 
-|5 vert |10 M{beta} |?
+|5 vert |10 +M{beta} |?
 
-|3 mauves |20 M{beta} |?
+|3 mauves |20 +M{beta} |?
 
-|1 noir |50 M{beta} |?
+|1 noir |50 +M{beta} |?
 |=======================================================================
 
 {br}
