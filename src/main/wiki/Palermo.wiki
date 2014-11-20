@@ -269,6 +269,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
                          | -10 M&beta; || 0 || 2 vert || ? || 3
 |-
+|colspan="5"| || &nbsp;22&nbsp;
 |}
 
 <br>
