@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4123
+:revnumber: W4124
 :revdate: 2014-11-20
-//:revremark: ([C] Investissements): On peut défausser
+//:revremark: ([C] Investissements): Remplacement de la pile
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -329,7 +329,9 @@ défausse.
 en récupérant une carte à la fois parmi les cartes visibles disponibles
 et la première carte (cachée) de la pile. Remplacer une carte visible
 dès qu'elle est choisie par le joueur, en tirant une carte de la pile.
-Continuer jusqu'à ce que le joueur ait 3 cartes en main.
+Continuer jusqu'à ce que le joueur ait 3 cartes en main. Lorsqu'on tire
+la dernière carte de la pile, mélanger toutes les cartes de la défausse
+et les poser face cachée comme nouvelle pile.
 
 À cette phase, un joueur peut également décider de céder un de ses
 contrat publics à un autre joueur.

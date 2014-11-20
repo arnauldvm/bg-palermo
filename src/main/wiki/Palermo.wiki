@@ -160,7 +160,7 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 * Il n'y a pas de limite au nombre d'équipements industriels (usines et zones de stockage) qu'on peut posséder. (?En fait il en faudrait une!)
 * ?durée de validité : poser autant de pions "durée de vie" sur les cartes nouvellement acquises?
 * Défausser 0, 1, 2, ou 3 carte(s) de sa main. Les poser sur la défausse.
-* Quand toutes les ventes du joueur sont terminées, il complète sa main en récupérant une carte à la fois parmi les cartes visibles disponibles et la première carte (cachée) de la pile. Remplacer une carte visible dès qu'elle est choisie par le joueur, en tirant une carte de la pile. Continuer jusqu'à ce que le joueur ait 3 cartes en main.
+* Quand toutes les ventes du joueur sont terminées, il complète sa main en récupérant une carte à la fois parmi les cartes visibles disponibles et la première carte (cachée) de la pile. Remplacer une carte visible dès qu'elle est choisie par le joueur, en tirant une carte de la pile. Continuer jusqu'à ce que le joueur ait 3 cartes en main. Lorsqu'on tire la dernière carte de la pile, mélanger toutes les cartes de la défausse et les poser face cachée comme nouvelle pile.
 
 À cette phase, un joueur peut également décider de céder un de ses contrat publics à un autre joueur.
 * Il est libre d'organiser la vente comme il le souhaite (bilatéral, enchères ...).
