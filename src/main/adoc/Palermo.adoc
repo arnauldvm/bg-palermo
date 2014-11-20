@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4119
+:revnumber: W4120
 :revdate: 2014-11-20
-//:revremark: (Phases de jeu): Numéroter des phases
+//:revremark: ((3) Stockage): On peut changer la répartition
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -241,6 +241,8 @@ liquidités, la Mafia prête obligatoirement l'argent manquant (voir plus
 loin).
 * Prendre des cubes de la *zone de livraison trié* et les poser sur les
 espaces de stockage **de la couleur correspondante**.
+* Pendant cette action, le joueur peut librement changer la répartition
+des cubes présents dans l'ensemble de ces zones de stockage.
 * Le joueur n'est pas obligé de stocker tous ses cubes présents dans la
 zone de livraison trié, mais ...
 * *Au terme de cette étape les cubes restants dans la zone de livraison
