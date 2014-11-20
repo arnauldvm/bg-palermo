@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4121
+:revnumber: W4122
 :revdate: 2014-11-20
-//:revremark: ([C] Investissements): Pas de limite au nombre d'équipements
+//:revremark: ([C] Investissements): Destruction des équipements
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -337,6 +337,10 @@ enchères ...).
 * *Attention, cette vente ne peut avoir lieu _qu'après_ la phase Mafia.
 Donc, on ne peut pas éviter de s'endetter par ce biais. De plus, si on
 est endetté, le produit de la vente sera d'abord récupéré par la Mafia.*
+
+À cette phase, un joueur peut également décider de détruire une de ces
+cartes équipement. il pose la carte sur la défausse. Il ne paye (ni ne
+reçoit) rien pour cela.
 
 [[d-nouveaux-contrats-publics]]
 [D] Nouveaux contrats publics
