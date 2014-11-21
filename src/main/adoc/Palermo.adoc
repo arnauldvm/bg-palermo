@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4166
+:revnumber: W4167
 :revdate: 2014-11-21
-//:revremark: ([D] Nouveaux contrats publics): Durée de vie
+//:revremark: ([C] Investissements): Durée de vie
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -332,15 +332,15 @@ achat supérieur à ces moyens.*
 
 image:Usine.gif["Usine.gif",title="fig:Usine.gif",width=180]image:31014473_zoom945.jpg["31014473_zoom945.jpg",title="fig:31014473_zoom945.jpg",width=180]
 
-* ?durée de validité -> commencer par retirer un pion "durée de vie" de
-chaque usine déjà présente sur le plateau individuel du joueur?
+* Commencer par retirer un pion "durée de vie" de chaque équipement déjà
+présent sur le plateau individuel du joueur
 * Poser une/des carte(s) équipement industriel de sa main et payer le(s)
 coût(s). On peut acheter 0, 1, 2, ou 3 carte(s) par tour, au choix du
 joueur.
 * Il n'y a pas de limite au nombre d'équipements industriels (usines et
 zones de stockage) qu'on peut posséder. (?En fait il en faudrait une!)
-* ?durée de validité : poser autant de pions "durée de vie" sur les
-cartes nouvellement acquises?
+* Poser les pions "durée de vie" sur les cartes nouvellement acquises
+(le nombre doit correspondre à la durée de validité de l'équipement)
 * Défausser 0, 1, 2, ou 3 carte(s) de sa main. Les poser sur la
 défausse.
 * Quand toutes les ventes du joueur sont terminées, il complète sa main
