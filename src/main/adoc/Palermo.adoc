@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4161
+:revnumber: W4163
 :revdate: 2014-11-21
-//:revremark: (Phases de jeu): Numéroter des phases
+//:revremark: ((5) Mafia): Ajout illustration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -303,6 +303,7 @@ autres zones de son plateau personnel.
 Contracter une dette
 ++++++++++++++++++++
 
+image:6a00d8341cb44a53ef01347fc22351970c.jpg["6a00d8341cb44a53ef01347fc22351970c.jpg",title="fig:6a00d8341cb44a53ef01347fc22351970c.jpg",width=180]
 Si on n'a pas assez d'argent pour payer la Mafia, on est mal !
 
 * Déplacer le pion du joueur sur la piste dette à la Mafia (plateau
