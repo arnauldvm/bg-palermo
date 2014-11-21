@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4158
+:revnumber: W4160
 :revdate: 2014-11-21
-//:revremark: ([E] Nettoyage des plateaux): Ajout illustration
+//:revremark: ((1) Vente de matériaux): Ajout illustration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -192,6 +192,8 @@ les usines**.
 [[vente-de-materiaux]]
 (1) Vente de matériaux
 ^^^^^^^^^^^^^^^^^^^^^^
+
+image:STOCK-MARKET-IMAGE.jpg["STOCK-MARKET-IMAGE.jpg",title="fig:STOCK-MARKET-IMAGE.jpg",width=180]
 
 * La vente se fait cube par cube. Retirer chaque cube de la *zone de
 recyclage* et le placer dans la zone bourse correspondante du plateau
