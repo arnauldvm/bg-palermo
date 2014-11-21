@@ -146,7 +146,7 @@ Un joueur peut payer la Mafia pour l'aider à se débarrasser de cubes encombran
 * En plus des cubes obligatoires (cf. étapes 3 et 4 : Stockage et Tri), le joueur peut éliminer des cubes volontairement de n'importe quelles autres zones de son plateau personnel.
 
 ===== Contracter une dette =====
-
+[[File:6a00d8341cb44a53ef01347fc22351970c.jpg|thumb]]
 Si on n'a pas assez d'argent pour payer la Mafia, on est mal !
 * Déplacer le pion du joueur sur la piste dette à la Mafia (plateau central) d'un nombre de case correspondant à la dette.
 * Dorénavant toute somme perçue par le joueur sera "prélevée à la source" par la Mafia. La dette diminuera de 1 M&beta; à chaque fois que la Mafia en récupère 2 !
