@@ -14,14 +14,14 @@ Qui deviendra le plus riche ?
 == Le matériel ==
 * des jetons représentant '''l'argent''' (l'unité monétaire est le "méga-blork" et se note M&beta;)
 * des cubes de différentes couleurs représentant différents types de '''déchets''' (1 cube = 1 tonne) :
-** ménagers (marron)
-** papiers/cartons (jaune)
-** emballages (bleu)
-** verre (blanc)
-** végétaux (vert)
-** chimiques (mauve)
+** ménagers (marron)[[File:Sacs-dechets-en-polyet-000013219-4.jpg|thumb]]
+** papiers/cartons (jaune)[[File:Poubelle_dechets.png|thumb]]
+** emballages (bleu)[[File:5300327.jpg|thumb]]
+** verre (blanc)[[File:Verre.jpg|thumb]]
+** végétaux (vert)[[File:Compost_101117_art.jpg|thumb]]
+** chimiques (mauve)[[File:Dchets_dangereux.png|thumb]]
 ** <s>?hopitaux? (rouge)</s>
-** ?nucléaires? (noir)
+** ?nucléaires? (noir)[[File:4ea6c9331a301.jpg|thumb]]
 ** ...
 * des cartes représentant les différents '''équipements industriels''' (usines et espaces de stockage) permettant de traiter les déchets, chacune de ces cartes est caractérisée par :
 ** son type (usine / stockage)
