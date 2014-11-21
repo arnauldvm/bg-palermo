@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4167
+:revnumber: W4168
 :revdate: 2014-11-21
-//:revremark: ([C] Investissements): Durée de vie
+//:revremark: ([A] Gestion des contrats): Durée de vie
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -160,7 +160,8 @@ déchets mélangés) ou "livraison trié" (si le contrat concerne un seul
 type de déchets) de son plateau individuel. Le joueur n'a pas le droit
 de prendre moins de cubes que prévu.
 image:1062854_1410661_800x400.jpg["1062854_1410661_800x400.jpg",title="fig:1062854_1410661_800x400.jpg",width=280]
-* retirer un pion "durée de vie" de chaque carte
+* retirer un pion "durée de vie" de chaque carte contrat présente sur le
+plateau du joueur
 
 [[b-traitement-des-dechets]]
 [B] Traitement des déchets
