@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4146
+:revnumber: W4147
 :revdate: 2014-11-21
-//:revremark: ([A] Gestion des contrats): Ajout illustration
+//:revremark: ([D] Nouveaux contrats publics): Ajout illustration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -360,6 +360,8 @@ reçoit) rien pour cela.
 [[d-nouveaux-contrats-publics]]
 [D] Nouveaux contrats publics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+image:De-mesmaeker.gif["De-mesmaeker.gif",title="fig:De-mesmaeker.gif",width=180]
 
 * Enchères inversées.
 ** Le _premier_ joueur choisit une des cartes contrats visibles. (À
