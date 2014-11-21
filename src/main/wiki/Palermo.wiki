@@ -182,7 +182,7 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 * Si personne ne propose d'enchère, la carte est défaussée.
 * Il parfaitement autorisé pour un joueur de proposer un prix nul, voire négatif (auquel cas il devra payer la livraison à chaque tour, mais attention en cas de manque de liquidités : c'est la Mafia qui prêtera l'argent manquant !)
 * Une fois l'enchère conclue, il faut garder la trace du montant final : c'est ce que le joueur ayant conclu le contrat touchera à chaque tour. (Conseil: pose sur la carte contrat des jetons argent correspondant à ce montant)
-* ?durée de validité : poser autant de pions "durée de vie" sur la carte?
+* Poser les pions "durée de vie" sur la carte (le nombre doit correspondre à la '''durée de validité''' du contrat)
 * Les joueurs ayant passé peuvent à nouveau participer aux enchères suivantes.
 * Une fois qu'un joueur a obtenu un contrat, il ne participe plus à aucune enchère pour ce tour.
 * Lorsque toutes les n cartes ont été proposées, on retourne les n cartes suivantes et la phase se termine. Lorsqu'on tire la dernière carte de la pile, mélanger toutes les cartes de la défausse et les poser face cachée comme nouvelle pile.

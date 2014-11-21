@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4165
+:revnumber: W4166
 :revdate: 2014-11-21
-//:revremark: ([E] Nettoyage des plateaux): Durée de vie
+//:revremark: ([D] Nouveaux contrats publics): Durée de vie
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -395,8 +395,8 @@ l'argent manquant !)
 c'est ce que le joueur ayant conclu le contrat touchera à chaque tour.
 (Conseil: pose sur la carte contrat des jetons argent correspondant à ce
 montant)
-* ?durée de validité : poser autant de pions "durée de vie" sur la
-carte?
+* Poser les pions "durée de vie" sur la carte (le nombre doit
+correspondre à la *durée de validité* du contrat)
 * Les joueurs ayant passé peuvent à nouveau participer aux enchères
 suivantes.
 * Une fois qu'un joueur a obtenu un contrat, il ne participe plus à
