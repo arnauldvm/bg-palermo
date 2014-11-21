@@ -100,14 +100,14 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs depuis
 * Le prix de vente d'un cube est déterminé sur le plateau central, en fonction du nombre de cubes déjà présent sur le plateau central. (Simulation de l'offre et de la demande)
 * Le joueur n'est pas obligé de vendre tous ses cubes présents dans la zone de recyclage.
 
-==== 2. Recyclage ====
+==== (2) Recyclage ====
 
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines de recyclage '''de la couleur correspondante'''.
 * (Seuls les déchets de type papiers/cartons, emballages, verre, végétaux peuvent être recyclés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de fonctionnement).
 * Le joueur n'est pas obligé de recycler tous ses cubes présents dans la zone de stockage.
 
-==== 2. Incinération ====
+==== (2) Incinération ====
 
 * Prendre des cube de la '''zone de stockage''' et les poser sur les usines d'incinération '''de la couleur correspondante'''.
 * (Seuls les déchets de type ménagers, papiers/cartons, emballages, végétaux peuvent être incinérés.)
