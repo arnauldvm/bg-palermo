@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4149
+:revnumber: W4151
 :revdate: 2014-11-21
-//:revremark: ([A] Gestion des contrats): Correction illustration
+//:revremark: ([A] Gestion des contrats): Ajout illustration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -149,9 +149,8 @@ Phases de jeu
 [A] Gestion des contrats
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-image:Blog_cash_payment.jpg["Blog_cash_payment.jpg",title="fig:Blog_cash_payment.jpg",width=180]
-
 * On touche le montant de tous les contrats "positifs".
+image:Blog_cash_payment.jpg["Blog_cash_payment.jpg",title="fig:Blog_cash_payment.jpg",width=180]
 * Ensuite, on paye le montant de tous les contrats "négatifs". En cas de
 manque de liquidités, l'argent manquant est obligatoirement prêté par la
 Mafia (voir plus loin).
@@ -160,6 +159,7 @@ pour l'instant sur la zone "livraison vrac" (si le contrat concerne des
 déchets mélangés) ou "livraison trié" (si le contrat concerne un seul
 type de déchets) de son plateau individuel. Le joueur n'a pas le droit
 de prendre moins de cubes que prévu.
+image:1062854_1410661_800x400.jpg["1062854_1410661_800x400.jpg",title="fig:1062854_1410661_800x400.jpg",width=280]
 * ?durée de validité -> retirer un pion "durée de vie"?
 
 [[b-traitement-des-dechets]]

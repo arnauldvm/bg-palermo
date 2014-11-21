@@ -69,10 +69,10 @@ Les phases sont, dans l'ordre :
 == Phases de jeu ==
 
 === [A] Gestion des contrats ===
-[[File:Blog_cash_payment.jpg|thumb]]
-* On touche le montant de tous les contrats "positifs".
+
+* On touche le montant de tous les contrats "positifs". [[File:Blog_cash_payment.jpg|thumb]]
 * Ensuite, on paye le montant de tous les contrats "négatifs". En cas de manque de liquidités, l'argent manquant est obligatoirement prêté par la Mafia (voir plus loin).
-* On reçoit '''tous''' les cubes indiqués sur les contrats et on les pose pour l'instant sur la zone "livraison vrac" (si le contrat concerne des déchets mélangés) ou "livraison trié" (si le contrat concerne un seul type de déchets) de son plateau individuel. Le joueur n'a pas le droit de prendre moins de cubes que prévu.
+* On reçoit '''tous''' les cubes indiqués sur les contrats et on les pose pour l'instant sur la zone "livraison vrac" (si le contrat concerne des déchets mélangés) ou "livraison trié" (si le contrat concerne un seul type de déchets) de son plateau individuel. Le joueur n'a pas le droit de prendre moins de cubes que prévu. [[File:1062854_1410661_800x400.jpg|thumb|280px]]
 * ?durée de validité -> retirer un pion "durée de vie"?
 
 === [B] Traitement des déchets ===
