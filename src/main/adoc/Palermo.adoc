@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4135
-:revdate: 2014-11-20
-//:revremark: Cover image
+:revnumber: W4144
+:revdate: 2014-11-21
+//:revremark: (Le matériel): Add illustrations
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -42,14 +42,21 @@ Le matériel
 "méga-blork" et se note M{beta})
 * des cubes de différentes couleurs représentant différents types de
 *déchets* (1 cube = 1 tonne) :
-** ménagers (marron)
-** papiers/cartons (jaune)
-** emballages (bleu)
-** verre (blanc)
-** végétaux (vert)
-** chimiques (mauve)
+** ménagers
+(marron)image:Sacs-dechets-en-polyet-000013219-4.jpg["Sacs-dechets-en-polyet-000013219-4.jpg",title="fig:Sacs-dechets-en-polyet-000013219-4.jpg",width=180]
+** papiers/cartons
+(jaune)image:Poubelle_dechets.png["Poubelle_dechets.png",title="fig:Poubelle_dechets.png",width=180]
+** emballages
+(bleu)image:5300327.jpg["5300327.jpg",title="fig:5300327.jpg",width=180]
+** verre
+(blanc)image:Verre.jpg["Verre.jpg",title="fig:Verre.jpg",width=180]
+** végétaux
+(vert)image:Compost_101117_art.jpg["Compost_101117_art.jpg",title="fig:Compost_101117_art.jpg",width=180]
+** chimiques
+(mauve)image:Dchets_dangereux.png["Dchets_dangereux.png",title="fig:Dchets_dangereux.png",width=180]
 ** [line-through]#?hopitaux? (rouge)#
-** ?nucléaires? (noir)
+** ?nucléaires?
+(noir)image:4ea6c9331a301.jpg["4ea6c9331a301.jpg",title="fig:4ea6c9331a301.jpg",width=180]
 ** ...
 * des cartes représentant les différents *équipements industriels*
 (usines et espaces de stockage) permettant de traiter les déchets,
