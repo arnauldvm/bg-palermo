@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4147
+:revnumber: W4149
 :revdate: 2014-11-21
-//:revremark: ([D] Nouveaux contrats publics): Ajout illustration
+//:revremark: ([A] Gestion des contrats): Correction illustration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -149,7 +149,7 @@ Phases de jeu
 [A] Gestion des contrats
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-image:De-mesmaeker.gif["De-mesmaeker.gif",title="fig:De-mesmaeker.gif",width=180]
+image:Blog_cash_payment.jpg["Blog_cash_payment.jpg",title="fig:Blog_cash_payment.jpg",width=180]
 
 * On touche le montant de tous les contrats "positifs".
 * Ensuite, on paye le montant de tous les contrats "négatifs". En cas de
