@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4156
+:revnumber: W4158
 :revdate: 2014-11-21
-//:revremark: ([C] Investissements): Ajout illustrations
+//:revremark: ([E] Nettoyage des plateaux): Ajout illustration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -409,6 +409,8 @@ dernier contrat au prix maximum.
 [[e-nettoyage-des-plateaux]]
 [E] Nettoyage des plateaux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+image:Broom_icon.png["Broom_icon.png",title="fig:Broom_icon.png",width=180]
 
 * Retirer de la bourse (sur le plateau central) la moitié (arrondi au
 **supérieur**) de chaque couleur de cube. (?alternativement : le nombre
