@@ -171,7 +171,7 @@ La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer u
 À cette phase, un joueur peut également décider de détruire une de ces cartes équipement. il pose la carte sur la défausse. Il ne paye (ni ne reçoit) rien pour cela.
 
 ===  [D] Nouveaux contrats publics ===
-
+[[File:De-mesmaeker.gif|thumb]]
 * Enchères inversées.
 ** Le ''premier'' joueur choisit une des cartes contrats visibles. (À moins qu'il ne décide de passer.) Si le premier joueur ne participe plus aux enchères, c'est le premier joueur à sa droite, parmi ceux qui n'ont pas encore remporté d'enchère à ce tour-ci.
 ** Le prix de départ est indiqué sur la carte. (Le prix représente ce que le détenteur du contrat touchera à chaque tour pour le traitement de la quantité de déchets prévue.)
