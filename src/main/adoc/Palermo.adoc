@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4160
+:revnumber: W4161
 :revdate: 2014-11-21
-//:revremark: ((1) Vente de matériaux): Ajout illustration
+//:revremark: (Phases de jeu): Numéroter des phases
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -205,8 +205,8 @@ fonction du nombre de cubes déjà présent sur le plateau central.
 zone de recyclage.
 
 [[recyclage]]
-2. Recyclage
-^^^^^^^^^^^^
+(2) Recyclage
+^^^^^^^^^^^^^
 
 * Prendre des cube de la *zone de stockage* et les poser sur les usines
 de recyclage **de la couleur correspondante**.
@@ -218,8 +218,8 @@ fonctionnement).
 zone de stockage.
 
 [[incineration]]
-2. Incinération
-^^^^^^^^^^^^^^^
+(2) Incinération
+^^^^^^^^^^^^^^^^
 
 * Prendre des cube de la *zone de stockage* et les poser sur les usines
 d'incinération **de la couleur correspondante**.
