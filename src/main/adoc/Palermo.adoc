@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4164
+:revnumber: W4165
 :revdate: 2014-11-21
-//:revremark: ([A] Gestion des contrats): Durée de vie
+//:revremark: ([E] Nettoyage des plateaux): Durée de vie
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -422,6 +422,9 @@ de cubes retirés est plus ou moins aléatoire?).
 **l'inférieur**) des cubes (peu importent les couleurs).
 * Retirer les cubes présents sur les usines d'incinération et de
 décontamination de chaque joueur.
+* Chaque joueur retourne à leur défausse les cartes arrivées à la fin de
+leur durée de validité (quand il n'y a plus de pion "durée de vie"
+présent sur la carte)
 * Tous les cubes retirés sont retournés à la réserve commune.
 * Le pion premier joueur passe au joueur le moins riche. En cas
 d'égalité, on choisi parmi les joueurs à égalité celui qui est le
