@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4151
+:revnumber: W4153
 :revdate: 2014-11-21
-//:revremark: ([A] Gestion des contrats): Ajout illustration
+//:revremark: ((5) Mafia): Ajout illustration
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -276,6 +276,8 @@ loin)
 [[mafia]]
 (5) Mafia
 ^^^^^^^^^
+
+image:0.jpg["0.jpg",title="fig:0.jpg",width=180]
 
 [[se-debarrasser-de-dechets-encombrants]]
 Se débarrasser de déchets encombrants
