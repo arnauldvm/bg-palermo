@@ -156,7 +156,7 @@ Si on n'a pas assez d'argent pour payer la Mafia, on est mal !
 La même procédure est appliquée lorsqu'on n'a pas assez d'argent pour payer une livraison de déchets (contrats "négatifs") ou un coût de stockage. Dans ces cas (et uniquement ceux-là), la Mafia prête 'généreusement' la somme manquante. '''Un joueur ne peut jamais s'endetter volontairement de manière directe, par exemple en faisant un achat supérieur à ces moyens.'''
 
 === [C] Investissements ===
-
+[[File:Usine.gif|thumb]][[File:31014473_zoom945.jpg|thumb]]
 * ?durée de validité -> commencer par retirer un pion "durée de vie" de chaque usine déjà présente sur le plateau individuel du joueur?
 * Poser une/des carte(s) équipement industriel de sa main et payer le(s) coût(s). On peut acheter 0, 1, 2, ou 3 carte(s) par tour, au choix du joueur.
 * Il n'y a pas de limite au nombre d'équipements industriels (usines et zones de stockage) qu'on peut posséder. (?En fait il en faudrait une!)

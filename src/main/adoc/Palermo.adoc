@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4153
+:revnumber: W4156
 :revdate: 2014-11-21
-//:revremark: ((5) Mafia): Ajout illustration
+//:revremark: ([C] Investissements): Ajout illustrations
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -326,6 +326,8 @@ achat supérieur à ces moyens.*
 [[c-investissements]]
 [C] Investissements
 ~~~~~~~~~~~~~~~~~~~
+
+image:Usine.gif["Usine.gif",title="fig:Usine.gif",width=180]image:31014473_zoom945.jpg["31014473_zoom945.jpg",title="fig:31014473_zoom945.jpg",width=180]
 
 * ?durée de validité -> commencer par retirer un pion "durée de vie" de
 chaque usine déjà présente sur le plateau individuel du joueur?
