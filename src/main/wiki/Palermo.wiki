@@ -212,9 +212,9 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
 ! !! Livraison !! Prix d'enchère initial !! durée de validité !! &nbsp;#&nbsp;
 |-
-|rowspan="2"| vrac: || 1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert || +5 M&beta; || ? || 4
+|rowspan="2"| vrac: || 1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert || +5 M&beta; || 10 tours || 4
 |-
-                     | 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve || +10 M&beta; || ? || 4
+                     | 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve || +10 M&beta; || 10 tours || 4
 |-
 |rowspan="7"| trié: || 5 marron || +5 M&beta; || 10 tours || 2
 |-
