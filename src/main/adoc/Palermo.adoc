@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4168
-:revdate: 2014-11-21
-//:revremark: ([A] Gestion des contrats): Durée de vie
+:revnumber: W4169
+:revdate: 2014-11-24
+//:revremark: (Liste des contrats publics): Mise à jours des paramètres (triés) (cf. simulation)
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -451,25 +451,25 @@ Liste des contrats publics
 
 [cols=",,,,",options="header",]
 |=======================================================================
-| |Livraison |Prix d'enchère initial |?durée de validité? | # 
+| |Livraison |Prix d'enchère initial |durée de validité | # 
 .2+| vrac: |1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert |+5
 M{beta} |? |4
 
 |1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |+10 M{beta} |? |4
 
-.7+| trié: |5 marron |10 +M{beta} |? |2
+.7+| trié: |5 marron |+5 M{beta} |10 tours |2
 
-|5 jaune |10 +M{beta} |? |2
+|5 jaune |+10 M{beta} |5 tours |2
 
-|5 bleu |15 +M{beta} |? |2
+|5 bleu |+15 M{beta} |5 tours |2
 
-|5 blanc |5 +M{beta} |? |2
+|5 blanc |0 M{beta} |10 tours |2
 
-|5 vert |10 +M{beta} |? |2
+|5 vert |+10 M{beta} |5 tours |2
 
-|3 mauves |20 +M{beta} |? |2
+|3 mauves |+20 M{beta} |10 tours |2
 
-|1 noir |50 +M{beta} |? |2
+|1 noir |+50 M{beta} |10 tours |2
 
 4+| | 22 
 |=======================================================================
