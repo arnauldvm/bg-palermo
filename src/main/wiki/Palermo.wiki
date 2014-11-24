@@ -251,7 +251,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
                         | -10 M&beta; || -2 M&beta;/tour || 10 bleu || - || 2
 |-
-                        | -10 M&beta; || -2 M&beta;/tour || 10 blanc || - || 2
+                        | -10 M&beta; || -4 M&beta;/tour || 10 blanc || - || 2
 |-
                         | -10 M&beta; || -2 M&beta;/tour || 10 vert || - || 2
 |-

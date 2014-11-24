@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4170
+:revnumber: W4171
 :revdate: 2014-11-24
-//:revremark: (Liste des contrats publics): Mise à jours des paramètres (vracs) (approx)
+//:revremark: (Liste des équipements industriels): Mise à jours des paramètres (triés) (cf. simulation)
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -496,7 +496,7 @@ marron/jaune/bleu/blanc/vert |- |2
 
 |-10 M{beta} |-2 M{beta}/tour |10 bleu |- |2
 
-|-10 M{beta} |-2 M{beta}/tour |10 blanc |- |2
+|-10 M{beta} |-4 M{beta}/tour |10 blanc |- |2
 
 |-10 M{beta} |-2 M{beta}/tour |10 vert |- |2
 
