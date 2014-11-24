@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4169
+:revnumber: W4170
 :revdate: 2014-11-24
-//:revremark: (Liste des contrats publics): Mise à jours des paramètres (triés) (cf. simulation)
+//:revremark: (Liste des contrats publics): Mise à jours des paramètres (vracs) (approx)
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -453,9 +453,10 @@ Liste des contrats publics
 |=======================================================================
 | |Livraison |Prix d'enchère initial |durée de validité | # 
 .2+| vrac: |1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert |+5
-M{beta} |? |4
+M{beta} |10 tours |4
 
-|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |+10 M{beta} |? |4
+|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |+10 M{beta} |10 tours
+|4
 
 .7+| trié: |5 marron |+5 M{beta} |10 tours |2
 
