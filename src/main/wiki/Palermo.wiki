@@ -216,7 +216,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
                      | 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve || +10 M&beta; || 10 tours || 4
 |-
-|rowspan="7"| trié: || 5 marron || +5 M&beta; || 10 tours || 2
+|rowspan="7"| trié: || 5 marron || +5 M&beta; || 10 tours || 4
 |-
                      | 5 jaune || +10 M&beta; || 5 tours || 2
 |-
@@ -230,7 +230,7 @@ Le joueur le plus riche l'emporte, après déduction des éventuelles dettes à 
 |-
                      | 1 noir || +50 M&beta; || 10 tours || 2
 |-
-|colspan="4"| || &nbsp;22&nbsp;
+|colspan="4"| || &nbsp;24&nbsp;
 |}
 
 <br>
