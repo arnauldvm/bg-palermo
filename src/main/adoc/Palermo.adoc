@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4183
+:revnumber: W4184
 :revdate: 2016-01-04
-//:revremark: (Le matériel): ?incinération suivant un cours de bourse ?
+//:revremark: ((2) Incinération): suivant un cours de bourse ?
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -227,7 +227,7 @@ d'incinération **de la couleur correspondante**.
 * (Seuls les déchets de type ménagers, papiers/cartons, emballages,
 végétaux peuvent être incinérés.)
 * Pour chaque cube, toucher le montant indiqué sur l'usine (pour la
-production d'énergie).
+production d'énergie). (?ou suivant un cours de bourse ?)
 * Le joueur n'est pas obligé d'incinérer tous ses cubes présents dans la
 zone de stockage.
 
