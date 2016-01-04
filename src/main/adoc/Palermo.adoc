@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4172
-:revdate: 2014-11-24
-//:revremark: (Liste des contrats publics): Plus de contrats marrons
+:revnumber: W4183
+:revdate: 2016-01-04
+//:revremark: (Le matériel): ?incinération suivant un cours de bourse ?
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -83,7 +83,7 @@ M{beta} par tour
 ** incinération : on y place les cartes "usine d'incinération", chaque
 joueur démarre la partie avec une usine d'incinération (imprimée sur le
 tableau personnel) d'une capacité de 2 cubes marron/jaune/bleu/vert et
-rapportant 2 M{beta} par cube brûlé
+rapportant 2 M{beta} par cube brûlé (?ou suivant un cours de bourse?)
 ** recyclage : on y place les cartes "usine de recyclage"
 * des cartes représentants les différents **contrats publics**, chacune
 de ces cartes est caractérisée par :
