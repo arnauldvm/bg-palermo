@@ -5,8 +5,10 @@
 
 Jeu de gestion sur le thème du traitement des déchets.
 Sur une idée originale collective ayant émergé au Ludwikend 6.
+<div style="page-break-after: always"></div>
 
-== Introduction, but du jeu ==
+<h2 style="page-break-before: always"> Introduction, but du jeu </h2>
+
 Vous êtes un industriel du traitement des déchets (décharges, incinération, recyclage ...).
 Gérez au mieux vos moyens industriels, et soyez le premier à saisir les contrats publics.
 Qui deviendra le plus riche ?

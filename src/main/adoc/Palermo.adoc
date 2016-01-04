@@ -1,9 +1,9 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4184
+:revnumber: W4185
 :revdate: 2016-01-04
-//:revremark: ((2) Incinération): suivant un cours de bourse ?
+//:revremark: Add page breaks
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -24,6 +24,10 @@ image:a-trasha.jpg["a-trasha.jpg",title="a-trasha.jpg"]
 
 Jeu de gestion sur le thème du traitement des déchets. Sur une idée
 originale collective ayant émergé au Ludwikend 6.
+
+<<<
+toc::[]
+<<<
 
 [[introduction-but-du-jeu]]
 Introduction, but du jeu
