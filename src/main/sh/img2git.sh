@@ -80,7 +80,6 @@ for page_name in "${page_names[@]}"; do
 echo "* Processing page $page_name"
 mkdir -p "$base_dir/$img_sub_dir"
 
-git branch wikia/images
 git co wikia/images
 grep -p "^$page_name"'\t' "$images_file_data" | \
 sort -k2 | \

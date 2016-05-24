@@ -26,6 +26,7 @@ adoc_page_path="$base_dir/$adoc_sub_dir/${page_title}.adoc"
 work_dir="$base_dir/$work_subdir/$page_title"
 mkdir -p "$work_dir"
 git branch wikia/pages
+git branch wikia/images
 git branch adoc
 for revision in ${revisions[@]}; do
 	git checkout wikia/pages
@@ -98,4 +99,7 @@ done
 git checkout master
 git merge --no-edit adoc
 
+src/main/sh/img2git.sh -p ${page_title}
+
 asciidoc $adoc_page_path
+
