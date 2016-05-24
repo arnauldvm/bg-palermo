@@ -65,7 +65,7 @@ for revision in ${revisions[@]}; do
 			}
 			($. == 1) and s{$}{
 =======
-Arnauld Van Muysewinkel <arnauldvm@gmail.com>'"
+Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 :revnumber: W$revision
 :revdate: ${timestamp:0:10}
 //:revremark: $comment"'
