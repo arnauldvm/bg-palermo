@@ -77,6 +77,8 @@ Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 :toclevels: 4
 :toc-title: Contenu
 //:numbered:
+:imagesdir: ../img
+:data-uri:
 :br: pass:[<br>]
 :beta: pass:[&beta;]
 };
@@ -88,7 +90,6 @@ Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
 			s:%%beta%%:{beta}:g; # fix beta character
-			s/image:/image:img\//g; # images in a subfolder
 		' > "$adoc_page_path"
 	git add "$adoc_page_path"
 	git commit --date="$timestamp" -m "convert: $comment"
