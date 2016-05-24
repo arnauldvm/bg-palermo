@@ -31,17 +31,7 @@ for revision in ${revisions[@]}; do
 	git checkout wiki
 	xmlstarlet sel -T -N w=$ns -E utf-8 \
 		-t -m "//w:revision[w:id='$revision']" -v 'w:text' \
-		"$infile" | \
-		perl -pe '
-			s:^'"'''"'(.*?)'"'''"'<br.*?/>$:$1\n:; # fix hardcoded document title
-			s:^<h2.*?>(.*?)</h2>$:==$1==:; # fix hardcoded heading
-			s:^=(.*)=$:$1:; # promote all headers
-			s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
-			s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
-			s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
-			s#[\|\!](:?(r)ow|(c)ol)span="(\d+)".*?\|#$&%%$2$3$4%%#g; # remember colspan/rowspan
-			s:<br>:%%br%%:g; # remember line breaks
-		' > "$wiki_page_path"
+		"$infile" > "$wiki_page_path"
 	timestamp=$( xmlstarlet sel -T -N w=$ns \
 		-t -m "//w:revision[w:id='$revision']" -v 'w:timestamp' \
 		"$infile" )
@@ -57,7 +47,17 @@ for revision in ${revisions[@]}; do
 	git checkout adoc
 	git merge --no-commit wiki
 	#pandoc -f mediawiki -t asciidoc -o "$adoc_page_path" "$work_dir/${page_title}.wiki"
-	pandoc -f mediawiki -t asciidoc --toc "$wiki_page_path" | \
+	perl -pe '
+		s:^'"'''"'(.*?)'"'''"'<br.*?/>$:$1\n:; # fix hardcoded document title
+		s:^<h2.*?>(.*?)</h2>$:==$1==:; # fix hardcoded heading
+		s:^=(.*)=$:$1:; # promote all headers
+		s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
+		s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
+		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
+		s#[\|\!](:?(r)ow|(c)ol)span="(\d+)".*?\|#$&%%$2$3$4%%#g; # remember colspan/rowspan
+		s:<br>:%%br%%:g; # remember line breaks
+	' "$wiki_page_path" | \
+	pandoc -f mediawiki -t asciidoc --toc | \
 		perl -pe 'BEGIN {
 			use utf8;
 			use Text::Unidecode;
