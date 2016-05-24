@@ -25,10 +25,10 @@ mkdir -p "$base_dir/$adoc_sub_dir"
 adoc_page_path="$base_dir/$adoc_sub_dir/${page_title}.adoc"
 work_dir="$base_dir/$work_subdir/$page_title"
 mkdir -p "$work_dir"
-git branch wiki
+git branch wikia/pages
 git branch adoc
 for revision in ${revisions[@]}; do
-	git checkout wiki
+	git checkout wikia/pages
 	xmlstarlet sel -T -N w=$ns -E utf-8 \
 		-t -m "//w:revision[w:id='$revision']" -v 'w:text' \
 		"$infile" > "$wiki_page_path"
@@ -45,7 +45,7 @@ for revision in ${revisions[@]}; do
 	git log -n 1
 	#cp "$wiki_page_path" "$work_dir"
 	git checkout adoc
-	git merge --no-commit wiki
+	git merge --no-commit wikia/pages
 	perl -pe '
 		s:^'"'''"'(.*?)'"'''"'<br.*?/>$:$1\n:; # fix hardcoded document title
 		s:^<h2.*?>(.*?)</h2>$:==$1==:; # fix hardcoded heading
