@@ -29,6 +29,12 @@ mkdir -p "$base_dir/$adoc_sub_dir"
 adoc_page_path="$base_dir/$adoc_sub_dir/${page_title}.adoc"
 work_dir="$base_dir/$work_subdir/$page_title"
 mkdir -p "$work_dir"
+git checkout master
+git reset --hard start
+git branch -D wikia/pages
+git branch -D wikia/images
+git branch -D adoc
+git gc
 git branch wikia/pages
 git branch wikia/images
 git branch adoc
