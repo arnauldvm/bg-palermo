@@ -46,7 +46,6 @@ for revision in ${revisions[@]}; do
 	#cp "$wiki_page_path" "$work_dir"
 	git checkout adoc
 	git merge --no-commit wiki
-	#pandoc -f mediawiki -t asciidoc -o "$adoc_page_path" "$work_dir/${page_title}.wiki"
 	perl -pe '
 		s:^'"'''"'(.*?)'"'''"'<br.*?/>$:$1\n:; # fix hardcoded document title
 		s:^<h2.*?>(.*?)</h2>$:==$1==:; # fix hardcoded heading
