@@ -39,6 +39,7 @@ for revision in ${revisions[@]}; do
 			s:^<div\s+style="page-break-after\:\s+always"></div>$:\n>> PAGEBREAK HERE <<\n:; # remember hardcoded page break
 			s:<s>(.*?)</s>:%%s%$1%/s%%:g; # remember strike-through
 			s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
+			s#[\|\!](:?(r)ow|(c)ol)span="(\d+)".*?\|#$&%%$2$3$4%%#g; # remember colspan/rowspan
 		' > "$wiki_page_path"
 	timestamp=$( xmlstarlet sel -T -N w=$ns \
 		-t -m "//w:revision[w:id='$revision']" -v 'w:timestamp' \
@@ -80,6 +81,8 @@ Arnauld Van Muysewinkel <arnauldvm@gmail.com>'"
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
 			s:%%s%(.*?)%/s%%:[line-through]#$1#:g; # fix strike-through
 			s:%%'\''%([^ '\'']+?)%'\''%%:\\'\''$1'\'':g; # fix single quoted words
+			s:\|%%c(\d+)%%:$1+|:g; # fix colspan
+			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s/image:/image:img\//g; # images in a subfolder
 		' > "$adoc_page_path"
 	git add "$adoc_page_path"
