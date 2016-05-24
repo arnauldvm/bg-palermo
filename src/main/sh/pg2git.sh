@@ -1,6 +1,10 @@
 #!/bin/sh
 
 infile="$1"
+if [ \! -s "$infile" ]; then
+	echo Missing infile argument, aborting.
+	exit 1
+fi
 
 script_dir=$(dirname "$0")
 dir_name=../../..
