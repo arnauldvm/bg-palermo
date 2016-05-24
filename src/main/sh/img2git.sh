@@ -114,7 +114,7 @@ while read image_record; do
 		xpathmatch='//_:div[@class="fullImageLink"]/_:a'
 		xpathvalue='@href'
 		image_url=$(xml sel -t -m "$xpathmatch" -v "$xpathvalue" -n "$history_image_xml")
-		curl "$image_url" -o - > "$image_file"
+		curl "$image_url" -o "$image_file"
 	fi
 	git add "$image_file"
 	#timestamp=$(cat "$history_image_data")
