@@ -73,7 +73,7 @@ Arnauld Van Muysewinkel <arnauldvm@gmail.com>'"
 :toc-placement: manual
 :toclevels: 4
 :toc-title: Contenu
-:numbered:
+//:numbered:
 };
 			s/>> PAGEBREAK HERE <</<<<\ntoc::[]\n<<</; # fix hardcoded page break
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
