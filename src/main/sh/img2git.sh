@@ -109,11 +109,11 @@ while read image_record; do
 		$_ = $t->strftime("%Y-%m-%dT%H:%MZ")
 		' > "$history_image_data"
 	fi
+	image_file="$base_dir/$img_sub_dir/$image"
 	if [ "$force" -o  \! -f "$image_file" -o \! -s "$image_file" ]; then
 		xpathmatch='//_:div[@class="fullImageLink"]/_:a'
 		xpathvalue='@href'
 		image_url=$(xml sel -t -m "$xpathmatch" -v "$xpathvalue" -n "$history_image_xml")
-		image_file="$base_dir/$img_sub_dir/$image"
 		curl "$image_url" -o - > "$image_file"
 	fi
 	git add "$image_file"
