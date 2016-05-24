@@ -61,6 +61,7 @@ for revision in ${revisions[@]}; do
 		s#[\|\!](:?(r)ow|(c)ol)span="(\d+)".*?\|#$&%%$2$3$4%%#g; # remember colspan/rowspan
 		s:<br>:%%br%%:g; # remember line breaks
 		s:&beta;:%%beta%%:g; # remember beta character
+		s:\|thumb\]\]:$&%%thumb%%:g; # remember thumb images
 	' "$wiki_page_path" | \
 	pandoc -f mediawiki -t asciidoc --toc | \
 		perl -pe 'BEGIN {
@@ -95,6 +96,8 @@ Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
 			s:%%beta%%:{beta}:g; # fix beta character
+			s/(image:.*?\[)(.*?),/\1"\2",/g; # fix images alt attribute
+			s:\]%%thumb%%:,width=180]:g; # fix thumb images
 		' > "$adoc_page_path"
 	git add "$adoc_page_path"
 	git commit --date="$timestamp" -m "convert: $comment"
