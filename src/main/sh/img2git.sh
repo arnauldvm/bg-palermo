@@ -115,11 +115,15 @@ while read image_record; do
 		image_url=$(xml sel -t -m "$xpathmatch" -v "$xpathvalue" -n "$history_image_xml")
 		curl "$image_url" -o "$image_file"
 	fi
-	git add "$image_file"
-	#timestamp=$(cat "$history_image_data")
-	timestamp=$(cat "$history_image_data")"Z"
-	git commit --date="${timestamp}" -m "imported image: $image"
-	git log -n 1
+	if [ -s "$image_file" ]; then
+		git add "$image_file"
+		#timestamp=$(cat "$history_image_data")
+		timestamp=$(cat "$history_image_data")"Z"
+		git commit --date="${timestamp}" -m "imported image: $image"
+		git log -n 1
+	else
+		echo "$image missing, skipping."
+	fi
 done
 
 done
