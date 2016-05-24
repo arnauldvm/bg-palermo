@@ -55,6 +55,7 @@ for revision in ${revisions[@]}; do
 		s:(?<!'\'')'\''([^ '\'']+?)'\''(?!'\''):%%'\''%$1%'\''%%:g; # remember single quoted words
 		s#[\|\!](:?(r)ow|(c)ol)span="(\d+)".*?\|#$&%%$2$3$4%%#g; # remember colspan/rowspan
 		s:<br>:%%br%%:g; # remember line breaks
+		s:&beta;:%%beta%%:g; # remember beta character
 	' "$wiki_page_path" | \
 	pandoc -f mediawiki -t asciidoc --toc | \
 		perl -pe 'BEGIN {
@@ -77,6 +78,7 @@ Arnauld Van Muysewinkel <arnauldvm@gmail.com>'"
 :toc-title: Contenu
 //:numbered:
 :br: pass:[<br>]
+:beta: pass:[&beta;]
 };
 			s/>> PAGEBREAK HERE <</<<<\ntoc::[]\n<<</; # fix hardcoded page break
 			s/^\[\[.*?\]\]$/unidecode(decode "UTF-8", $&)/e; # fix identifiers with accents
@@ -85,6 +87,7 @@ Arnauld Van Muysewinkel <arnauldvm@gmail.com>'"
 			s:\|%%c(\d+)%%:$1+|:g; # fix colspan
 			s:\|%%r(\d+)%%:.$1+|:g; # fix rowspan
 			s:%%br%%:{br}:g; # fix line breaks
+			s:%%beta%%:{beta}:g; # fix beta character
 			s/image:/image:img\//g; # images in a subfolder
 		' > "$adoc_page_path"
 	git add "$adoc_page_path"
