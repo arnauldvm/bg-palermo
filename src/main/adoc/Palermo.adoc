@@ -1,8 +1,7 @@
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-:revnumber: W4185
-:revdate: 2016-01-04
+v0.1, 2016-06-03
 //:revremark: Add page breaks
 :doctype: article
 :lang: fr
