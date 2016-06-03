@@ -113,7 +113,12 @@ while read image_record; do
 		xpathmatch='//_:div[@class="fullImageLink"]/_:a'
 		xpathvalue='@href'
 		image_url=$(xml sel -t -m "$xpathmatch" -v "$xpathvalue" -n "$history_image_xml")
-		curl "$image_url" -o "$image_file"
+		if [ "$image_url" ]; then
+			echo "$image_url"
+			curl "$image_url" -o "$image_file"
+		else
+			echo "URL not found for $image, skipping."
+		fi
 	fi
 	if [ -s "$image_file" ]; then
 		git add "$image_file"
