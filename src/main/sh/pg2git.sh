@@ -30,7 +30,7 @@ adoc_page_path="$base_dir/$adoc_sub_dir/${page_title}.adoc"
 work_dir="$base_dir/$work_subdir/$page_title"
 mkdir -p "$work_dir"
 git checkout master
-git reset --hard start
+git reset --hard import/code
 git branch -D wikia/pages
 git branch -D wikia/images
 git branch -D adoc
