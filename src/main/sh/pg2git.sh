@@ -90,7 +90,7 @@ Arnauld Van Muysewinkel <arnauldvm\@gmail.com>'"
 :toc-title: Contenu
 //:numbered:
 :imagesdir: ../img
-:data-uri:
+//:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
 :br: pass:[<br>]
 :beta: pass:[&beta;]
 };
