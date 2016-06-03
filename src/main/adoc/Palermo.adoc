@@ -2,7 +2,7 @@ Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
 v0.1, 2016-06-03
-//:revremark: Add page breaks
+:revstatus: WiP
 :doctype: article
 :lang: fr
 :encoding: utf8
