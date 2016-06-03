@@ -29,6 +29,7 @@ mkdir -p "$base_dir/$adoc_sub_dir"
 adoc_page_path="$base_dir/$adoc_sub_dir/${page_title}.adoc"
 work_dir="$base_dir/$work_subdir/$page_title"
 mkdir -p "$work_dir"
+git stash save "Saved before importing files"; git stash apply
 git checkout master
 git reset --hard import/code
 git branch -D wikia/pages
