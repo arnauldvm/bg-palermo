@@ -453,7 +453,7 @@ Liste des contrats publics
 
 {br}
 
-[cols=",,,,",options="header",]
+[cols=">0,^2,2*^1,^0",options="header",]
 |=======================================================================
    |       | Livraison                                      | Prix d'enchère initial | durée de validité | # 
 
@@ -477,7 +477,7 @@ Liste des équipements industriels
 
 {br}
 
-[cols=",,,,,",options="header",]
+[cols="3*^1,^3,^1,^0",options="header",]
 |=======================================================================
    | Type            | Prix d'achat | Coût de fonctionnement | Capacité en cubes | ?durée de vie?  | # 
 
@@ -507,7 +507,7 @@ Plateaux personnels
 
 {br}
 
-[width="100%",cols="20%,4%,20%,4%,20%,4%,20%,4%,4%",]
+[width="100%",cols="^20%,^4%,^20%,^4%,^20%,^4%,^20%,^4%,^4%",]
 |=======================================================================
 .3+| [Livraison]{br}Vrac .3+| ➃> .3+| [Livraison]{br}Trié .3+| ➂> .3+| Stockage
 							|➁> | Décontamination     |    |
@@ -527,7 +527,7 @@ Cours des matières recyclées
 
 {br}
 
-[cols=",,,,,,,",options="header",]
+[cols="8*^",options="header",]
 |=======================================================================
 2+| papiers/cartons{br}(jaune) 2+| emballages{br}(bleu) 2+| verre{br}(blanc) 2+| végétaux{br}(vert)
   | cubes       | M{beta}        | cubes     | M{beta}    | cubes   | M{beta}  | cubes  | M{beta}
@@ -546,7 +546,7 @@ Tarifs de la Mafia
 
 {br}
 
-[cols=",,,,,,,",options="header",]
+[cols="8*^",options="header",]
 |=======================================================================
 |cubes | ménagers{br}(marron) | papiers/cartons{br}(jaune) | emballages{br}(bleu) | verre{br}(blanc) | végétaux{br}(vert)
 								| chimiques{br}(mauve) | nucléaires{br}(noir)
