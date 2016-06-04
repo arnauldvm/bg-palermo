@@ -534,17 +534,17 @@ Plateaux personnels
 
 {br}
 
-[width="100%",cols="22%,6%,20%,6%,20%,6%,20%",]
+[width="100%",cols="20%,4%,20%,4%,20%,4%,20%,4%,4%",]
 |=======================================================================
 .3+| [Livraison]{br}Vrac .3+| ➃> .3+| [Livraison]{br}Trié
 .3+| ➂> .3+| Stockage |➁> |Décontamination
-
+| |
 |➁> |Incinération
-
+| |
 |➁> |Recyclage |➀> |Bourse
-
 |*v _(obligatoire)_* | |*v _(obligatoire)_* | |v _(optionnel)_ | |v v v
 _(optionnel)_
+| |
 
 7+| ➄{br}Mafia
 |=======================================================================
@@ -557,7 +557,7 @@ Cours des matières recyclées
 
 {br}
 
-[cols=",,,",options="header",]
+[cols=",,,,,,,",options="header",]
 |=======================================================================
 2+| papiers/cartons{br}(jaune) 2+| emballages{br}(bleu)
 2+| verre{br}(blanc) 2+| végétaux{br}(vert)
