@@ -1,4 +1,5 @@
 // Compile this to html with: $ asciidoc Palermo.adoc # requires asciidoc (e.g.: $ brew install asciidoc)
+// Compile this to pdf with: $ a2x --no-xmllint -f pdf Palermo.adoc # requires also dblatex ($ pip install dblatex)
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
