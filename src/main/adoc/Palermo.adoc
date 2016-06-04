@@ -455,28 +455,18 @@ Liste des contrats publics
 
 [cols=",,,,",options="header",]
 |=======================================================================
-| |Livraison |Prix d'enchère initial |durée de validité | # 
-.2+| vrac: |1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert |+5
-M{beta} |10 tours |4
+   |       | Livraison                                      | Prix d'enchère initial | durée de validité | # 
 
-|1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve |+10 M{beta} |10 tours
-|4
-
-.7+| trié: |5 marron |+5 M{beta} |10 tours |4
-
-|5 jaune |+10 M{beta} |5 tours |2
-
-|5 bleu |+15 M{beta} |5 tours |2
-
-|5 blanc |0 M{beta} |10 tours |2
-
-|5 vert |+10 M{beta} |5 tours |2
-
-|3 mauves |+20 M{beta} |10 tours |2
-
-|1 noir |+50 M{beta} |10 tours |2
-
-4+| | 24 
+.2+| vrac: | 1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert | +5 M{beta}             | 10 tours          | 4
+           | 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve  | +10 M{beta}            | 10 tours          | 4
+.7+| trié: | 5 marron                                       | +5 M{beta}             | 10 tours          | 4
+           | 5 jaune                                        | +10 M{beta}            | 5 tours           | 2
+           | 5 bleu                                         | +15 M{beta}            | 5 tours           | 2
+           | 5 blanc                                        | 0 M{beta}              | 10 tours          | 2
+           | 5 vert                                         | +10 M{beta}            | 5 tours           | 2
+           | 3 mauves                                       | +20 M{beta}            | 10 tours          | 2
+           | 1 noir                                         | +50 M{beta}            | 10 tours          | 2
+4+|                                                                                                      | 24 
 |=======================================================================
 
 {br}
@@ -489,40 +479,23 @@ Liste des équipements industriels
 
 [cols=",,,,,",options="header",]
 |=======================================================================
-|Type |Prix d'achat |Coût de fonctionnement |Capacité en cubes |?durée
-de vie? | # 
-.8+| Stockage |-20 M{beta} |-5 M{beta}/tour |10
-marron/jaune/bleu/blanc/vert |- |2
+   | Type            | Prix d'achat | Coût de fonctionnement | Capacité en cubes | ?durée de vie?  | # 
 
-|-10 M{beta} |-4 M{beta}/tour |20 marron |- |2
-
-|-10 M{beta} |-3 M{beta}/tour |10 jaune |- |2
-
-|-10 M{beta} |-2 M{beta}/tour |10 bleu |- |2
-
-|-10 M{beta} |-4 M{beta}/tour |10 blanc |- |2
-
-|-10 M{beta} |-2 M{beta}/tour |10 vert |- |2
-
-|-10 M{beta} |-2 M{beta}/tour |5 mauve |- |2
-
-|-50 M{beta} |-10 M{beta}/tour |5 noir |- |2
-
-.1+| Décontamination |-20 M{beta} |-2 M{beta}/cube |2 mauve |? |3
-
-.2+| Incinération |-10 M{beta} |+2 M{beta}/cube |2
-marron/jaune/bleu/vert |? |3
-
-|-30 M{beta} |+1 M{beta}/cube |5 marron |? |3
-
-.4+| Recyclage |-10 M{beta} |-1 M{beta}/cube |3 jaune |? |3
-
-|-30 M{beta} |-2 M{beta}/cube |6 bleu |? |3
-
-|-20 M{beta} |-2 M{beta}/cube |3 blanc |? |3
-
-|-10 M{beta} |0 |2 vert |? |3
-
+.8+| Stockage        | -20 M{beta}  | -5 M{beta}/tour        | 10 marron/jaune/bleu/blanc/vert | - | 2
+                     | -10 M{beta}  | -4 M{beta}/tour        | 20 marron                       | - | 2
+                     | -10 M{beta}  | -3 M{beta}/tour        | 10 jaune                        | - | 2
+                     | -10 M{beta}  | -2 M{beta}/tour        | 10 bleu                         | - | 2
+                     | -10 M{beta}  | -4 M{beta}/tour        | 10 blanc                        | - | 2
+                     | -10 M{beta}  | -2 M{beta}/tour        | 10 vert                         | - | 2
+                     | -10 M{beta}  | -2 M{beta}/tour        | 5 mauve                         | - | 2
+                     | -50 M{beta}  | -10 M{beta}/tour       | 5 noir                          | - | 2
+.1+| Décontamination | -20 M{beta}  | -2 M{beta}/cube        | 2 mauve                         | ? | 3
+.2+| Incinération    | -10 M{beta}  | +2 M{beta}/cube        | 2 marron/jaune/bleu/vert        | ? | 3
+                     | -30 M{beta}  | +1 M{beta}/cube        | 5 marron                        | ? | 3
+.4+| Recyclage       | -10 M{beta}  | -1 M{beta}/cube        | 3 jaune                         | ? | 3
+                     | -30 M{beta}  | -2 M{beta}/cube        | 6 bleu                          | ? | 3
+                     | -20 M{beta}  | -2 M{beta}/cube        | 3 blanc                         | ? | 3
+                     | -10 M{beta}  | 0                      | 2 vert                          | ? | 3
 5+| | 37 
 |=======================================================================
 
@@ -536,15 +509,12 @@ Plateaux personnels
 
 [width="100%",cols="20%,4%,20%,4%,20%,4%,20%,4%,4%",]
 |=======================================================================
-.3+| [Livraison]{br}Vrac .3+| ➃> .3+| [Livraison]{br}Trié
-.3+| ➂> .3+| Stockage |➁> |Décontamination
-| |
-|➁> |Incinération
-| |
-|➁> |Recyclage |➀> |Bourse
-|*v _(obligatoire)_* | |*v _(obligatoire)_* | |v _(optionnel)_ | |v v v
-_(optionnel)_
-| |
+.3+| [Livraison]{br}Vrac .3+| ➃> .3+| [Livraison]{br}Trié .3+| ➂> .3+| Stockage
+							|➁> | Décontamination     |    |
+							|➁> | Incinération        |    |
+							|➁> | Recyclage           | ➀> | Bourse
+   | *v _(obligatoire)_*    |       | *v _(obligatoire)_*    |       | v _(optionnel)_
+							|   | v v v _(optionnel)_ |    |
 
 7+| ➄{br}Mafia
 |=======================================================================
@@ -559,17 +529,13 @@ Cours des matières recyclées
 
 [cols=",,,,,,,",options="header",]
 |=======================================================================
-2+| papiers/cartons{br}(jaune) 2+| emballages{br}(bleu)
-2+| verre{br}(blanc) 2+| végétaux{br}(vert)
-|cubes |M{beta} |cubes |M{beta} |cubes |M{beta} |cubes |M{beta}
+2+| papiers/cartons{br}(jaune) 2+| emballages{br}(bleu) 2+| verre{br}(blanc) 2+| végétaux{br}(vert)
+  | cubes       | M{beta}        | cubes     | M{beta}    | cubes   | M{beta}  | cubes  | M{beta}
 
-|0-5 |5 |0-5 |8 |0-5 |7 |0-5 |3
-
-|5-10 |4 |5-10 |6 |5-10 |6 |5-10 |2
-
-|10-15 |3 |10-15 |4 |10-15 |5 |10-15 |2
-
-|16+ |2 |16+ |2 |16+ |4 |16+ |1
+  | 0-5         | 5              | 0-5       | 8          | 0-5     | 7        | 0-5    | 3
+  | 5-10        | 4              | 5-10      | 6          | 5-10    | 6        | 5-10   | 2
+  | 10-15       | 3              | 10-15     | 4          | 10-15   | 5        | 10-15  | 2
+  | 16+         | 2              | 16+       | 2          | 16+     | 4        | 16+    | 1
 |=======================================================================
 
 {br}
@@ -582,14 +548,11 @@ Tarifs de la Mafia
 
 [cols=",,,,,,,",options="header",]
 |=======================================================================
-|cubes |ménagers{br}(marron) |papiers/cartons{br}(jaune)
-|emballages{br}(bleu) |verre{br}(blanc) |végétaux{br}(vert)
-|chimiques{br}(mauve) |nucléaires{br}(noir)
-|0-5 5+| 1 M{beta} |3 M{beta} |15 M{beta}
+|cubes | ménagers{br}(marron) | papiers/cartons{br}(jaune) | emballages{br}(bleu) | verre{br}(blanc) | végétaux{br}(vert)
+								| chimiques{br}(mauve) | nucléaires{br}(noir)
 
-|5-10 5+| 2 M{beta} |7 M{beta} |25 M{beta}
-
-|10-15 5+| 3 M{beta} |10 M{beta} |40 M{beta}
-
-|16+ 5+| 4 M{beta} |15 M{beta} |60 M{beta}
+| 0-5   5+| 1 M{beta} 						| 3 M{beta}            | 15 M{beta}
+| 5-10  5+| 2 M{beta} 						| 7 M{beta}            | 25 M{beta}
+| 10-15 5+| 3 M{beta} 						| 10 M{beta}           | 40 M{beta}
+| 16+   5+| 4 M{beta} 						| 15 M{beta}           | 60 M{beta}
 |=======================================================================
