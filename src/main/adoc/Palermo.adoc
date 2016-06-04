@@ -1,3 +1,4 @@
+// Compile this to html with: $ asciidoc Palermo.adoc # requires asciidoc (e.g.: $ brew install asciidoc)
 Palermo
 =======
 Arnauld Van Muysewinkel <arnauldvm@gmail.com>
