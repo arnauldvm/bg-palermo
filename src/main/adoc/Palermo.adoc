@@ -514,9 +514,8 @@ Plateaux personnels
 							|➁> | Décontamination     |    |
 							|➁> | Incinération        |    |
 							|➁> | Recyclage           | ➀> | Bourse
-   | *v _(obligatoire)_*    |       | *v _(obligatoire)_*    |       | v _(optionnel)_
-							|   | v v v _(optionnel)_ |    |
-
+   | *v{nbsp}__(obligatoire)__*    |       | *v{nbsp}__(obligatoire)__*    |       | v{nbsp}__(optionnel)__
+							|   | v{nbsp}v{nbsp}v{nbsp}__(optionnel)__ |    |
 7+| ➄{br}Mafia
 |=======================================================================
 
