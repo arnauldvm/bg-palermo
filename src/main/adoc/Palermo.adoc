@@ -516,7 +516,7 @@ Plateaux personnels
 							|➁> | Recyclage           | ➀> | Bourse
    | *v{nbsp}__(obligatoire)__*    |       | *v{nbsp}__(obligatoire)__*    |       | v{nbsp}__(optionnel)__
 							|   | v{nbsp}v{nbsp}v{nbsp}__(optionnel)__ |    |
-7+| ➄{br}Mafia
+9+| ➄{br}Mafia
 |=======================================================================
 
 {br}
