@@ -458,9 +458,9 @@ Liste des contrats publics
 |=======================================================================
    |       | Livraison                                      | Prix d'enchère initial | durée de validité | # 
 
-.2+| vrac: | 1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert | +5 M{beta}             | 10 tours          | 4
+.2+.^| vrac: | 1 marron + 1 jaune + 1 bleu + 1 blanc + 1 vert | +5 M{beta}             | 10 tours          | 4
            | 1 jaune + 1 bleu + 1 blanc + 1 vert + 1 mauve  | +10 M{beta}            | 10 tours          | 4
-.7+| trié: | 5 marron                                       | +5 M{beta}             | 10 tours          | 4
+.7+.^| trié: | 5 marron                                       | +5 M{beta}             | 10 tours          | 4
            | 5 jaune                                        | +10 M{beta}            | 5 tours           | 2
            | 5 bleu                                         | +15 M{beta}            | 5 tours           | 2
            | 5 blanc                                        | 0 M{beta}              | 10 tours          | 2
@@ -482,7 +482,7 @@ Liste des équipements industriels
 |=======================================================================
    | Type            | Prix d'achat | Coût de fonctionnement | Capacité en cubes | ?durée de vie?  | # 
 
-.8+| Stockage        | -20 M{beta}  | -5 M{beta}/tour        | 10 marron/jaune/bleu/blanc/vert | - | 2
+.8+.^| Stockage        | -20 M{beta}  | -5 M{beta}/tour        | 10 marron/jaune/bleu/blanc/vert | - | 2
                      | -10 M{beta}  | -4 M{beta}/tour        | 20 marron                       | - | 2
                      | -10 M{beta}  | -3 M{beta}/tour        | 10 jaune                        | - | 2
                      | -10 M{beta}  | -2 M{beta}/tour        | 10 bleu                         | - | 2
@@ -490,10 +490,10 @@ Liste des équipements industriels
                      | -10 M{beta}  | -2 M{beta}/tour        | 10 vert                         | - | 2
                      | -10 M{beta}  | -2 M{beta}/tour        | 5 mauve                         | - | 2
                      | -50 M{beta}  | -10 M{beta}/tour       | 5 noir                          | - | 2
-.1+| Décontamination | -20 M{beta}  | -2 M{beta}/cube        | 2 mauve                         | ? | 3
-.2+| Incinération    | -10 M{beta}  | +2 M{beta}/cube        | 2 marron/jaune/bleu/vert        | ? | 3
+.1+.^| Décontamination | -20 M{beta}  | -2 M{beta}/cube        | 2 mauve                         | ? | 3
+.2+.^| Incinération    | -10 M{beta}  | +2 M{beta}/cube        | 2 marron/jaune/bleu/vert        | ? | 3
                      | -30 M{beta}  | +1 M{beta}/cube        | 5 marron                        | ? | 3
-.4+| Recyclage       | -10 M{beta}  | -1 M{beta}/cube        | 3 jaune                         | ? | 3
+.4+^| Recyclage       | -10 M{beta}  | -1 M{beta}/cube        | 3 jaune                         | ? | 3
                      | -30 M{beta}  | -2 M{beta}/cube        | 6 bleu                          | ? | 3
                      | -20 M{beta}  | -2 M{beta}/cube        | 3 blanc                         | ? | 3
                      | -10 M{beta}  | 0                      | 2 vert                          | ? | 3
@@ -510,7 +510,7 @@ Plateaux personnels
 
 [width="100%",cols="^20%,^4%,^20%,^4%,^20%,^4%,^20%,^4%,^4%",]
 |=======================================================================
-.3+| [Livraison]{br}Vrac .3+| ➃> .3+| [Livraison]{br}Trié .3+| ➂> .3+| Stockage
+.3+.^| [Livraison]{br}Vrac .3+.^| ➃> .3+.^| [Livraison]{br}Trié .3+.^| ➂> .3+.^| Stockage
 							|➁> | Décontamination     |    |
 							|➁> | Incinération        |    |
 							|➁> | Recyclage           | ➀> | Bourse
