@@ -33,7 +33,6 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::env-github[]
 
-:br: pass:[<br>]
 :beta: pass:[&#946;]
 
 
@@ -470,7 +469,7 @@ Annexes
 Liste des contrats publics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols=">0,^2,2*^1,^0",options="header",]
 |=======================================================================
@@ -488,13 +487,13 @@ Liste des contrats publics
 4+|                                                                                                      | 24 
 |=======================================================================
 
-{br}
+{empty} +
 
 [[liste-des-equipements-industriels]]
 Liste des équipements industriels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols="3*^1,^3,^1,^0",options="header",]
 |=======================================================================
@@ -518,36 +517,43 @@ Liste des équipements industriels
 5+| | 37 
 |=======================================================================
 
-{br}
+{empty} +
 
 [[plateaux-personnels]]
 Plateaux personnels
 ~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [width="100%",cols="^20%,^4%,^20%,^4%,^20%,^4%,^20%,^4%,^4%",]
 |=======================================================================
-.3+.^| [silver-background]#[Livraison]{br}Vrac# .3+.^| ➃> .3+.^| [silver-background]#[Livraison]{br}Trié# .3+.^| ➂> .3+.^| Stockage
+.3+.^| [silver-background]#[Livraison] +
+                        Vrac# .3+.^| ➃> .3+.^| [silver-background]#[Livraison] +
+                                                                    Trié# .3+.^| ➂> .3+.^| Stockage
 							|➁> | Décontamination     |    |
 							|➁> | Incinération        |    |
 							|➁> | Recyclage           | ➀> | Bourse
    | *v{nbsp}__(obligatoire)__*    |       | *v{nbsp}__(obligatoire)__*    |       | v{nbsp}__(optionnel)__
 							|   | v{nbsp}v{nbsp}v{nbsp}__(optionnel)__ |    |
-9+| ➄{br}Mafia
+9+| ➄ +
+    Mafia
 |=======================================================================
 
-{br}
+{empty} +
 
 [[cours-des-matieres-recyclees]]
 Cours des matières recyclées
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols="8*^",options="header",]
 |=======================================================================
-2+| papiers/cartons{br}(jaune) 2+| emballages{br}(bleu) 2+| verre{br}(blanc) 2+| végétaux{br}(vert)
+2+| papiers/cartons +
+    (jaune)                    2+| emballages +
+                                   (bleu)               2+| verre +
+                                                            (blanc)          2+| végétaux +
+                                                                                 (vert)
   | cubes       | M{beta}        | cubes     | M{beta}    | cubes   | M{beta}  | cubes  | M{beta}
 
   | 0-5         | 5              | 0-5       | 8          | 0-5     | 7        | 0-5    | 3
@@ -556,18 +562,24 @@ Cours des matières recyclées
   | 16+         | 2              | 16+       | 2          | 16+     | 4        | 16+    | 1
 |=======================================================================
 
-{br}
+{empty} +
 
 [[tarifs-de-la-mafia]]
 Tarifs de la Mafia
 ~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols="8*^",options="header",]
 |=======================================================================
-|cubes | ménagers{br}(marron) | papiers/cartons{br}(jaune) | emballages{br}(bleu) | verre{br}(blanc) | végétaux{br}(vert)
-								| chimiques{br}(mauve) | nucléaires{br}(noir)
+|cubes | ménagers +
+         (marron) | papiers/cartons +
+                    (jaune) | emballages +
+                              (bleu) | verre +
+                                       (blanc) | végétaux +
+                                                 (vert)         | chimiques +
+                                                                  (mauve)              | nucléaires +
+								                         (noir)
 
 | 0-5   5+| 1 M{beta} 						| 3 M{beta}            | 15 M{beta}
 | 5-10  5+| 2 M{beta} 						| 7 M{beta}            | 25 M{beta}
