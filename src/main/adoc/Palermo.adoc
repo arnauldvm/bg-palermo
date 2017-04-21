@@ -34,7 +34,7 @@ ifdef::env-github[]
 endif::env-github[]
 
 :br: pass:[<br>]
-:beta: pass:[&beta;]
+:beta: pass:[&#946;]
 
 
 08-Oct-'14
