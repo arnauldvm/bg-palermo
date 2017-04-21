@@ -13,8 +13,26 @@ v0.1, 2016-06-03
 :toclevels: 4
 :toc-title: Contenu
 //:numbered:
+
+// default setting (for preview in IDE, gitlab...)
 :imagesdir: ../img
-//:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
+
+ifdef::env-maven[]
+// make the document more portable:
+:data-uri:
+:icons: font
+//imagesdir attribute *must* be set through maven plugin configuration
+endif::env-maven[]
+
+ifdef::env-github[]
+// replacement for icons:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::env-github[]
+
 :br: pass:[<br>]
 :beta: pass:[&beta;]
 
