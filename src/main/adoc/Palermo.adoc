@@ -8,15 +8,34 @@ v0.1, 2016-06-03
 :doctype: article
 :lang: fr
 :encoding: utf8
-:toc:
-:toc-placement: manual
+:toc: macro
 :toclevels: 4
 :toc-title: Contenu
 //:numbered:
+
+// default setting (for preview in IDE, gitlab...)
 :imagesdir: ../img
-//:data-uri: // This corrupts some images because of a bug in base64 encoding, see https://github.com/asciidoc/asciidoc/issues/98 and https://groups.google.com/d/topic/asciidoc/pC22vFTCxTc/discussion
-:br: pass:[<br>]
-:beta: pass:[&beta;]
+
+:delstyle: line-through
+
+ifdef::env-maven[]
+// make the document more portable:
+:data-uri:
+:icons: font
+//imagesdir attribute *must* be set through maven plugin configuration
+endif::env-maven[]
+
+ifdef::env-github[]
+:delstyle: .cm-strikethrough
+// replacement for icons:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::env-github[]
+
+:beta: pass:[&#946;]
 
 
 08-Oct-'14
@@ -48,20 +67,20 @@ Le matériel
 * des cubes de différentes couleurs représentant différents types de
 *déchets* (1 cube = 1 tonne) :
 ** ménagers
-(marron)image:Sacs-dechets-en-polyet-000013219-4.jpg["Sacs-dechets-en-polyet-000013219-4.jpg",title="fig:Sacs-dechets-en-polyet-000013219-4.jpg",width=180]
+(marron)image:Sacs-dechets-en-polyet-000013219-4.jpg["Sacs-dechets-en-polyet-000013219-4.jpg",title="fig:Sacs-dechets-en-polyet-000013219-4.jpg",width=180,float="right"]
 ** papiers/cartons
-(jaune)image:Poubelle_dechets.png["Poubelle_dechets.png",title="fig:Poubelle_dechets.png",width=180]
+(jaune)image:Poubelle_dechets.png["Poubelle_dechets.png",title="fig:Poubelle_dechets.png",width=180,float="right"]
 ** emballages
-(bleu)image:5300327.jpg["5300327.jpg",title="fig:5300327.jpg",width=180]
+(bleu)image:5300327.jpg["5300327.jpg",title="fig:5300327.jpg",width=180,float="right"]
 ** verre
-(blanc)image:Verre.jpg["Verre.jpg",title="fig:Verre.jpg",width=180]
+(blanc)image:Verre.jpg["Verre.jpg",title="fig:Verre.jpg",width=180,float="right"]
 ** végétaux
-(vert)image:Compost_101117_art.jpg["Compost_101117_art.jpg",title="fig:Compost_101117_art.jpg",width=180]
+(vert)image:Compost_101117_art.jpg["Compost_101117_art.jpg",title="fig:Compost_101117_art.jpg",width=180,float="right"]
 ** chimiques
-(mauve)image:Dchets_dangereux.png["Dchets_dangereux.png",title="fig:Dchets_dangereux.png",width=180]
-** [line-through]#?hopitaux? (rouge)#
+(mauve)image:Dchets_dangereux.png["Dchets_dangereux.png",title="fig:Dchets_dangereux.png",width=180,float="right"]
+** &#9986; [{delstyle}]#?hopitaux? (rouge)#
 ** ?nucléaires?
-(noir)image:4ea6c9331a301.jpg["4ea6c9331a301.jpg",title="fig:4ea6c9331a301.jpg",width=180]
+(noir)image:4ea6c9331a301.jpg["4ea6c9331a301.jpg",title="fig:4ea6c9331a301.jpg",width=180,float="right"]
 ** ...
 * des cartes représentant les différents *équipements industriels*
 (usines et espaces de stockage) permettant de traiter les déchets,
@@ -155,7 +174,7 @@ Phases de jeu
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 * On touche le montant de tous les contrats "positifs".
-image:Blog_cash_payment.jpg["Blog_cash_payment.jpg",title="fig:Blog_cash_payment.jpg",width=180]
+image:Blog_cash_payment.jpg["Blog_cash_payment.jpg",title="fig:Blog_cash_payment.jpg",width=180,float="right"]
 * Ensuite, on paye le montant de tous les contrats "négatifs". En cas de
 manque de liquidités, l'argent manquant est obligatoirement prêté par la
 Mafia (voir plus loin).
@@ -164,7 +183,7 @@ pour l'instant sur la zone "livraison vrac" (si le contrat concerne des
 déchets mélangés) ou "livraison trié" (si le contrat concerne un seul
 type de déchets) de son plateau individuel. Le joueur n'a pas le droit
 de prendre moins de cubes que prévu.
-image:1062854_1410661_800x400.jpg["1062854_1410661_800x400.jpg",title="fig:1062854_1410661_800x400.jpg",width=280]
+image:1062854_1410661_800x400.jpg["1062854_1410661_800x400.jpg",title="fig:1062854_1410661_800x400.jpg",width=280,float="right"]
 * retirer un pion "durée de vie" de chaque carte contrat présente sur le
 plateau du joueur
 
@@ -199,7 +218,7 @@ les usines**.
 (1) Vente de matériaux
 ^^^^^^^^^^^^^^^^^^^^^^
 
-image:STOCK-MARKET-IMAGE.jpg["STOCK-MARKET-IMAGE.jpg",title="fig:STOCK-MARKET-IMAGE.jpg",width=180]
+image:STOCK-MARKET-IMAGE.jpg["STOCK-MARKET-IMAGE.jpg",title="fig:STOCK-MARKET-IMAGE.jpg",width=180,float="right"]
 
 * La vente se fait cube par cube. Retirer chaque cube de la *zone de
 recyclage* et le placer dans la zone bourse correspondante du plateau
@@ -242,7 +261,7 @@ zone de stockage.
 
 * Prendre des cube de la *zone de stockage* et les poser sur les usines
 de décontamination **de la couleur correspondante**.
-* (Seuls les déchets de type chimiques, [line-through]#?hopitaux?# peuvent être
+* (Seuls les déchets de type chimiques, &#9986; [{delstyle}]#?hopitaux?# peuvent être
 décontaminés.)
 * Pour chaque cube, payer le montant indiqué sur l'usine (coût de
 fonctionnement).
@@ -285,7 +304,7 @@ loin)
 (5) Mafia
 ^^^^^^^^^
 
-image:0.jpg["0.jpg",title="fig:0.jpg",width=180]
+image:0.jpg["0.jpg",title="fig:0.jpg",width=180,float="right"]
 
 [[se-debarrasser-de-dechets-encombrants]]
 Se débarrasser de déchets encombrants
@@ -309,7 +328,7 @@ autres zones de son plateau personnel.
 Contracter une dette
 ++++++++++++++++++++
 
-image:6a00d8341cb44a53ef01347fc22351970c.jpg["6a00d8341cb44a53ef01347fc22351970c.jpg",title="fig:6a00d8341cb44a53ef01347fc22351970c.jpg",width=180]
+image:6a00d8341cb44a53ef01347fc22351970c.jpg["6a00d8341cb44a53ef01347fc22351970c.jpg",title="fig:6a00d8341cb44a53ef01347fc22351970c.jpg",width=180,float="right"]
 Si on n'a pas assez d'argent pour payer la Mafia, on est mal !
 
 * Déplacer le pion du joueur sur la piste dette à la Mafia (plateau
@@ -336,7 +355,7 @@ achat supérieur à ces moyens.*
 [C] Investissements
 ~~~~~~~~~~~~~~~~~~~
 
-image:Usine.gif["Usine.gif",title="fig:Usine.gif",width=180]image:31014473_zoom945.jpg["31014473_zoom945.jpg",title="fig:31014473_zoom945.jpg",width=180]
+image:Usine.png["Usine.png",title="fig:Usine.png",width=180,float="right"]image:31014473_zoom945.jpg["31014473_zoom945.jpg",title="fig:31014473_zoom945.jpg",width=180,float="right"]
 
 * Commencer par retirer un pion "durée de vie" de chaque équipement déjà
 présent sur le plateau individuel du joueur
@@ -374,7 +393,7 @@ reçoit) rien pour cela.
 [D] Nouveaux contrats publics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-image:De-mesmaeker.gif["De-mesmaeker.gif",title="fig:De-mesmaeker.gif",width=180]
+image:De-mesmaeker.png["De-mesmaeker.png",title="fig:De-mesmaeker.png",width=180,float="right"]
 
 * Enchères inversées.
 ** Le _premier_ joueur choisit une des cartes contrats visibles. (À
@@ -419,7 +438,7 @@ dernier contrat au prix maximum.
 [E] Nettoyage des plateaux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-image:Broom_icon.png["Broom_icon.png",title="fig:Broom_icon.png",width=180]
+image:Broom_icon.png["Broom_icon.png",title="fig:Broom_icon.png",width=180,float="right"]
 
 * Retirer de la bourse (sur le plateau central) la moitié (arrondi au
 **supérieur**) de chaque couleur de cube. (?alternativement : le nombre
@@ -452,7 +471,7 @@ Annexes
 Liste des contrats publics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols=">0,^2,2*^1,^0",options="header",]
 |=======================================================================
@@ -470,13 +489,13 @@ Liste des contrats publics
 4+|                                                                                                      | 24 
 |=======================================================================
 
-{br}
+{empty} +
 
 [[liste-des-equipements-industriels]]
 Liste des équipements industriels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols="3*^1,^3,^1,^0",options="header",]
 |=======================================================================
@@ -500,36 +519,43 @@ Liste des équipements industriels
 5+| | 37 
 |=======================================================================
 
-{br}
+{empty} +
 
 [[plateaux-personnels]]
 Plateaux personnels
 ~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [width="100%",cols="^20%,^4%,^20%,^4%,^20%,^4%,^20%,^4%,^4%",]
 |=======================================================================
-.3+.^| [silver-background]#[Livraison]{br}Vrac# .3+.^| ➃> .3+.^| [silver-background]#[Livraison]{br}Trié# .3+.^| ➂> .3+.^| Stockage
+.3+.^|{set:cellbgcolor:silver} [Livraison] +
+                         Vrac .3+.^|{set:cellbgcolor} ➃> .3+.^|{set:cellbgcolor:silver} [Livraison] +
+                                                                    Trié .3+.^|{set:cellbgcolor} ➂> .3+.^| Stockage
 							|➁> | Décontamination     |    |
 							|➁> | Incinération        |    |
 							|➁> | Recyclage           | ➀> | Bourse
    | *v{nbsp}__(obligatoire)__*    |       | *v{nbsp}__(obligatoire)__*    |       | v{nbsp}__(optionnel)__
 							|   | v{nbsp}v{nbsp}v{nbsp}__(optionnel)__ |    |
-9+| ➄{br}Mafia
+9+| ➄ +
+    Mafia
 |=======================================================================
 
-{br}
+{empty} +
 
 [[cours-des-matieres-recyclees]]
 Cours des matières recyclées
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols="8*^",options="header",]
 |=======================================================================
-2+| papiers/cartons{br}(jaune) 2+| emballages{br}(bleu) 2+| verre{br}(blanc) 2+| végétaux{br}(vert)
+2+| papiers/cartons +
+    (jaune)                    2+| emballages +
+                                   (bleu)               2+| verre +
+                                                            (blanc)          2+| végétaux +
+                                                                                 (vert)
   | cubes       | M{beta}        | cubes     | M{beta}    | cubes   | M{beta}  | cubes  | M{beta}
 
   | 0-5         | 5              | 0-5       | 8          | 0-5     | 7        | 0-5    | 3
@@ -538,18 +564,24 @@ Cours des matières recyclées
   | 16+         | 2              | 16+       | 2          | 16+     | 4        | 16+    | 1
 |=======================================================================
 
-{br}
+{empty} +
 
 [[tarifs-de-la-mafia]]
 Tarifs de la Mafia
 ~~~~~~~~~~~~~~~~~~
 
-{br}
+{empty} +
 
 [cols="8*^",options="header",]
 |=======================================================================
-|cubes | ménagers{br}(marron) | papiers/cartons{br}(jaune) | emballages{br}(bleu) | verre{br}(blanc) | végétaux{br}(vert)
-								| chimiques{br}(mauve) | nucléaires{br}(noir)
+|cubes | ménagers +
+         (marron) | papiers/cartons +
+                    (jaune) | emballages +
+                              (bleu) | verre +
+                                       (blanc) | végétaux +
+                                                 (vert)         | chimiques +
+                                                                  (mauve)              | nucléaires +
+								                         (noir)
 
 | 0-5   5+| 1 M{beta} 						| 3 M{beta}            | 15 M{beta}
 | 5-10  5+| 2 M{beta} 						| 7 M{beta}            | 25 M{beta}
