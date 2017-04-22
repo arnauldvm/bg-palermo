@@ -68,20 +68,20 @@ Le matériel
 * des cubes de différentes couleurs représentant différents types de
 *déchets* (1 cube = 1 tonne) :
 ** ménagers
-(marron)image:Sacs-dechets-en-polyet-000013219-4.jpg["Sacs-dechets-en-polyet-000013219-4.jpg",title="fig:Sacs-dechets-en-polyet-000013219-4.jpg",width=180]
+(marron)image:Sacs-dechets-en-polyet-000013219-4.jpg["Sacs-dechets-en-polyet-000013219-4.jpg",title="fig:Sacs-dechets-en-polyet-000013219-4.jpg",width=180,float="right"]
 ** papiers/cartons
-(jaune)image:Poubelle_dechets.png["Poubelle_dechets.png",title="fig:Poubelle_dechets.png",width=180]
+(jaune)image:Poubelle_dechets.png["Poubelle_dechets.png",title="fig:Poubelle_dechets.png",width=180,float="right"]
 ** emballages
-(bleu)image:5300327.jpg["5300327.jpg",title="fig:5300327.jpg",width=180]
+(bleu)image:5300327.jpg["5300327.jpg",title="fig:5300327.jpg",width=180,float="right"]
 ** verre
-(blanc)image:Verre.jpg["Verre.jpg",title="fig:Verre.jpg",width=180]
+(blanc)image:Verre.jpg["Verre.jpg",title="fig:Verre.jpg",width=180,float="right"]
 ** végétaux
-(vert)image:Compost_101117_art.jpg["Compost_101117_art.jpg",title="fig:Compost_101117_art.jpg",width=180]
+(vert)image:Compost_101117_art.jpg["Compost_101117_art.jpg",title="fig:Compost_101117_art.jpg",width=180,float="right"]
 ** chimiques
-(mauve)image:Dchets_dangereux.png["Dchets_dangereux.png",title="fig:Dchets_dangereux.png",width=180]
+(mauve)image:Dchets_dangereux.png["Dchets_dangereux.png",title="fig:Dchets_dangereux.png",width=180,float="right"]
 ** &#9986; [{delstyle}]#?hopitaux? (rouge)#
 ** ?nucléaires?
-(noir)image:4ea6c9331a301.jpg["4ea6c9331a301.jpg",title="fig:4ea6c9331a301.jpg",width=180]
+(noir)image:4ea6c9331a301.jpg["4ea6c9331a301.jpg",title="fig:4ea6c9331a301.jpg",width=180,float="right"]
 ** ...
 * des cartes représentant les différents *équipements industriels*
 (usines et espaces de stockage) permettant de traiter les déchets,
@@ -175,7 +175,7 @@ Phases de jeu
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 * On touche le montant de tous les contrats "positifs".
-image:Blog_cash_payment.jpg["Blog_cash_payment.jpg",title="fig:Blog_cash_payment.jpg",width=180]
+image:Blog_cash_payment.jpg["Blog_cash_payment.jpg",title="fig:Blog_cash_payment.jpg",width=180,float="right"]
 * Ensuite, on paye le montant de tous les contrats "négatifs". En cas de
 manque de liquidités, l'argent manquant est obligatoirement prêté par la
 Mafia (voir plus loin).
@@ -184,7 +184,7 @@ pour l'instant sur la zone "livraison vrac" (si le contrat concerne des
 déchets mélangés) ou "livraison trié" (si le contrat concerne un seul
 type de déchets) de son plateau individuel. Le joueur n'a pas le droit
 de prendre moins de cubes que prévu.
-image:1062854_1410661_800x400.jpg["1062854_1410661_800x400.jpg",title="fig:1062854_1410661_800x400.jpg",width=280]
+image:1062854_1410661_800x400.jpg["1062854_1410661_800x400.jpg",title="fig:1062854_1410661_800x400.jpg",width=280,float="right"]
 * retirer un pion "durée de vie" de chaque carte contrat présente sur le
 plateau du joueur
 
@@ -219,7 +219,7 @@ les usines**.
 (1) Vente de matériaux
 ^^^^^^^^^^^^^^^^^^^^^^
 
-image:STOCK-MARKET-IMAGE.jpg["STOCK-MARKET-IMAGE.jpg",title="fig:STOCK-MARKET-IMAGE.jpg",width=180]
+image:STOCK-MARKET-IMAGE.jpg["STOCK-MARKET-IMAGE.jpg",title="fig:STOCK-MARKET-IMAGE.jpg",width=180,float="right"]
 
 * La vente se fait cube par cube. Retirer chaque cube de la *zone de
 recyclage* et le placer dans la zone bourse correspondante du plateau
@@ -305,7 +305,7 @@ loin)
 (5) Mafia
 ^^^^^^^^^
 
-image:0.jpg["0.jpg",title="fig:0.jpg",width=180]
+image:0.jpg["0.jpg",title="fig:0.jpg",width=180,float="right"]
 
 [[se-debarrasser-de-dechets-encombrants]]
 Se débarrasser de déchets encombrants
@@ -329,7 +329,7 @@ autres zones de son plateau personnel.
 Contracter une dette
 ++++++++++++++++++++
 
-image:6a00d8341cb44a53ef01347fc22351970c.jpg["6a00d8341cb44a53ef01347fc22351970c.jpg",title="fig:6a00d8341cb44a53ef01347fc22351970c.jpg",width=180]
+image:6a00d8341cb44a53ef01347fc22351970c.jpg["6a00d8341cb44a53ef01347fc22351970c.jpg",title="fig:6a00d8341cb44a53ef01347fc22351970c.jpg",width=180,float="right"]
 Si on n'a pas assez d'argent pour payer la Mafia, on est mal !
 
 * Déplacer le pion du joueur sur la piste dette à la Mafia (plateau
@@ -356,7 +356,7 @@ achat supérieur à ces moyens.*
 [C] Investissements
 ~~~~~~~~~~~~~~~~~~~
 
-image:Usine.png["Usine.png",title="fig:Usine.png",width=180]image:31014473_zoom945.jpg["31014473_zoom945.jpg",title="fig:31014473_zoom945.jpg",width=180]
+image:Usine.png["Usine.png",title="fig:Usine.png",width=180,float="right"]image:31014473_zoom945.jpg["31014473_zoom945.jpg",title="fig:31014473_zoom945.jpg",width=180,float="right"]
 
 * Commencer par retirer un pion "durée de vie" de chaque équipement déjà
 présent sur le plateau individuel du joueur
@@ -394,7 +394,7 @@ reçoit) rien pour cela.
 [D] Nouveaux contrats publics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-image:De-mesmaeker.png["De-mesmaeker.png",title="fig:De-mesmaeker.png",width=180]
+image:De-mesmaeker.png["De-mesmaeker.png",title="fig:De-mesmaeker.png",width=180,float="right"]
 
 * Enchères inversées.
 ** Le _premier_ joueur choisit une des cartes contrats visibles. (À
@@ -439,7 +439,7 @@ dernier contrat au prix maximum.
 [E] Nettoyage des plateaux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-image:Broom_icon.png["Broom_icon.png",title="fig:Broom_icon.png",width=180]
+image:Broom_icon.png["Broom_icon.png",title="fig:Broom_icon.png",width=180,float="right"]
 
 * Retirer de la bourse (sur le plateau central) la moitié (arrondi au
 **supérieur**) de chaque couleur de cube. (?alternativement : le nombre
