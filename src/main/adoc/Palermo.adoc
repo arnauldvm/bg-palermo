@@ -8,8 +8,7 @@ v0.1, 2016-06-03
 :doctype: article
 :lang: fr
 :encoding: utf8
-:toc:
-:toc-placement: manual
+:toc: macro
 :toclevels: 4
 :toc-title: Contenu
 //:numbered:
