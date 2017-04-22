@@ -52,6 +52,9 @@ image:A-trasha.jpg["A-trasha.jpg",title="A-trasha.jpg"]
 Jeu de gestion sur le thème du traitement des déchets. Sur une idée
 originale collective ayant émergé au Ludwikend 6.
 
+*Contact:* {author} <{email}> +
+*Version:* {revnumber} ({revdate})
+
 <<<
 toc::[]
 <<<
