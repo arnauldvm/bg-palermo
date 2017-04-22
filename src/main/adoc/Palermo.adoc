@@ -2,8 +2,15 @@
 // Compile this to pdf with: $ a2x --no-xmllint -f pdf Palermo.adoc # requires also dblatex ($ pip install dblatex)
 Palermo
 =======
-Arnauld Van Muysewinkel <arnauldvm@gmail.com>
-v0.1, 2016-06-03
+:author: Arnauld Van Muysewinkel
+:email: arnauldvm@gmail.com
+ifndef::env-maven[]
+include::../../../build_properties.adoc[]
+endif::env-maven[]
+ifdef::env-maven[]
+include::../../build_properties.adoc[]
+endif::env-maven[]
+
 :revstatus: WiP
 :doctype: article
 :lang: fr
