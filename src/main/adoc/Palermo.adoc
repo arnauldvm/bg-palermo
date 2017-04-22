@@ -530,9 +530,9 @@ Plateaux personnels
 
 [width="100%",cols="^20%,^4%,^20%,^4%,^20%,^4%,^20%,^4%,^4%",]
 |=======================================================================
-.3+.^| [silver-background]#[Livraison] +
-                        Vrac# .3+.^| ➃> .3+.^| [silver-background]#[Livraison] +
-                                                                    Trié# .3+.^| ➂> .3+.^| Stockage
+.3+.^|{set:cellbgcolor:silver} [silver-background]#[Livraison] +
+                        Vrac# .3+.^|{set:cellbgcolor} ➃> .3+.^|{set:cellbgcolor:silver} [silver-background]#[Livraison] +
+                                                                    Trié# .3+.^|{set:cellbgcolor} ➂> .3+.^| Stockage
 							|➁> | Décontamination     |    |
 							|➁> | Incinération        |    |
 							|➁> | Recyclage           | ➀> | Bourse
