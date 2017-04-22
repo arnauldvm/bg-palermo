@@ -10,7 +10,6 @@
   <packaging>pom</packaging>
 
   <properties>
-    <!--<maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>-->
     <asciidoctor.maven.plugin.version>1.5.3</asciidoctor.maven.plugin.version>
     <asciidoctorj.version>1.5.4.1</asciidoctorj.version><!-- required for asciidoctorj-pdf -->
     <asciidoctorj.diagram.version>1.5.0</asciidoctorj.diagram.version>
@@ -21,16 +20,6 @@
   <build>
     <defaultGoal>compile</defaultGoal>
     <plugins>
-      <!--<plugin>-->
-        <!--<groupId>org.apache.maven.plugins</groupId>-->
-        <!--<artifactId>maven-compiler-plugin</artifactId>-->
-        <!--<version>${maven.compiler.plugin.version}</version>-->
-        <!--<configuration>-->
-          <!--<source>1.8</source>-->
-          <!--<target>1.8</target>-->
-        <!--</configuration>-->
-      <!--</plugin>-->
-
       <plugin>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctor-maven-plugin</artifactId>
@@ -73,7 +62,6 @@
           </requires>
           <attributes>
             <env-maven>true</env-maven>
-            <!--<imagesDir>../../src/main/img</imagesDir>-->
           </attributes>
         </configuration>
       </plugin>
