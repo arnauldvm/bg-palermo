@@ -67,23 +67,7 @@ include::sections/components.adoc[]
 
 include::sections/preparation.adoc[]
 
-[[tour-de-jeu]]
-Tour de jeu
------------
-
-Chaque tour de jeu est constitué d'une succession de phases. Chaque
-phase est exécutée d'abord par le premier joueur, puis par chaque joueur
-suivant dans le sens horlogique. On passe ensuite à la phase suivante.
-
-Les phases sont, dans l'ordre :
-
-* [A] gestion des contrats en cours (réception des payements et des
-déchets)
-* [B] traitement des déchets (tri, stockage, incinération,
-décontamination, recyclage, vente de matériaux, mafia)
-* [C] investissements
-* [D] nouveaux contrats publics
-* [E] nettoyage du plateau
+include::sections/game_turn.adoc[]
 
 [[phases-de-jeu]]
 Phases de jeu
