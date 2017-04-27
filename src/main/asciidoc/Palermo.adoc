@@ -61,14 +61,7 @@ originale collective ayant émergé au Ludwikend 6.
 toc::[]
 <<<
 
-[[introduction-but-du-jeu]]
-Introduction, but du jeu
-------------------------
-
-Vous êtes un industriel du traitement des déchets (décharges,
-incinération, recyclage ...). Gérez au mieux vos moyens industriels, et
-soyez le premier à saisir les contrats publics. Qui deviendra le plus
-riche ?
+include::sections/introduction.adoc[]
 
 [[le-materiel]]
 Le matériel
