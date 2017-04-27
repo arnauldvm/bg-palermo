@@ -10,7 +10,6 @@ endif::env-maven[]
 ifdef::env-maven[]
 include::build_properties.adoc[]
 endif::env-maven[]
-:revstatus: WiP
 :doctype: article
 :lang: fr
 :encoding: utf8

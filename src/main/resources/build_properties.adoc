@@ -2,3 +2,4 @@
 :revdate: ${project.date}
 :buildnumber: ${buildNumber}
 :buildtime: ${timestamp}
+:revstatus: WiP
