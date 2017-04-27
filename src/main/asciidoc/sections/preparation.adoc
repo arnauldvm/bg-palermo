@@ -1,0 +1,24 @@
+[[preparation]]
+Préparation
+-----------
+
+* Au début du jeu, le pion premier joueur est attribué à un des joueurs.
+Il pourra passer à un autre joueur à chaque tour.
+
+* Chaque joueur choisit une couleur et prend la tableau individuel et le
+pion marqueur de dette correspondant. Le pion marqueur de dette est
+place sur le zéro de la piste de dette
+
+* Mélanger les cartes **contrats publics**. Chaque joueur en pioche 3,
+en choisit 1 qu'il garde et défausse les autres (?on pourrait aussi
+faire un draft?). Ensuite toutes les cartes restantes sont re-mélangées,
+puis on révèle autant de cartes sur le plateau de jeu qu'il n'y a de
+joueurs (n). Le reste de la pile est posé à côté, face cachée.
+
+* Mélanger les cartes **équipements industriels**. Chaque joueur en
+pioche 6, en choisit 3 qu'il garde et défausse les autres (?on pourrait
+aussi faire un draft?). Ensuite toutes les cartes restantes sont
+re-mélangées, puis 3 cartes sont révélées sur le plateau de jeu. Le
+reste de la pile est posé à côté, face cachée.
+
+* Chaque joueur reçoit *20 M{beta}* en petites coupures.
