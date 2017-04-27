@@ -9,8 +9,11 @@
 
   <packaging>pom</packaging>
 
+  <scm><connection>scm:git:git@github.com:arnauldvm/bg-palermo.git</connection></scm>
+
   <properties>
-    <asciidoctor.maven.plugin.version>1.5.3</asciidoctor.maven.plugin.version>
+    <project.date>2016-06-03</project.date>
+    <asciidoctor.maven.plugin.version>1.5.5</asciidoctor.maven.plugin.version>
     <asciidoctorj.version>1.5.4.1</asciidoctorj.version><!-- required for asciidoctorj-pdf -->
     <asciidoctorj.diagram.version>1.5.0</asciidoctorj.diagram.version>
     <asciidoctorj.pdf.version>1.5.0-alpha.11</asciidoctorj.pdf.version>
@@ -21,10 +24,24 @@
     <defaultGoal>compile</defaultGoal>
     <plugins>
       <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>buildnumber-maven-plugin</artifactId>
+        <version>1.4</version>
+        <executions>
+          <execution>
+            <goals><goal>create</goal></goals>
+          </execution>
+        </executions>
+        <configuration>
+          <shortRevisionLength>5</shortRevisionLength>
+          <timestampFormat>{0,date,yyyyMMdd'T'HHmmss.SSSZ}</timestampFormat>
+        </configuration>
+      </plugin>
+      <plugin>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctor-maven-plugin</artifactId>
-        <version>${asciidoctor.maven.plugin.version}</version> 
-    
+        <version>${asciidoctor.maven.plugin.version}</version>
+
         <dependencies>
           <dependency>
             <groupId>org.jruby</groupId>
@@ -52,6 +69,13 @@
           <baseDir>target/generated-docs</baseDir>
           <sourceDirectory>src/main/adoc</sourceDirectory> <!-- TODO: rename to src/main/asciidoc -->
           <imagesDir>${project.basedir}/src/main/img</imagesDir>
+          <resources>
+            <resource>
+              <directory>src/main/resources</directory>
+              <filtering>true</filtering>
+              <includes><include>**/*.adoc</include></includes>
+            </resource>
+          </resources>
           <requires>
             <!--<require>asciidoctor-diagram/ditaa</require>-->
               <!-- ditaa diagram extension is pure java -->

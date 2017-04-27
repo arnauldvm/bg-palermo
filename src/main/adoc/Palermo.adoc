@@ -5,10 +5,10 @@ Palermo
 :author: Arnauld Van Muysewinkel
 :email: arnauldvm@gmail.com
 ifndef::env-maven[]
-include::../../../build_properties.adoc[]
+include::../resources/build_properties.adoc[]
 endif::env-maven[]
 ifdef::env-maven[]
-include::../../build_properties.adoc[]
+include::build_properties.adoc[]
 endif::env-maven[]
 
 :revstatus: WiP
@@ -33,6 +33,9 @@ ifdef::env-maven[]
 endif::env-maven[]
 
 ifdef::env-github[]
+// ! GitHub runs asciidoctor in SECURE mode!
+//     => no icons, include, stylesheets, data-uri, etc.
+//    see http://asciidoctor.org/docs/user-manual/#running-asciidoctor-securely
 :delstyle: .cm-strikethrough
 // replacement for icons:
 :caution-caption: :fire:
@@ -53,7 +56,8 @@ Jeu de gestion sur le thème du traitement des déchets. Sur une idée
 originale collective ayant émergé au Ludwikend 6.
 
 *Contact:* {author} <{email}> +
-*Version:* {revnumber} ({revdate})
+*Version:* {revnumber} ({revdate}) +
+*Build:* {buildnumber}@{buildtime}
 
 <<<
 toc::[]
