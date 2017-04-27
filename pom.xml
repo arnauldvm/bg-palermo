@@ -67,7 +67,6 @@
 
         <configuration>
           <baseDir>target/generated-docs</baseDir>
-          <sourceDirectory>src/main/adoc</sourceDirectory> <!-- TODO: rename to src/main/asciidoc -->
           <imagesDir>${project.basedir}/src/main/img</imagesDir>
           <resources>
             <resource>
