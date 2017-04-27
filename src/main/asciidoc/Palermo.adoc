@@ -71,13 +71,7 @@ include::sections/game_turn.adoc[]
 
 include::sections/game_phases.adoc[]
 
-[[fin-de-partie]]
-Fin de partie
--------------
-
-La partie se termine après >un certain nombre de< tours. Le joueur le
-plus riche l'emporte, après déduction des éventuelles dettes à la Mafia
-(ne pas oublier de multiplier par 2).
+include::sections/game_end.adoc[]
 
 [[annexes]]
 Annexes
