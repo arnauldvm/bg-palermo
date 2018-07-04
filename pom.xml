@@ -4,7 +4,7 @@
 
   <groupId>be.pendagon.j2s</groupId>
   <artifactId>palermo</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <name>Palermo</name>
 
   <packaging>pom</packaging>
@@ -12,7 +12,7 @@
   <scm><connection>scm:git:git@github.com:arnauldvm/bg-palermo.git</connection></scm>
 
   <properties>
-    <project.date>2016-06-03</project.date>
+    <project.date>2018-07-05</project.date>
     <asciidoctor.maven.plugin.version>1.5.5</asciidoctor.maven.plugin.version>
     <asciidoctorj.version>1.5.4.1</asciidoctorj.version><!-- required for asciidoctorj-pdf -->
     <asciidoctorj.diagram.version>1.5.0</asciidoctorj.diagram.version>
