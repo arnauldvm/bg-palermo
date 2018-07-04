@@ -1,0 +1,22 @@
+[[cours-des-matieres-recyclees]]
+Cours des matières recyclées
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{empty} +
+
+[cols="8*^",options="header",]
+|=======================================================================
+2+| papiers/cartons +
+    (jaune)                    2+| emballages +
+                                   (bleu)               2+| verre +
+                                                            (blanc)          2+| végétaux +
+                                                                                 (vert)
+  | cubes       | M{beta}        | cubes     | M{beta}    | cubes   | M{beta}  | cubes  | M{beta}
+
+  | 0-5         | 5              | 0-5       | 8          | 0-5     | 7        | 0-5    | 3
+  | 5-10        | 4              | 5-10      | 6          | 5-10    | 6        | 5-10   | 2
+  | 10-15       | 3              | 10-15     | 4          | 10-15   | 5        | 10-15  | 2
+  | 16+         | 2              | 16+       | 2          | 16+     | 4        | 16+    | 1
+|=======================================================================
+
+{empty} +

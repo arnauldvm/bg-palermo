@@ -1,0 +1,22 @@
+[[tarifs-de-la-mafia]]
+Tarifs de la Mafia
+~~~~~~~~~~~~~~~~~~
+
+{empty} +
+
+[cols="8*^",options="header",]
+|=======================================================================
+|cubes | ménagers +
+         (marron) | papiers/cartons +
+                    (jaune) | emballages +
+                              (bleu) | verre +
+                                       (blanc) | végétaux +
+                                                 (vert)         | chimiques +
+                                                                  (mauve)              | nucléaires +
+								                         (noir)
+
+| 0-5   5+| 1 M{beta} 						| 3 M{beta}            | 15 M{beta}
+| 5-10  5+| 2 M{beta} 						| 7 M{beta}            | 25 M{beta}
+| 10-15 5+| 3 M{beta} 						| 10 M{beta}           | 40 M{beta}
+| 16+   5+| 4 M{beta} 						| 15 M{beta}           | 60 M{beta}
+|=======================================================================
