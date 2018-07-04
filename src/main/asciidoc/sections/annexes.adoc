@@ -1,0 +1,13 @@
+[[annexes]]
+Annexes
+-------
+
+include::annex1-contracts.adoc[]
+
+include::annex2-facilities.adoc[]
+
+include::annex3-personal_boards.adoc[]
+
+include::annex4-trade.adoc[]
+
+include::annex5-mafia.adoc[]

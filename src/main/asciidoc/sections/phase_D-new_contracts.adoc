@@ -1,0 +1,48 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
+[[d-nouveaux-contrats-publics]]
+[D] Nouveaux contrats publics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+image:De-mesmaeker.png["De-mesmaeker.png",title="fig:De-mesmaeker.png",width=180,float="right"]
+
+* Enchères inversées.
+** Le _premier_ joueur choisit une des cartes contrats visibles. (À
+moins qu'il ne décide de passer.) Si le premier joueur ne participe plus
+aux enchères, c'est le premier joueur à sa droite, parmi ceux qui n'ont
+pas encore remporté d'enchère à ce tour-ci.
+** Le prix de départ est indiqué sur la carte. (Le prix représente ce
+que le détenteur du contrat touchera à chaque tour pour le traitement de
+la quantité de déchets prévue.)
+** Le premier joueur doit proposer au maximum ce prix (il peut proposer
+moins). ?Il ne *peut pas* proposer un prix supérieur à ces moyens.?
+** Ensuite chaque joueur passe ou propose un prix inférieur au
+précédent.
+** Une fois qu'un joueur a passé il ne participe plus à l'enchère de ce
+contrat.
+** L'enchère d'un contrat se termine lorsque tous les joueurs sauf 1 ont
+passé.
+* Si personne ne propose d'enchère, la carte est défaussée.
+* Il parfaitement autorisé pour un joueur de proposer un prix nul, voire
+négatif (auquel cas il devra payer la livraison à chaque tour, mais
+attention en cas de manque de liquidités : c'est la Mafia qui prêtera
+l'argent manquant !)
+* Une fois l'enchère conclue, il faut garder la trace du montant final :
+c'est ce que le joueur ayant conclu le contrat touchera à chaque tour.
+(Conseil: pose sur la carte contrat des jetons argent correspondant à ce
+montant)
+* Poser les pions "durée de vie" sur la carte (le nombre doit
+correspondre à la *durée de validité* du contrat)
+* Les joueurs ayant passé peuvent à nouveau participer aux enchères
+suivantes.
+* Une fois qu'un joueur a obtenu un contrat, il ne participe plus à
+aucune enchère pour ce tour.
+* Lorsque toutes les n cartes ont été proposées, on retourne les n
+cartes suivantes et la phase se termine. Lorsqu'on tire la dernière
+carte de la pile, mélanger toutes les cartes de la défausse et les poser
+face cachée comme nouvelle pile.
+* Il est possible qu'un joueur se retrouve seul pour la dernière
+enchère. Il aura donc la chance de pouvoir, s'il le désire, conclure le
+dernier contrat au prix maximum.

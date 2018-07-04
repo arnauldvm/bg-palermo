@@ -1,0 +1,85 @@
+// Compile this to html with: $ asciidoc Palermo.adoc # requires asciidoc (e.g.: $ brew install asciidoc)
+// Compile this to pdf with: $ a2x --no-xmllint -f pdf Palermo.adoc # requires also dblatex ($ pip install dblatex)
+Palermo
+=======
+:author: Arnauld Van Muysewinkel
+:email: arnauldvm@gmail.com
+ifndef::env-maven,env-github[]
+include::../resources/build_properties.adoc[]
+endif::env-maven,env-github[]
+ifdef::env-maven[]
+include::{outputdir}/build_properties.adoc[]
+endif::env-maven[]
+ifdef::env-github[]
+// hardcoded here because GitHub prevents includes
+:revnumber: 0.1.0
+//    as is pom.xml
+:revdate: 2016-06-03
+//    as is pom.xml
+:buildnumber: online
+:buildtime: github
+:revstatus: WiP
+endif::env-github[]
+:doctype: article
+:lang: fr
+:encoding: utf8
+:toc: macro
+:toclevels: 4
+:toc-title: Contenu
+//:numbered:
+
+// default setting (for preview in IDE, gitlab...)
+:imagesdir: ../img
+
+:delstyle: line-through
+
+ifdef::env-maven[]
+// make the document more portable:
+:data-uri:
+:icons: font
+//imagesdir attribute *must* be set through maven plugin configuration
+endif::env-maven[]
+
+ifdef::env-github[]
+// ! GitHub runs asciidoctor in SECURE mode!
+//     => no icons, include, stylesheets, data-uri, etc.
+//    see http://asciidoctor.org/docs/user-manual/#running-asciidoctor-securely
+:delstyle: .cm-strikethrough
+// replacement for icons:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::env-github[]
+
+:beta: pass:[&#946;]
+
+08-Oct-'14
+
+image:A-trasha.jpg["A-trasha.jpg",title="A-trasha.jpg"]
+
+Jeu de gestion sur le thème du traitement des déchets. Sur une idée
+originale collective ayant émergé au Ludwikend 6.
+
+*Contact:* {author} <{email}> +
+*Version:* {revstatus} {revnumber} ({revdate}) +
+*Build:* {buildnumber}@{buildtime}
+
+<<<
+toc::[]
+<<<
+
+include::sections/introduction.adoc[]
+
+include::sections/components.adoc[]
+
+include::sections/preparation.adoc[]
+
+include::sections/game_turn.adoc[]
+
+include::sections/game_phases.adoc[]
+
+include::sections/game_end.adoc[]
+
+include::sections/annexes.adoc[]

@@ -1,0 +1,41 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
+[[b-traitement-des-dechets]]
+[B] Traitement des déchets
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le traitement des déchets se décompose en plusieurs étapes.
+
+Chaque étape est représentée par une zone sur le plateau individuel.
+
+À chaque tour, ces étapes doivent obligatoirement se résoudre **de la
+droite vers la gauche**, c'est-à-dire dans l'ordre suivant :
+
+* (1) vente de matériaux,
+* (2) usines :
+** recyclage
+** incinération
+** décontamination
+* (3) stockage
+* (4) tri
+* (5) mafia
+
+(Autrement dit, l'ordre inverse de l'ordre chronologique. De cette façon
+un cube ne peut passer qu'une seule étape par tour.)
+
+Pour effectuer une de ces opérations, il suffit de transférer des blocs
+depuis l'étape précédente **à concurrence de la place disponible dans
+les usines**.
+
+include::phase_B1-trade.adoc[]
+
+include::phase_B2-facilities.adoc[]
+
+include::phase_B3-storage.adoc[]
+
+include::phase_B4-sorting.adoc[]
+
+include::phase_B5-mafia.adoc[]
+

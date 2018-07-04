@@ -1,0 +1,41 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
+[[c-investissements]]
+[C] Investissements
+~~~~~~~~~~~~~~~~~~~
+
+image:Usine.png["Usine.png",title="fig:Usine.png",width=180,float="right"]image:31014473_zoom945.jpg["31014473_zoom945.jpg",title="fig:31014473_zoom945.jpg",width=180,float="right"]
+
+* Commencer par retirer un pion "durée de vie" de chaque équipement déjà
+présent sur le plateau individuel du joueur
+* Poser une/des carte(s) équipement industriel de sa main et payer le(s)
+coût(s). On peut acheter 0, 1, 2, ou 3 carte(s) par tour, au choix du
+joueur.
+* Il n'y a pas de limite au nombre d'équipements industriels (usines et
+zones de stockage) qu'on peut posséder. (?En fait il en faudrait une!)
+* Poser les pions "durée de vie" sur les cartes nouvellement acquises
+(le nombre doit correspondre à la durée de validité de l'équipement)
+* Défausser 0, 1, 2, ou 3 carte(s) de sa main. Les poser sur la
+défausse.
+* Quand toutes les ventes du joueur sont terminées, il complète sa main
+en récupérant une carte à la fois parmi les cartes visibles disponibles
+et la première carte (cachée) de la pile. Remplacer une carte visible
+dès qu'elle est choisie par le joueur, en tirant une carte de la pile.
+Continuer jusqu'à ce que le joueur ait 3 cartes en main. Lorsqu'on tire
+la dernière carte de la pile, mélanger toutes les cartes de la défausse
+et les poser face cachée comme nouvelle pile.
+
+À cette phase, un joueur peut également décider de céder un de ses
+contrat publics à un autre joueur.
+
+* Il est libre d'organiser la vente comme il le souhaite (bilatéral,
+enchères ...).
+* *Attention, cette vente ne peut avoir lieu _qu'après_ la phase Mafia.
+Donc, on ne peut pas éviter de s'endetter par ce biais. De plus, si on
+est endetté, le produit de la vente sera d'abord récupéré par la Mafia.*
+
+À cette phase, un joueur peut également décider de détruire une de ces
+cartes équipement. il pose la carte sur la défausse. Il ne paye (ni ne
+reçoit) rien pour cela.
