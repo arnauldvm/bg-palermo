@@ -1,0 +1,18 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
+[[vente-de-materiaux]]
+(1) Vente de matériaux
+^^^^^^^^^^^^^^^^^^^^^^
+
+image:STOCK-MARKET-IMAGE.jpg["STOCK-MARKET-IMAGE.jpg",title="fig:STOCK-MARKET-IMAGE.jpg",width=180,float="right"]
+
+* La vente se fait cube par cube. Retirer chaque cube de la *zone de
+recyclage* et le placer dans la zone bourse correspondante du plateau
+central.
+* Le prix de vente d'un cube est déterminé sur le plateau central, en
+fonction du nombre de cubes déjà présent sur le plateau central.
+(Simulation de l'offre et de la demande)
+* Le joueur n'est pas obligé de vendre tous ses cubes présents dans la
+zone de recyclage.

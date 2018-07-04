@@ -1,0 +1,17 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
+[[tri]]
+(4) Tri
+^^^^^^^
+
+* Prendre des cube de la *zone de livraison vrac* et les poser sur les
+espaces de livraison trié **de la couleur correspondante**.
+* Payer le coût des opérations de tri pour chaque bloc (le coût dépend
+de la nature des déchets).
+* Le joueur n'est pas obligé de trier tous ses cubes présents dans la
+zone de livraison non trié, mais ...
+* *Au terme de cette étape les cubes restants dans la zone de livraison
+non trié doivent obligatoirement être confiés à la Mafia !* (voir plus
+loin)
