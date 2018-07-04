@@ -1,0 +1,24 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
+[[e-nettoyage-des-plateaux]]
+[E] Nettoyage des plateaux
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+image:Broom_icon.png["Broom_icon.png",title="fig:Broom_icon.png",width=180,float="right"]
+
+* Retirer de la bourse (sur le plateau central) la moitié (arrondi au
+**supérieur**) de chaque couleur de cube. (?alternativement : le nombre
+de cubes retirés est plus ou moins aléatoire?).
+* Retirer de la zone mafia (sur le plateau central) la moitié (arrondi à
+**l'inférieur**) des cubes (peu importent les couleurs).
+* Retirer les cubes présents sur les usines d'incinération et de
+décontamination de chaque joueur.
+* Chaque joueur retourne à leur défausse les cartes arrivées à la fin de
+leur durée de validité (quand il n'y a plus de pion "durée de vie"
+présent sur la carte)
+* Tous les cubes retirés sont retournés à la réserve commune.
+* Le pion premier joueur passe au joueur le moins riche. En cas
+d'égalité, on choisi parmi les joueurs à égalité celui qui est le
+premier *à droite* du premier joueur actuel.
