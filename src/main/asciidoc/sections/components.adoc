@@ -1,3 +1,7 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
 [[le-materiel]]
 Le matériel
 -----------

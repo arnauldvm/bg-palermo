@@ -1,3 +1,7 @@
+ifndef::imagesdir[]
+:imagesdir: ../../img
+endif::imagesdir[]
+
 [[phases-de-jeu]]
 Phases de jeu
 -------------
