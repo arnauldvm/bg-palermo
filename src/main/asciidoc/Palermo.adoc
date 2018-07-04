@@ -4,12 +4,22 @@ Palermo
 =======
 :author: Arnauld Van Muysewinkel
 :email: arnauldvm@gmail.com
-ifndef::env-maven[]
+ifndef::env-maven,env-github[]
 include::../resources/build_properties.adoc[]
-endif::env-maven[]
+endif::env-maven,env-github[]
 ifdef::env-maven[]
 include::{outputdir}/build_properties.adoc[]
 endif::env-maven[]
+ifdef::env-github[]
+// hardcoded here because GitHub prevents includes
+:revnumber: 0.1.0
+//    as is pom.xml
+:revdate: 2016-06-03
+//    as is pom.xml
+:buildnumber: online
+:buildtime: github
+:revstatus: WiP
+endif::env-github[]
 :doctype: article
 :lang: fr
 :encoding: utf8
@@ -44,7 +54,6 @@ ifdef::env-github[]
 endif::env-github[]
 
 :beta: pass:[&#946;]
-
 
 08-Oct-'14
 
