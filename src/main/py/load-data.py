@@ -1,4 +1,4 @@
-#!/usr/bin/env python 2
+#!/usr/bin/env python2
 
 from os import path
 import inspect
