@@ -22,3 +22,12 @@ contracts['shipping'] = [
 contracts.drop(columns=colors, inplace=True)
 contracts.set_index('kind', inplace=True)
 print contracts
+
+facilities = pd.read_csv(path.join(datadir, 'facilities.csv'), delim_whitespace=True, skiprows=[1])
+facilities['nature'] = [
+    [ color for color in colors if row[color]=='y' ]
+    for index, row in facilities.iterrows()
+]
+facilities.drop(columns=colors, inplace=True)
+facilities.set_index('type', inplace=True)
+print facilities
