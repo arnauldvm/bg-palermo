@@ -11,6 +11,7 @@ import pandas as pd
 
 resources = pd.read_csv(path.join(datadir, 'resources.csv'), delim_whitespace=True, skiprows=[1])
 resources.set_index('color_en', inplace=True, drop=False)
+print "\nResources"
 print resources
 colors = resources.color_en
 
@@ -21,6 +22,7 @@ contracts['shipping'] = [
 ]
 contracts.drop(columns=colors, inplace=True)
 contracts.set_index('kind', inplace=True)
+print "\nContracts"
 print contracts
 
 facilities = pd.read_csv(path.join(datadir, 'facilities.csv'), delim_whitespace=True, skiprows=[1])
@@ -30,6 +32,7 @@ facilities['nature'] = [
 ]
 facilities.drop(columns=colors, inplace=True)
 facilities.set_index('type', inplace=True)
+print "\nFacilities"
 print facilities
 
 trade = pd.read_csv(path.join(datadir, 'trade.csv'), delim_whitespace=True, skiprows=[1])
@@ -43,4 +46,5 @@ trade = pd.read_csv(path.join(datadir, 'trade.csv'), delim_whitespace=True, skip
 # trade.drop(columns=intervals, inplace=True)
 trade.set_index(pd.IntervalIndex.from_tuples([ tuple(map(int, interval.split("-"))) for interval in trade.offer ], closed='both'), inplace=True)
 trade.drop(columns='offer', inplace=True)
+print "\nTrade"
 print trade
