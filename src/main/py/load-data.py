@@ -9,13 +9,16 @@ datadir = path.normpath(path.join(srcdir, 'main', 'data'))
 
 import pandas as pd
 
-resources = pd.read_csv(path.join(datadir, 'resources.csv'), delim_whitespace=True, skiprows=[1])
+def read_data(name):
+	return pd.read_csv(path.join(datadir, name+'.csv'), delim_whitespace=True, skiprows=[1])
+
+resources = read_data('resources')
 resources.set_index('color_en', inplace=True, drop=False)
 print "\nResources"
 print resources
 colors = resources.color_en
 
-contracts = pd.read_csv(path.join(datadir, 'contracts.csv'), delim_whitespace=True, skiprows=[1])
+contracts = read_data('contracts')
 contracts['shipping'] = [
 	{ color: row[color] for color in colors if row[color]!=0 }
 	for index, row in contracts.iterrows()
@@ -25,7 +28,7 @@ contracts.set_index('kind', inplace=True)
 print "\nContracts"
 print contracts
 
-facilities = pd.read_csv(path.join(datadir, 'facilities.csv'), delim_whitespace=True, skiprows=[1])
+facilities = read_data('facilities')
 facilities['nature'] = [
 	[ color for color in colors if row[color]=='y' ]
 	for index, row in facilities.iterrows()
@@ -35,7 +38,7 @@ facilities.set_index('type', inplace=True)
 print "\nFacilities"
 print facilities
 
-trade = pd.read_csv(path.join(datadir, 'trade.csv'), delim_whitespace=True, skiprows=[1])
+trade = read_data('trade')
 # trade.set_index('offer', inplace=True, drop=True)
 # trade = trade.transpose(copy=False)
 # intervals = trade.columns
