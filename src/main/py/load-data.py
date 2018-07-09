@@ -12,10 +12,12 @@ import pandas as pd
 def read_data(name):
 	return pd.read_csv(path.join(datadir, name+'.csv'), delim_whitespace=True, skiprows=[1])
 
+def print_data(name, dataframe):
+	print "\n{name}:\n{dataframe}".format(**locals())
+
 resources = read_data('resources')
 resources.set_index('color_en', inplace=True, drop=False)
-print "\nResources"
-print resources
+print_data('Resources', resources)
 colors = resources.color_en
 
 contracts = read_data('contracts')
@@ -25,8 +27,7 @@ contracts['shipping'] = [
 ]
 contracts.drop(columns=colors, inplace=True)
 contracts.set_index('kind', inplace=True)
-print "\nContracts"
-print contracts
+print_data('Contracts', contracts)
 
 facilities = read_data('facilities')
 facilities['nature'] = [
@@ -35,8 +36,7 @@ facilities['nature'] = [
 ]
 facilities.drop(columns=colors, inplace=True)
 facilities.set_index('type', inplace=True)
-print "\nFacilities"
-print facilities
+print_data('Facilities', facilities)
 
 trade = read_data('trade')
 # trade.set_index('offer', inplace=True, drop=True)
@@ -49,5 +49,4 @@ trade = read_data('trade')
 # trade.drop(columns=intervals, inplace=True)
 trade.set_index(pd.IntervalIndex.from_tuples([ tuple(map(int, interval.split("-"))) for interval in trade.offer ], closed='both'), inplace=True)
 trade.drop(columns='offer', inplace=True)
-print "\nTrade"
-print trade
+print_data('Trade', trade)
