@@ -30,6 +30,7 @@ endif::env-github[]
 
 // default setting (for preview in IDE, gitlab...)
 :imagesdir: ../img
+:sectdir: {docdir}/sections
 
 :delstyle: line-through
 
@@ -70,16 +71,16 @@ originale collective ayant émergé au Ludwikend 6.
 toc::[]
 <<<
 
-include::sections/introduction.adoc[]
+include::{sectdir}/introduction.adoc[]
 
-include::sections/components.adoc[]
+include::{sectdir}/components.adoc[]
 
-include::sections/preparation.adoc[]
+include::{sectdir}/preparation.adoc[]
 
-include::sections/game_turn.adoc[]
+include::{sectdir}/game_turn.adoc[]
 
-include::sections/game_phases.adoc[]
+include::{sectdir}/game_phases.adoc[]
 
-include::sections/game_end.adoc[]
+include::{sectdir}/game_end.adoc[]
 
-include::sections/annexes.adoc[]
+include::{sectdir}/annexes.adoc[]

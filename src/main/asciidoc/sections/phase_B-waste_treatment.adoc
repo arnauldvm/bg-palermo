@@ -2,6 +2,8 @@ ifndef::imagesdir[]
 :imagesdir: ../../img
 endif::imagesdir[]
 
+:sectdir: {docdir}/sections
+
 [[b-traitement-des-dechets]]
 [B] Traitement des déchets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,13 +31,13 @@ Pour effectuer une de ces opérations, il suffit de transférer des blocs
 depuis l'étape précédente **à concurrence de la place disponible dans
 les usines**.
 
-include::phase_B1-trade.adoc[]
+include::{sectdir}/phase_B1-trade.adoc[]
 
-include::phase_B2-facilities.adoc[]
+include::{sectdir}/phase_B2-facilities.adoc[]
 
-include::phase_B3-storage.adoc[]
+include::{sectdir}/phase_B3-storage.adoc[]
 
-include::phase_B4-sorting.adoc[]
+include::{sectdir}/phase_B4-sorting.adoc[]
 
-include::phase_B5-mafia.adoc[]
+include::{sectdir}/phase_B5-mafia.adoc[]
 

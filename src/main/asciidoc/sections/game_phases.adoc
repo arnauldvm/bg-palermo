@@ -2,16 +2,18 @@ ifndef::imagesdir[]
 :imagesdir: ../../img
 endif::imagesdir[]
 
+:sectdir: {docdir}/sections
+
 [[phases-de-jeu]]
 Phases de jeu
 -------------
 
-include::phase_A-contract_management.adoc[]
+include::{sectdir}/phase_A-contract_management.adoc[]
 
-include::phase_B-waste_treatment.adoc[]
+include::{sectdir}/phase_B-waste_treatment.adoc[]
 
-include::phase_C-investment.adoc[]
+include::{sectdir}/phase_C-investment.adoc[]
 
-include::phase_D-new_contracts.adoc[]
+include::{sectdir}/phase_D-new_contracts.adoc[]
 
-include::phase_E-cleanup.adoc[]
+include::{sectdir}/phase_E-cleanup.adoc[]
