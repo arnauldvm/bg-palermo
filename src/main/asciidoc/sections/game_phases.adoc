@@ -3,6 +3,7 @@ ifndef::imagesdir[]
 endif::imagesdir[]
 
 :sectdir: {docdir}/sections
+ifdef::env-github[:sectdir: .]
 
 [[phases-de-jeu]]
 Phases de jeu

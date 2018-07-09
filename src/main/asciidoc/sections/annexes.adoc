@@ -1,4 +1,5 @@
 :sectdir: {docdir}/sections
+ifdef::env-github[:sectdir: .]
 
 [[annexes]]
 Annexes
