@@ -17,8 +17,8 @@ colors = resources.color_en
 
 contracts = pd.read_csv(path.join(datadir, 'contracts.csv'), delim_whitespace=True, skiprows=[1])
 contracts['shipping'] = [
-    { color: row[color] for color in colors if row[color]!=0 }
-    for index, row in contracts.iterrows()
+	{ color: row[color] for color in colors if row[color]!=0 }
+	for index, row in contracts.iterrows()
 ]
 contracts.drop(columns=colors, inplace=True)
 contracts.set_index('kind', inplace=True)
@@ -27,8 +27,8 @@ print contracts
 
 facilities = pd.read_csv(path.join(datadir, 'facilities.csv'), delim_whitespace=True, skiprows=[1])
 facilities['nature'] = [
-    [ color for color in colors if row[color]=='y' ]
-    for index, row in facilities.iterrows()
+	[ color for color in colors if row[color]=='y' ]
+	for index, row in facilities.iterrows()
 ]
 facilities.drop(columns=colors, inplace=True)
 facilities.set_index('type', inplace=True)
@@ -40,8 +40,8 @@ trade = pd.read_csv(path.join(datadir, 'trade.csv'), delim_whitespace=True, skip
 # trade = trade.transpose(copy=False)
 # intervals = trade.columns
 # trade['price'] = [
-#     { pd.Interval(*(map(int, interval.split("-"))), closed='both'): row[interval] for interval in intervals }
-#     for index, row in trade.iterrows()
+# 	{ pd.Interval(*(map(int, interval.split("-"))), closed='both'): row[interval] for interval in intervals }
+# 	for index, row in trade.iterrows()
 # ]
 # trade.drop(columns=intervals, inplace=True)
 trade.set_index(pd.IntervalIndex.from_tuples([ tuple(map(int, interval.split("-"))) for interval in trade.offer ], closed='both'), inplace=True)
