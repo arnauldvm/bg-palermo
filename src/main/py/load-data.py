@@ -31,3 +31,16 @@ facilities['nature'] = [
 facilities.drop(columns=colors, inplace=True)
 facilities.set_index('type', inplace=True)
 print facilities
+
+trade = pd.read_csv(path.join(datadir, 'trade.csv'), delim_whitespace=True, skiprows=[1])
+# trade.set_index('offer', inplace=True, drop=True)
+# trade = trade.transpose(copy=False)
+# intervals = trade.columns
+# trade['price'] = [
+#     { pd.Interval(*(map(int, interval.split("-"))), closed='both'): row[interval] for interval in intervals }
+#     for index, row in trade.iterrows()
+# ]
+# trade.drop(columns=intervals, inplace=True)
+trade.set_index(pd.IntervalIndex.from_tuples([ tuple(map(int, interval.split("-"))) for interval in trade.offer ], closed='both'), inplace=True)
+trade.drop(columns='offer', inplace=True)
+print trade
