@@ -4,7 +4,7 @@
 
   <groupId>be.pendagon.j2s</groupId>
   <artifactId>palermo</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <name>Palermo</name>
 
   <packaging>pom</packaging>
@@ -13,11 +13,11 @@
 
   <properties>
     <project.date>2018-07-05</project.date>
-    <asciidoctor.maven.plugin.version>1.5.5</asciidoctor.maven.plugin.version>
-    <asciidoctorj.version>1.5.4.1</asciidoctorj.version><!-- required for asciidoctorj-pdf -->
-    <asciidoctorj.diagram.version>1.5.0</asciidoctorj.diagram.version>
-    <asciidoctorj.pdf.version>1.5.0-alpha.11</asciidoctorj.pdf.version>
-    <jruby.version>1.7.26</jruby.version>
+    <asciidoctor.maven.plugin.version>1.5.6</asciidoctor.maven.plugin.version>
+    <asciidoctorj.version>1.5.5</asciidoctorj.version><!-- 1.5.5 required for asciidoctorj-pdf -->
+    <asciidoctorj.diagram.version>1.5.9</asciidoctorj.diagram.version>
+    <asciidoctorj.pdf.version>1.5.0-alpha.16</asciidoctorj.pdf.version>
+    <jruby.version>1.7.26</jruby.version><!-- 1.7.26 required for asciidoctor maven plugin -->
   </properties>
 
   <build>
