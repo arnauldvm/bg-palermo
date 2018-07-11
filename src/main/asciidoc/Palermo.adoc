@@ -12,9 +12,9 @@ include::{outputdir}/build_properties.adoc[]
 endif::env-maven[]
 ifdef::env-github[]
 // hardcoded here because GitHub prevents includes
-:revnumber: 0.1.1
+:revnumber: 0.1.2
 //    as is pom.xml
-:revdate: 2018-07-05
+:revdate: 2018-07-11
 //    as is pom.xml
 :buildnumber: online
 :buildtime: github
