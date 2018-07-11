@@ -12,9 +12,9 @@ include::{outputdir}/build_properties.adoc[]
 endif::env-maven[]
 ifdef::env-github[]
 // hardcoded here because GitHub prevents includes
-:revnumber: 0.1.1
+:revnumber: 0.1.2
 //    as is pom.xml
-:revdate: 2018-07-05
+:revdate: 2018-07-11
 //    as is pom.xml
 :buildnumber: online
 :buildtime: github
@@ -30,6 +30,7 @@ endif::env-github[]
 
 // default setting (for preview in IDE, gitlab...)
 :imagesdir: ../img
+:sectdir: {docdir}/sections
 
 :delstyle: line-through
 
@@ -41,6 +42,7 @@ ifdef::env-maven[]
 endif::env-maven[]
 
 ifdef::env-github[]
+:sectdir: ./sections
 // ! GitHub runs asciidoctor in SECURE mode!
 //     => no icons, include, stylesheets, data-uri, etc.
 //    see http://asciidoctor.org/docs/user-manual/#running-asciidoctor-securely
@@ -70,16 +72,16 @@ originale collective ayant émergé au Ludwikend 6.
 toc::[]
 <<<
 
-include::sections/introduction.adoc[]
+include::{sectdir}/introduction.adoc[]
 
-include::sections/components.adoc[]
+include::{sectdir}/components.adoc[]
 
-include::sections/preparation.adoc[]
+include::{sectdir}/preparation.adoc[]
 
-include::sections/game_turn.adoc[]
+include::{sectdir}/game_turn.adoc[]
 
-include::sections/game_phases.adoc[]
+include::{sectdir}/game_phases.adoc[]
 
-include::sections/game_end.adoc[]
+include::{sectdir}/game_end.adoc[]
 
-include::sections/annexes.adoc[]
+include::{sectdir}/annexes.adoc[]
