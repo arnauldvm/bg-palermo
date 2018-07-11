@@ -4,7 +4,7 @@ Liste des équipements industriels
 
 {empty} +
 
-[cols="3*^1,^3,^1,^0",options="header",]
+[cols="3*^1,^3,^1,^0.1",options="header",]
 |=======================================================================
    | Type            | Prix d'achat | Coût de fonctionnement | Capacité en cubes | ?durée de vie?  | # 
 

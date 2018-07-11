@@ -4,7 +4,7 @@ Liste des contrats publics
 
 {empty} +
 
-[cols=">0,^2,2*^1,^0",options="header",]
+[cols=">0.1,^2,2*^1,^0.1",options="header",]
 |=======================================================================
    |       | Livraison                                      | Prix d'enchère initial | durée de validité | # 
 
