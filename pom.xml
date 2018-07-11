@@ -4,7 +4,7 @@
 
   <groupId>be.pendagon.j2s</groupId>
   <artifactId>palermo</artifactId>
-  <version>0.1.2</version>
+  <version>0.1.1</version>
   <name>Palermo</name>
 
   <packaging>pom</packaging>
