@@ -26,6 +26,8 @@ soi-même un exemplaire du jeu.
 Informations techniques
 -----------------------
 
+### Règles
+
 Il est possible de générer une version HTML ou PDF du livret de règles en suivant ces instructions :
 
 **Prérequis:**
@@ -48,3 +50,14 @@ mvn -Pbackend-pdf
 ```
 
 Ces commandes génèreront dans le répertoire `./target/generated-docs` un fichier `Palermo.html` et un fichier `Palermo.pdf` qui reprennent chacun l'ensemble des règles. (Les autres fichiers sont des extraits, de chapitres et sous-chapitres.)
+
+### Analyse de données
+
+Les analyses de sonnées (simulations...) sont basées sur le framework [Pandas](https://pandas.pydata.org/about.html)
+(et non un tableur comme c'est souvent le cas).
+
+Les instructions d'installation sont dans le répertoire [./src/main/py](./src/main/py).
+
+Les scripts exécutables suivants sont disponibles :
+
+- `./src/main/py/load-data.py` : charge toutes les données et paramètres décrivant le jeu
