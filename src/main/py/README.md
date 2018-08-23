@@ -13,3 +13,13 @@ sudo pip2 install --upgrade numpy
 sudo pip2 install --upgrade pandas
 sudo pip2 install --upgrade matplotlib
 ```
+
+#### On MacOS
+
+```bash
+pip2 install --upgrade pip 
+pip2 install --upgrade numpy
+pip2 install --upgrade pandas
+pip2 install --upgrade matplotlib
+```
+
