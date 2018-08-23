@@ -26,7 +26,7 @@ soi-même un exemplaire du jeu.
 Informations techniques
 -----------------------
 
-Il est possible de générer une version HTML ou PDF du livret de règles en suivant ces instructions :
+Il est possible de générer une version transportable (HTML ou PDF) du livret de règles en suivant ces instructions :
 
 **Prérequis:**
 
