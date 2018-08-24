@@ -21,8 +21,6 @@ sudo pip2 install --upgrade matplotlib
 ```bash
 brew install python # i.e. python3
 pip3 install --upgrade pip
-pip3 install --upgrade numpy
-pip3 install --upgrade pandas
-pip3 install --upgrade matplotlib
+pip3 install --upgrade numpy pandas matplotlib
 ```
 
