@@ -3,7 +3,7 @@
 from os import path
 import inspect
 
-scriptdir = path.dirname(inspect.getfile(inspect.currentframe()))
+if not 'scriptdir' in globals(): scriptdir = path.dirname(inspect.getfile(inspect.currentframe()))
 srcdir = path.normpath(path.join(scriptdir, '..', '..'))
 datadir = path.normpath(path.join(srcdir, 'main', 'data'))
 
@@ -12,12 +12,8 @@ import pandas as pd
 def read_data(name):
 	return pd.read_csv(path.join(datadir, name+'.csv'), delim_whitespace=True, skiprows=[1])
 
-def print_data(name, dataframe):
-	print(f'\n{name}:\n{dataframe}')
-
 resources = read_data('resources')
 resources.set_index('color_en', inplace=True, drop=False)
-print_data('Resources', resources)
 colors = resources.color_en
 
 contracts = read_data('contracts')
@@ -27,7 +23,6 @@ contracts['shipping'] = [
 ]
 contracts.drop(columns=colors, inplace=True)
 contracts.set_index('kind', inplace=True)
-print_data('Contracts', contracts)
 
 facilities = read_data('facilities')
 facilities['nature'] = [
@@ -36,7 +31,6 @@ facilities['nature'] = [
 ]
 facilities.drop(columns=colors, inplace=True)
 facilities.set_index('type', inplace=True)
-print_data('Facilities', facilities)
 
 trade = read_data('trade')
 # trade.set_index('offer', inplace=True, drop=True)
@@ -49,4 +43,3 @@ trade = read_data('trade')
 # trade.drop(columns=intervals, inplace=True)
 trade.set_index(pd.IntervalIndex.from_tuples([ tuple(map(int, interval.split("-"))) for interval in trade.offer ], closed='both'), inplace=True)
 trade.drop(columns='offer', inplace=True)
-print_data('Trade', trade)
