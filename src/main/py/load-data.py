@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 from os import path
 import inspect
@@ -13,7 +13,7 @@ def read_data(name):
 	return pd.read_csv(path.join(datadir, name+'.csv'), delim_whitespace=True, skiprows=[1])
 
 def print_data(name, dataframe):
-	print "\n{name}:\n{dataframe}".format(**locals())
+	print(f'\n{name}:\n{dataframe}')
 
 resources = read_data('resources')
 resources.set_index('color_en', inplace=True, drop=False)
