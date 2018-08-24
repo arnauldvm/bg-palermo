@@ -22,5 +22,6 @@ sudo pip2 install --upgrade matplotlib
 brew install python # i.e. python3
 pip3 install --upgrade pip
 pip3 install --upgrade numpy pandas matplotlib
+pip3 install --upgrade ipython jupyter
 ```
 
