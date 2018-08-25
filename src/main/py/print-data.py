@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 
-from os import path
-import inspect
-
-scriptdir = path.dirname(inspect.getfile(inspect.currentframe()))
-
-exec(open(path.join(scriptdir, 'load_data.py')).read())
+from load_data import resources, contracts, facilities, trade
 
 def print_data(name, dataframe):
 	print(f'\n{name}:\n{dataframe}')
