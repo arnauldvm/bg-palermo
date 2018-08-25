@@ -5,7 +5,7 @@ import inspect
 
 scriptdir = path.dirname(inspect.getfile(inspect.currentframe()))
 
-exec(open(path.join(scriptdir, 'load-data.py')).read())
+exec(open(path.join(scriptdir, 'load_data.py')).read())
 
 def print_data(name, dataframe):
 	print(f'\n{name}:\n{dataframe}')
