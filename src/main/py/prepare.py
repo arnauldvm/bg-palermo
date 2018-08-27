@@ -15,6 +15,8 @@ def prepare_deck(df):
 
     # deck = [ deck[i] for l in [len(deck)] for i in random.sample(range(l), l) ]
     random.shuffle(deck)
+    assert len(deck)==df['count'].sum(), f'Not enough cards in prepared deck: {len(deck)}'
+    assert deck[0].Index!=deck[1].Index, 'Deck not shuffled'
     return deck
 
 contracts_deck = prepare_deck(contracts)

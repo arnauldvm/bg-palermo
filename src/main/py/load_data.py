@@ -14,6 +14,7 @@ def read_data(name):
 
 resources = read_data('resources')
 resources.set_index('color_en', inplace=True, drop=False)
+assert len(resources)>1, f'Not enough resources definitions loaded: {len(resources)}'
 colors = resources.color_en
 
 contracts = read_data('contracts')
@@ -23,6 +24,7 @@ contracts['shipping'] = [
 ]
 contracts.drop(columns=colors, inplace=True)
 contracts.set_index('kind', inplace=True)
+assert len(contracts)>1, f'Not enough contracts loaded: {len(contracts)}'
 
 facilities = read_data('facilities')
 facilities['nature'] = [
@@ -31,6 +33,7 @@ facilities['nature'] = [
 ]
 facilities.drop(columns=colors, inplace=True)
 facilities.set_index('type', inplace=True)
+assert len(facilities)>1, f'Not enough facilities loaded: {len(facilities)}'
 
 trade = read_data('trade')
 # trade.set_index('offer', inplace=True, drop=True)
@@ -43,3 +46,4 @@ trade = read_data('trade')
 # trade.drop(columns=intervals, inplace=True)
 trade.set_index(pd.IntervalIndex.from_tuples([ tuple(map(int, interval.split("-"))) for interval in trade.offer ], closed='both'), inplace=True)
 trade.drop(columns='offer', inplace=True)
+assert len(trade)>1, f'Not enough trade definitions loaded: {len(trade)}'
