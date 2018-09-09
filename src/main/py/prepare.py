@@ -21,3 +21,29 @@ def prepare_deck(df):
 
 contracts_deck = prepare_deck(contracts)
 facilities_deck = prepare_deck(facilities)
+
+# plateau central
+# * cours des matières recyclées
+# * "tarifs" de la Mafia,
+# * piste de dette à la Mafia
+
+# assigner pion premier joueur
+
+# par joueur :
+# * choisir une couleur
+# * plateau individuel
+#   - livraison vrac
+#   - livraison trié
+#   - stockage
+#   - décontamination
+#   - incinération
+#   - recyclage
+# * compte individuel (init: 20 (Mβ))
+# * initialiser marqueur de dette à 0 (Mβ) (sur le plateau central dans le jeu physique)
+# * tirage initial de cartes:
+#   - contrat (choix de 1 parmi 3)
+#   - équipements (choix de 3 parmi 6)
+
+# disposer  les decks et "rivières" :
+# * remélanger toutes les cartes restantes, révéler n contrats
+# * remélanger toutes les cartes restantes, révéler 3 équipements
