@@ -5,7 +5,7 @@ Préparation
 * Au début du jeu, le pion premier joueur est attribué à un des joueurs.
 Il pourra passer à un autre joueur à chaque tour.
 
-* Chaque joueur choisit une couleur et prend la tableau individuel et le
+* Chaque joueur choisit une couleur et prend le tableau individuel et le
 pion marqueur de dette correspondant. Le pion marqueur de dette est
 place sur le zéro de la piste de dette
 
