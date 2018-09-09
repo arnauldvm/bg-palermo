@@ -47,3 +47,5 @@ trade = read_data('trade')
 trade.set_index(pd.IntervalIndex.from_tuples([ tuple(map(int, interval.split("-"))) for interval in trade.offer ], closed='both'), inplace=True)
 trade.drop(columns='offer', inplace=True)
 assert len(trade)>1, f'Not enough trade definitions loaded: {len(trade)}'
+
+colors = read_data('colors')
