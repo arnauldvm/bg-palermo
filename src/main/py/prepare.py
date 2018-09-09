@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from load_data import resources, contracts, facilities, trade
+from load_data import resources, contracts, facilities, trade, colors
 
 import random
 
@@ -27,22 +27,26 @@ facilities_deck = prepare_deck(facilities)
 # * "tarifs" de la Mafia,
 # * piste de dette à la Mafia
 
-# assigner pion premier joueur
+def prepare_player(color):
+    board = {}
+    # * plateau individuel
+    #   - livraison vrac
+    #   - livraison trié
+    #   - stockage
+    #   - décontamination
+    #   - incinération
+    #   - recyclage
+    # * tirage initial de cartes:
+    #   - contrat (choix de 1 parmi 3)
+    #   - équipements (choix de 3 parmi 6)
+    return { 'color': color, 'board': board, 'cash': 20, 'due': 0 }
 
-# par joueur :
-# * choisir une couleur
-# * plateau individuel
-#   - livraison vrac
-#   - livraison trié
-#   - stockage
-#   - décontamination
-#   - incinération
-#   - recyclage
-# * compte individuel (init: 20 (Mβ))
-# * initialiser marqueur de dette à 0 (Mβ) (sur le plateau central dans le jeu physique)
-# * tirage initial de cartes:
-#   - contrat (choix de 1 parmi 3)
-#   - équipements (choix de 3 parmi 6)
+def prepare_players(n_players: int):
+    first_player = random.randrange(n_players)
+    random_colors = [ _.color for _ in colors.itertuples()]
+    random.shuffle(random_colors)
+    players = [ prepare_player(random_colors[num]) for num in range(n_players) ]
+    return { 'first': first_player, 'list': players }
 
 # disposer  les decks et "rivières" :
 # * remélanger toutes les cartes restantes, révéler n contrats
