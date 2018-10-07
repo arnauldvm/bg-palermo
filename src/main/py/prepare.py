@@ -75,8 +75,7 @@ def prepare_players(n_players: int) -> Dict[str, Any]:
 
 def prepare_river(deckSys: DeckSystem, n_cards: int) -> None:
     deckSys.reset_deck()
-    river = deckSys.deck.draw_n(n_cards)
-    deckSys.river = river
+    deckSys.river = deckSys.deck.draw_n(n_cards)
 
 
 def prepare_rivers(n_players: int):
