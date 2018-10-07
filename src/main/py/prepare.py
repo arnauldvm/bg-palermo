@@ -13,6 +13,7 @@ def prepare_deck(df):
             # for _, item in df_noindex.iterrows()
             # for _ in range(item['count'])
             ]
+        # A deck is a list of tuples
 
     # deck = [ deck[i] for l in [len(deck)] for i in random.sample(range(l), l) ]
     random.shuffle(deck)
