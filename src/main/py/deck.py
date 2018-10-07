@@ -1,3 +1,5 @@
+from __future__ import annotations  # required for being able to declare a method returing type of its class
+
 from typing import List, Dict, NewType
 from collections import namedtuple
 
@@ -15,6 +17,9 @@ class Pile(list):  # list of Card?
 
     def draw(self) -> Card:
         return self.pop(0)
+
+    def draw_n(self, n_cards: int) -> Pile:
+        return Pile([self.draw() for _ in range(n_cards)])
 
 
 class DeckSystem:
