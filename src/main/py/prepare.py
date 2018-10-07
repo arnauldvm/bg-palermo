@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from typing import List, Tuple, NewType
+from typing import List, Tuple, Dict, Any, NewType
 
 from load_data import resources, contracts, facilities, trade, colors
 
@@ -52,7 +52,7 @@ def prepare_player(color):
     return {'color': color, 'board': board, 'cash': 20, 'due': 0}
 
 
-def prepare_players(n_players: int):
+def prepare_players(n_players: int) -> Dict[str, Any]:
     first_player = random.randrange(n_players)
     random_colors = [_.color for _ in colors.itertuples()]
     random.shuffle(random_colors)

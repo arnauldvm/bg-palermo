@@ -11,7 +11,7 @@ srcdir = path.normpath(path.join(scriptdir, '..', '..'))
 datadir = path.normpath(path.join(srcdir, 'main', 'data'))
 
 
-def read_data(name):
+def read_data(name: str) -> pd.DataFrame:
     return pd.read_csv(path.join(datadir, name + '.csv'), delim_whitespace=True, skiprows=[1])
 
 
