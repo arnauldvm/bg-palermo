@@ -39,3 +39,8 @@ class DeckSystem:
 
     def feed_river(self, n_cards) -> None:
         self.river = self.deck.draw_n(n_cards)
+
+    def short_description(self) -> str:
+        return f'# cards: { len(self.deck) } in deck' + \
+                f' + { len(self.river) } in river' + \
+                f' + { len(self.discard) } in discard pile'
