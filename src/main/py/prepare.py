@@ -45,6 +45,14 @@ def draw_n(deck: Deck, n_cards: int) -> Deck:
     return Deck([draw(deck) for _ in range(n_cards)])
 
 
+contracts_discard = Deck([])
+facilities_discard = Deck([])
+
+
+def discard(discard_pile: Deck, cards: Deck) -> None:
+    discard_pile.extend(cards)
+
+
 def prepare_player(color):
     board = {}
     # * plateau individuel
