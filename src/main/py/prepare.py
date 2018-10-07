@@ -91,6 +91,29 @@ def prepare_players(n_players: int) -> Dict[str, Any]:
     players = [prepare_player(random_colors[num]) for num in range(n_players)]
     return {'first': first_player, 'list': players}
 
-# disposer  les decks et "rivières" :
-# * remélanger toutes les cartes restantes, révéler n contrats
-# * remélanger toutes les cartes restantes, révéler 3 équipements
+
+def reset_deck(deck: Deck, discard: Deck) -> None:
+    deck.extend(discard)
+    discard.clear()
+    random.shuffle(deck)
+
+
+def prepare_river(deck: Deck, discard: Deck, n_cards: int) -> Deck:
+    reset_deck(deck, discard)
+    river = draw_n(deck, n_cards)
+    return river
+
+
+contracts_river = Deck([])
+facilities_river = Deck([])
+
+
+def prepare_rivers(n_players: int):
+    global contracts_deck
+    global facilities_deck
+    global contracts_river
+    global facilities_river
+    contracts_river = prepare_river(contracts_deck, contracts_discard, n_players)
+    #   Should externalize n_players as a rule parameter
+    facilities_river = prepare_river(facilities_deck, facilities_discard, 3)
+    #   Should externalize '3' as a rule parameter
