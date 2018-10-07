@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-from typing import List, Tuple, Dict, Any, NewType
+from typing import List, Dict, Any, NewType
+from collections import namedtuple
 
 from load_data import resources, contracts, facilities, trade, colors
 
 import random
 
-Deck = NewType('Deck', List[Tuple])  # A deck is a list of tuples
+Deck = NewType('Deck', List[namedtuple])  # A deck is a list of named tuples
 
 
 def prepare_deck(df) -> Deck:
@@ -37,7 +38,7 @@ facilities_deck = prepare_deck(facilities)
 # * piste de dette à la Mafia
 
 
-def draw(deck: Deck) -> Tuple:
+def draw(deck: Deck) -> namedtuple:
     return deck.pop(0)
 
 
