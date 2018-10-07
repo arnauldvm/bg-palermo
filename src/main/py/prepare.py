@@ -7,11 +7,11 @@ import random
 from load_data import resources, contracts, facilities, trade, colors
 
 Card = NewType('Card', namedtuple)
-Deck = NewType('Deck', List[Card])  # A deck is a list of named tuples
+Pile = NewType('Pile', List[Card])  # A deck is a list of named tuples
 
 
-def prepare_deck(df) -> Deck:
-    deck = Deck(
+def prepare_deck(df) -> Pile:
+    deck = Pile(
         [
             item
             for df_noindex in [df.assign(kind=df.index).reset_index(drop=True)]
@@ -38,23 +38,23 @@ facilities_deck = prepare_deck(facilities)
 # * piste de dette à la Mafia
 
 
-def draw(deck: Deck) -> Card:
+def draw(deck: Pile) -> Card:
     return deck.pop(0)
 
 
-def draw_n(deck: Deck, n_cards: int) -> Deck:
-    return Deck([draw(deck) for _ in range(n_cards)])
+def draw_n(deck: Pile, n_cards: int) -> Pile:
+    return Pile([draw(deck) for _ in range(n_cards)])
 
 
-contracts_discard = Deck([])
-facilities_discard = Deck([])
+contracts_discard = Pile([])
+facilities_discard = Pile([])
 
 
-def discard(discard_pile: Deck, cards: Deck) -> None:
+def discard(discard_pile: Pile, cards: Pile) -> None:
     discard_pile.extend(cards)
 
 
-def draw_and_choose(deck: Deck, discard_pile: Deck, n_draw: int, n_choose: int) -> Deck:
+def draw_and_choose(deck: Pile, discard_pile: Pile, n_draw: int, n_choose: int) -> Pile:
     draw = draw_n(deck, n_draw)
     # IA rule: random choice (should be externalized to an IA claas)
     random.shuffle(draw)
@@ -93,20 +93,20 @@ def prepare_players(n_players: int) -> Dict[str, Any]:
     return {'first': first_player, 'list': players}
 
 
-def reset_deck(deck: Deck, discard: Deck) -> None:
+def reset_deck(deck: Pile, discard: Pile) -> None:
     deck.extend(discard)
     discard.clear()
     random.shuffle(deck)
 
 
-def prepare_river(deck: Deck, discard: Deck, n_cards: int) -> Deck:
+def prepare_river(deck: Pile, discard: Pile, n_cards: int) -> Pile:
     reset_deck(deck, discard)
     river = draw_n(deck, n_cards)
     return river
 
 
-contracts_river = Deck([])
-facilities_river = Deck([])
+contracts_river = Pile([])
+facilities_river = Pile([])
 
 
 def prepare_rivers(n_players: int):
@@ -120,7 +120,5 @@ def prepare_rivers(n_players: int):
     #   Should externalize '3' as a rule parameter
 
 
-# TODO: create 'Deck' class with methods: shuffle, draw...
-# TODO: create 'DiscardPile' class
-# TODO: create 'River' class
-# TODO: create class for the system: Deck+DiscardPile+River
+# TODO: create 'Pile' class with methods: shuffle, draw...
+# TODO: create class for the system: deck Pile + discard Pile + river Pile
