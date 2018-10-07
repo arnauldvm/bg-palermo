@@ -2,10 +2,9 @@
 
 from typing import List, Dict, Any, NewType
 from collections import namedtuple
+import random
 
 from load_data import resources, contracts, facilities, trade, colors
-
-import random
 
 Deck = NewType('Deck', List[namedtuple])  # A deck is a list of named tuples
 
