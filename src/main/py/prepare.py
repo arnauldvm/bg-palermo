@@ -37,6 +37,14 @@ facilities_deck = prepare_deck(facilities)
 # * piste de dette à la Mafia
 
 
+def draw(deck: Deck) -> Tuple:
+    return deck.pop(0)
+
+
+def draw_n(deck: Deck, n_cards: int) -> Deck:
+    return Deck([draw(deck) for _ in range(n_cards)])
+
+
 def prepare_player(color):
     board = {}
     # * plateau individuel
