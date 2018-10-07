@@ -36,3 +36,6 @@ class DeckSystem:
 
     def discard_pile(self, cards: Pile) -> None:
         self.discard.extend(cards)
+
+    def feed_river(self, n_cards) -> None:
+        self.river = self.deck.draw_n(n_cards)
