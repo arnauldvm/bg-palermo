@@ -36,16 +36,12 @@ facilities = DeckSystem(prepare_deck(facilities))
 # * piste de dette à la Mafia
 
 
-def discard(discard_pile: Pile, cards: Pile) -> None:
-    discard_pile.extend(cards)
-
-
 def draw_and_choose(deckSys: DeckSystem, n_draw: int, n_choose: int) -> Pile:
     draw = deckSys.deck.draw_n(n_draw)
     # IA rule: random choice (should be externalized to an IA claas)
     draw.shuffle()
     chosen = draw.draw_n(n_choose)
-    discard(deckSys.discard, draw)
+    deckSys.discard_pile(draw)
     return chosen
 
 

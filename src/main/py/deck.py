@@ -33,3 +33,6 @@ class DeckSystem:
         self.deck.extend(self.discard)
         self.discard.clear()
         self.deck.shuffle()
+
+    def discard_pile(self, cards: Pile) -> None:
+        self.discard.extend(cards)
