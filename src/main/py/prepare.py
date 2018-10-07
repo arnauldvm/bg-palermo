@@ -5,7 +5,7 @@ from collections import namedtuple
 import random
 
 from load_data import resources, contracts, facilities, trade, colors
-from deck import Card, Pile
+from deck import Card, Pile, DeckSystem
 
 
 def prepare_deck(df) -> Pile:
@@ -27,8 +27,8 @@ def prepare_deck(df) -> Pile:
     return deck
 
 
-contracts_deck = prepare_deck(contracts)
-facilities_deck = prepare_deck(facilities)
+contracts = DeckSystem(prepare_deck(contracts))
+facilities = DeckSystem(prepare_deck(facilities))
 
 # plateau central
 # * cours des matières recyclées
@@ -44,28 +44,22 @@ def draw_n(deck: Pile, n_cards: int) -> Pile:
     return Pile([draw(deck) for _ in range(n_cards)])
 
 
-contracts_discard = Pile([])
-facilities_discard = Pile([])
-
-
 def discard(discard_pile: Pile, cards: Pile) -> None:
     discard_pile.extend(cards)
 
 
-def draw_and_choose(deck: Pile, discard_pile: Pile, n_draw: int, n_choose: int) -> Pile:
-    draw = draw_n(deck, n_draw)
+def draw_and_choose(deckSys: DeckSystem, n_draw: int, n_choose: int) -> Pile:
+    draw = draw_n(deckSys.deck, n_draw)
     # IA rule: random choice (should be externalized to an IA claas)
     random.shuffle(draw)
     chosen = draw_n(draw, n_choose)
-    discard(discard_pile, draw)
+    discard(deckSys.discard, draw)
     return chosen
 
 
 def prepare_player(color):
-    global contracts_deck
-    global facilities_deck
-    global contracts_discard
-    global facilities_discard
+    global contracts
+    global facilities
     board = {}
     # * plateau individuel
     #   - livraison vrac
@@ -75,9 +69,9 @@ def prepare_player(color):
     #   - incinération
     #   - recyclage
     # * tirage initial de cartes:
-    player_contracts = draw_and_choose(contracts_deck, contracts_discard, 3, 1)
+    player_contracts = draw_and_choose(contracts, 3, 1)
     #   Should externalize '3' and '1' as rule parameters
-    player_facilities = draw_and_choose(facilities_deck, facilities_discard, 6, 3)
+    player_facilities = draw_and_choose(facilities, 6, 3)
     #   Should externalize '6' and '3' as rule parameters
     return {'color': color, 'board': board, 'cash': 20, 'due': 0,
             'hand': {'contracts': player_contracts, 'facilities': player_facilities}}
@@ -91,30 +85,24 @@ def prepare_players(n_players: int) -> Dict[str, Any]:
     return {'first': first_player, 'list': players}
 
 
-def reset_deck(deck: Pile, discard: Pile) -> None:
-    deck.extend(discard)
-    discard.clear()
-    random.shuffle(deck)
+def reset_deck(deckSys: DeckSystem) -> None:
+    deckSys.deck.extend(deckSys.discard)
+    deckSys.discard.clear()
+    random.shuffle(deckSys.deck)
 
 
-def prepare_river(deck: Pile, discard: Pile, n_cards: int) -> Pile:
-    reset_deck(deck, discard)
-    river = draw_n(deck, n_cards)
-    return river
-
-
-contracts_river = Pile([])
-facilities_river = Pile([])
+def prepare_river(deckSys: DeckSystem, n_cards: int) -> None:
+    reset_deck(deckSys)
+    river = draw_n(deckSys.deck, n_cards)
+    deckSys.river = river
 
 
 def prepare_rivers(n_players: int):
-    global contracts_deck
-    global facilities_deck
-    global contracts_river
-    global facilities_river
-    contracts_river = prepare_river(contracts_deck, contracts_discard, n_players)
+    global contracts
+    global facilities
+    prepare_river(contracts, n_players)
     #   Should externalize n_players as a rule parameter
-    facilities_river = prepare_river(facilities_deck, facilities_discard, 3)
+    prepare_river(facilities, 3)
     #   Should externalize '3' as a rule parameter
 
 
