@@ -5,9 +5,7 @@ from collections import namedtuple
 import random
 
 from load_data import resources, contracts, facilities, trade, colors
-
-Card = NewType('Card', namedtuple)
-Pile = NewType('Pile', List[Card])  # A deck is a list of named tuples
+from deck import Card, Pile
 
 
 def prepare_deck(df) -> Pile:
