@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
 
+from typing import List, Tuple, NewType
+
 from load_data import resources, contracts, facilities, trade, colors
 
 import random
 
+Deck = NewType('Deck', List[Tuple])  # A deck is a list of tuples
 
-def prepare_deck(df):
-    deck = [item
+
+def prepare_deck(df) -> Deck:
+    deck = Deck(
+        [
+            item
             for df_noindex in [df.assign(kind=df.index).reset_index(drop=True)]
             for item in df_noindex.itertuples()
             for _ in range(item.count)
             # for _, item in df_noindex.iterrows()
             # for _ in range(item['count'])
-            ]
-        # A deck is a list of tuples
+        ]
+    )
 
     # deck = [ deck[i] for l in [len(deck)] for i in random.sample(range(l), l) ]
     random.shuffle(deck)
