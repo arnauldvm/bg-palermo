@@ -8,6 +8,9 @@ class Pile(list):  # list of Card?
     def __init__(self, *args):
         list.__init__(self, *args)
 
+    def shuffle(self) -> None:
+        random.shuffle(self)
+
 
 class DeckSystem:
 

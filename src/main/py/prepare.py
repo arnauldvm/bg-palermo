@@ -21,7 +21,7 @@ def prepare_deck(df) -> Pile:
     )
 
     # deck = [ deck[i] for l in [len(deck)] for i in random.sample(range(l), l) ]
-    random.shuffle(deck)
+    deck.shuffle()
     assert len(deck) == df['count'].sum(), f'Not enough cards in prepared deck: {len(deck)}'
     assert deck[0].Index != deck[1].Index, 'Deck not shuffled'
     return deck
@@ -51,7 +51,7 @@ def discard(discard_pile: Pile, cards: Pile) -> None:
 def draw_and_choose(deckSys: DeckSystem, n_draw: int, n_choose: int) -> Pile:
     draw = draw_n(deckSys.deck, n_draw)
     # IA rule: random choice (should be externalized to an IA claas)
-    random.shuffle(draw)
+    draw.shuffle()
     chosen = draw_n(draw, n_choose)
     discard(deckSys.discard, draw)
     return chosen
@@ -88,7 +88,7 @@ def prepare_players(n_players: int) -> Dict[str, Any]:
 def reset_deck(deckSys: DeckSystem) -> None:
     deckSys.deck.extend(deckSys.discard)
     deckSys.discard.clear()
-    random.shuffle(deckSys.deck)
+    deckSys.deck.shuffle()
 
 
 def prepare_river(deckSys: DeckSystem, n_cards: int) -> None:
