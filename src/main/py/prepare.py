@@ -6,7 +6,8 @@ import random
 
 from load_data import resources, contracts, facilities, trade, colors
 
-Deck = NewType('Deck', List[namedtuple])  # A deck is a list of named tuples
+Card = NewType('Card', namedtuple)
+Deck = NewType('Deck', List[Card])  # A deck is a list of named tuples
 
 
 def prepare_deck(df) -> Deck:
@@ -37,7 +38,7 @@ facilities_deck = prepare_deck(facilities)
 # * piste de dette à la Mafia
 
 
-def draw(deck: Deck) -> namedtuple:
+def draw(deck: Deck) -> Card:
     return deck.pop(0)
 
 
