@@ -36,12 +36,8 @@ facilities = DeckSystem(prepare_deck(facilities))
 # * piste de dette à la Mafia
 
 
-def draw(deck: Pile) -> Card:
-    return deck.pop(0)
-
-
 def draw_n(deck: Pile, n_cards: int) -> Pile:
-    return Pile([draw(deck) for _ in range(n_cards)])
+    return Pile([deck.draw() for _ in range(n_cards)])
 
 
 def discard(discard_pile: Pile, cards: Pile) -> None:

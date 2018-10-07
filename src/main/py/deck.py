@@ -1,6 +1,8 @@
 from typing import List, Dict, NewType
 from collections import namedtuple
 
+import random
+
 Card = NewType('Card', namedtuple)
 
 
@@ -10,6 +12,9 @@ class Pile(list):  # list of Card?
 
     def shuffle(self) -> None:
         random.shuffle(self)
+
+    def draw(self) -> Card:
+        return self.pop(0)
 
 
 class DeckSystem:
