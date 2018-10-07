@@ -2,7 +2,11 @@ from typing import List, Dict, NewType
 from collections import namedtuple
 
 Card = NewType('Card', namedtuple)
-Pile = NewType('Pile', List[Card])  # A deck is a list of named tuples
+
+
+class Pile(list):  # list of Card?
+    def __init__(self, *args):
+        list.__init__(self, *args)
 
 
 class DeckSystem:
