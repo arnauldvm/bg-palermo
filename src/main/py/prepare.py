@@ -8,12 +8,12 @@ from load_data import resources, contracts, facilities, trade, colors
 from deck import Card, Pile, DeckSystem
 
 
-def prepare_deck(df) -> Pile:
+def prepare_deck(df, type_name: str) -> Pile:
     deck = Pile(
         [
             item
             for df_noindex in [df.assign(kind=df.index).reset_index(drop=True)]
-            for item in df_noindex.itertuples()
+            for item in df_noindex.itertuples(name=type_name)
             for _ in range(item.count)
             # for _, item in df_noindex.iterrows()
             # for _ in range(item['count'])
@@ -27,8 +27,8 @@ def prepare_deck(df) -> Pile:
     return deck
 
 
-contracts = DeckSystem(prepare_deck(contracts))
-facilities = DeckSystem(prepare_deck(facilities))
+contracts = DeckSystem(prepare_deck(contracts, "Contract"))
+facilities = DeckSystem(prepare_deck(facilities, "Facility"))
 
 # plateau central
 # * cours des matières recyclées
