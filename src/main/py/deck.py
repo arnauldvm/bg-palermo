@@ -28,3 +28,8 @@ class DeckSystem:
         self.deck = deck
         self.river = Pile([])
         self.discard = Pile([])
+
+    def reset_deck(self) -> None:
+        self.deck.extend(self.discard)
+        self.discard.clear()
+        self.deck.shuffle()

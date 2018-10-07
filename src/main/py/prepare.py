@@ -77,14 +77,8 @@ def prepare_players(n_players: int) -> Dict[str, Any]:
     return {'first': first_player, 'list': players}
 
 
-def reset_deck(deckSys: DeckSystem) -> None:
-    deckSys.deck.extend(deckSys.discard)
-    deckSys.discard.clear()
-    deckSys.deck.shuffle()
-
-
 def prepare_river(deckSys: DeckSystem, n_cards: int) -> None:
-    reset_deck(deckSys)
+    deckSys.reset_deck()
     river = deckSys.deck.draw_n(n_cards)
     deckSys.river = river
 
