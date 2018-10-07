@@ -53,7 +53,20 @@ def discard(discard_pile: Deck, cards: Deck) -> None:
     discard_pile.extend(cards)
 
 
+def draw_and_choose(deck: Deck, discard_pile: Deck, n_draw: int, n_choose: int) -> Deck:
+    draw = draw_n(deck, n_draw)
+    # IA rule: random choice (should be externalized to an IA claas)
+    random.shuffle(draw)
+    chosen = draw_n(draw, n_choose)
+    discard(discard_pile, draw)
+    return chosen
+
+
 def prepare_player(color):
+    global contracts_deck
+    global facilities_deck
+    global contracts_discard
+    global facilities_discard
     board = {}
     # * plateau individuel
     #   - livraison vrac
@@ -63,9 +76,12 @@ def prepare_player(color):
     #   - incinération
     #   - recyclage
     # * tirage initial de cartes:
-    #   - contrat (choix de 1 parmi 3)
-    #   - équipements (choix de 3 parmi 6)
-    return {'color': color, 'board': board, 'cash': 20, 'due': 0}
+    player_contracts = draw_and_choose(contracts_deck, contracts_discard, 3, 1)
+    #   Should externalize '3' and '1' as rule parameters
+    player_facilities = draw_and_choose(facilities_deck, facilities_discard, 6, 3)
+    #   Should externalize '6' and '3' as rule parameters
+    return {'color': color, 'board': board, 'cash': 20, 'due': 0,
+            'hand': {'contracts': player_contracts, 'facilities': player_facilities}}
 
 
 def prepare_players(n_players: int) -> Dict[str, Any]:
