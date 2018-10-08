@@ -1,4 +1,4 @@
-from __future__ import annotations  # required for being able to declare a method returing type of its class
+from __future__ import annotations  # required for being able to declare a method returning type of its class
 
 from typing import List, Dict, NewType
 from collections import namedtuple
