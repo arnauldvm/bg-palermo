@@ -36,15 +36,6 @@ facilities = DeckSystem(prepare_deck(facilities, "Facility"))
 # * piste de dette à la Mafia
 
 
-def draw_and_choose(deckSys: DeckSystem, n_draw: int, n_choose: int) -> Pile:
-    draw = deckSys.deck.draw_n(n_draw)
-    # IA rule: random choice (should be externalized to an IA claas)
-    draw.shuffle()
-    chosen = draw.draw_n(n_choose)
-    deckSys.discard_pile(draw)
-    return chosen
-
-
 def prepare_player(color):
     global contracts
     global facilities
@@ -57,9 +48,9 @@ def prepare_player(color):
     #   - incinération
     #   - recyclage
     # * tirage initial de cartes:
-    player_contracts = draw_and_choose(contracts, 3, 1)
+    player_contracts = contracts.draw_and_choose(3, 1)
     #   Should externalize '3' and '1' as rule parameters
-    player_facilities = draw_and_choose(facilities, 6, 3)
+    player_facilities = facilities.draw_and_choose(6, 3)
     #   Should externalize '6' and '3' as rule parameters
     return {'color': color, 'board': board, 'cash': 20, 'due': 0,
             'hand': {'contracts': player_contracts, 'facilities': player_facilities}}

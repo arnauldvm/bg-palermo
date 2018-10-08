@@ -44,3 +44,11 @@ class DeckSystem:
         return f'# cards: { len(self.deck) } in deck' + \
                 f' + { len(self.river) } in river' + \
                 f' + { len(self.discard) } in discard pile'
+
+    def draw_and_choose(self, n_draw: int, n_choose: int) -> Pile:
+        draw = self.deck.draw_n(n_draw)
+        # IA rule: random choice (should be externalized to an IA claas)
+        draw.shuffle()
+        chosen = draw.draw_n(n_choose)
+        self.discard_pile(draw)
+        return chosen
