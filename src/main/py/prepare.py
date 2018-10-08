@@ -76,7 +76,3 @@ def prepare_rivers(n_players: int):
     #   Should externalize n_players as a rule parameter
     prepare_river(facilities, 3)
     #   Should externalize '3' as a rule parameter
-
-
-# TODO: create 'Pile' class with methods: shuffle, draw...
-# TODO: create class for the system: deck Pile + discard Pile + river Pile
