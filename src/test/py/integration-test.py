@@ -6,9 +6,9 @@ from prepare import facilities
 from prepare import prepare_rivers
 
 players = prepare_players(4)
-print(f'contracts { contracts }')
-print(f'facilities { facilities }')
+print(f'contracts: { contracts }')
+print(f'facilities: { facilities }')
 
 prepare_rivers(4)
-print(f'contracts { contracts }')
-print(f'facilities { facilities }')
+print(f'contracts: { contracts }')
+print(f'facilities: { facilities }')
