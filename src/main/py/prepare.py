@@ -6,6 +6,7 @@ import random
 
 from load_data import resources, contracts, facilities, trade, colors
 from deck import Card, Pile, DeckSystem
+from player import Player
 
 
 def prepare_deck(df, type_name: str) -> Pile:
@@ -52,8 +53,8 @@ def prepare_player(color):
     #   Should externalize '3' and '1' as rule parameters
     player_facilities = facilities.draw_and_choose(6, 3)
     #   Should externalize '6' and '3' as rule parameters
-    return {'color': color, 'board': board, 'cash': 20, 'due': 0,
-            'hand': {'contracts': player_contracts, 'facilities': player_facilities}}
+    return Player(color=color, board=board, cash=20, due=0,
+                  hand={'contracts': player_contracts, 'facilities': player_facilities})
 
 
 def prepare_players(n_players: int) -> Dict[str, Any]:
