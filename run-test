@@ -1,0 +1,5 @@
+#/usr/bin/env sh
+
+cd "$(dirname "$0")"
+
+PYTHONPATH=src/main/py python src/test/py/integration-test.py 
