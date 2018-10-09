@@ -64,3 +64,10 @@ class DeckSystem:
         chosen = draw.draw_n(n_choose)
         self.discard_pile(draw)
         return chosen
+
+    def __repr__(self):
+        return ("DeckSystem(\n"
+                f"deck:{self.deck!r},\n"
+                f"river:{self.river!r},\n"
+                f"discard:{self.discard!r}\n"
+                ")")
