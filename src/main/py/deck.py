@@ -50,10 +50,12 @@ class DeckSystem:
     def feed_river(self, n_cards) -> None:
         self.river = self.deck.draw_n(n_cards)
 
-    def short_description(self) -> str:
-        return f'# cards: { len(self.deck) } in deck' + \
-                f' + { len(self.river) } in river' + \
-                f' + { len(self.discard) } in discard pile'
+    def __str__(self):
+        return ("# cards: "
+                f"{ len(self.deck) } in deck + "
+                f"{ len(self.river) } in river + "
+                f"{ len(self.discard) } in discard pile"
+                )
 
     def draw_and_choose(self, n_draw: int, n_choose: int) -> Pile:
         draw = self.deck.draw_n(n_draw)
