@@ -1,5 +1,3 @@
-from __future__ import annotations  # required for being able to declare a method returning type of its class
-
 from typing import List, Dict, NewType
 from collections import namedtuple
 
@@ -18,8 +16,20 @@ class Pile(list):  # list of Card?
     def draw(self) -> Card:
         return self.pop(0)
 
-    def draw_n(self, n_cards: int) -> Pile:
-        return Pile([self.draw() for _ in range(n_cards)])
+    # def draw_n(self, n_cards: int) -> Pile:
+    #     return Pile([self.draw() for _ in range(n_cards)])
+    #
+    # ! Not possible to reference Pile when not yet defined
+    # Solved by: from __future__ import annotations
+    # ... but this is not supported by Python before 3.6
+    # => Use the workaround here below
+
+
+def _Pile_draw_n(pile: Pile, n_cards: int) -> Pile:
+    return Pile([pile.draw() for _ in range(n_cards)])
+
+
+setattr(Pile, 'draw_n', _Pile_draw_n)
 
 
 class DeckSystem:
