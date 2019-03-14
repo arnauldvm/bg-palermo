@@ -29,6 +29,15 @@ passé.
 négatif (auquel cas il devra payer la livraison à chaque tour, mais
 attention en cas de manque de liquidités : c'est la Mafia qui prêtera
 l'argent manquant !)
+
+* _Mécanique alternative : pas d'enchère,
+le joueur actif choisit librement le contrat parmi ceux disponibles,
+mais la valeur des contrats non choisis augmente à chaque tour/joueur.
+Chaque carte présente plusieurs valeurs différentes
+(un jeton se déplace sur la carte pour montrer l'évolution de la valeur) ;
+quand le jeton arrive au bout des possibilités,
+la carte est éliminée et remplacée._
+
 * Une fois l'enchère conclue, il faut garder la trace du montant final :
 c'est ce que le joueur ayant conclu le contrat touchera à chaque tour.
 (Conseil: pose sur la carte contrat des jetons argent correspondant à ce
